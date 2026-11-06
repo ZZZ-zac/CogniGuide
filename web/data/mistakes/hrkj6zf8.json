@@ -1,0 +1,26 @@
+{
+  "id": "hrkj6zf8",
+  "question": {
+    "id": "hrkj6zf8",
+    "question": "《静夜思》属于哪种诗歌体裁？请说明其形式特征。",
+    "referenceAnswer": "这是一首五言绝句。全诗共四句，每句五个字，符合五言绝句的格律要求。",
+    "evidence": "这是一首五言绝句，共四句，每句五个字。",
+    "chunkIds": [
+      "nxkw5gxb-0"
+    ],
+    "subject": "chinese",
+    "materialId": "nxkw5gxb",
+    "language": "zh",
+    "level": "s3"
+  },
+  "lastAnswer": "zsdf",
+  "lastScore": 0,
+  "feedback": "请复习笔记第1点：《静夜思》是一首五言绝句，要记住它的句数和字数特征。下次答题时，先明确写出体裁名称，再简要说明形式特点。",
+  "missedPoints": [
+    "未回答诗歌体裁（五言绝句）",
+    "未说明形式特征（共四句、每句五字）"
+  ],
+  "wrongCount": 2,
+  "firstWrongAt": "2026-11-05T11:48:36.740Z",
+  "lastWrongAt": "2026-11-05T15:04:18.625Z"
+}

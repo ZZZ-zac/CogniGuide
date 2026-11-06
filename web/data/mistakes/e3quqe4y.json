@@ -1,0 +1,24 @@
+{
+  "id": "e3quqe4y",
+  "question": {
+    "id": "e3quqe4y",
+    "question": "In question 18, $B = 135^\\circ$, $c = 7$ cm, $b = 2$ cm. Explain why no triangle can be formed, referencing the sine rule and the maximum possible value of sine.",
+    "referenceAnswer": "Applying the sine rule: $\\frac{c}{\\sin C} = \\frac{b}{\\sin B}$, so $\\sin C = \\frac{c \\sin B}{b} = \\frac{7 \\sin 135^\\circ}{2} \\approx 2.47$. Since $\\sin C > 1$, which is outside the valid range $[0,1]$, no triangle exists.",
+    "evidence": "sin C = 2.47 > 1 ∴ No",
+    "chunkIds": [
+      "45ajf1sk-1"
+    ],
+    "subject": "math",
+    "materialId": "45ajf1sk",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 6,
+  "firstWrongAt": "2026-11-05T14:53:04.339Z",
+  "lastWrongAt": "2026-11-05T15:03:38.672Z"
+}

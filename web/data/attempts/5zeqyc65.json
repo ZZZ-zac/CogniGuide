@@ -1,0 +1,94 @@
+{
+  "id": "5zeqyc65",
+  "mode": "quick",
+  "source": {
+    "quizId": "esnddzzt"
+  },
+  "createdAt": "2026-11-04T12:47:25.219Z",
+  "totalScore": 8,
+  "items": [
+    {
+      "questionId": "bc5cnf57",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-2"
+      ],
+      "question": "Given that $X_1$ and $X_2$ are subspaces of a vector space $V$, explain why the set $X_1 + X_2 = \\{u + v \\mid u \\in X_1,\\, v \\in X_2\\}$ is closed under linear combinations of its elements.",
+      "answer": "Because a subspace is closed under scalar multiplication.",
+      "referenceAnswer": "Let $u + v, u' + v' \\in X_1 + X_2$ and $\\alpha, \\beta \\in \\mathbb{F}$. Then $\\alpha(u + v) + \\beta(u' + v') = (\\alpha u + \\beta u') + (\\alpha v + \\beta v')$. Since $X_1$ and $X_2$ are subspaces, $\\alpha u + \\beta u' \\in X_1$ and $\\alpha v + \\beta v' \\in X_2$, so their sum lies in $X_1 + X_2$. Thus $X_1 + X_2$ is closed under linear combinations.",
+      "score": 40,
+      "correctPoints": [
+        "Recognizes that closure under scalar multiplication is relevant"
+      ],
+      "missedPoints": [
+        "Does not address closure under addition or general linear combinations",
+        "Fails to use the definition of X₁ + X₂ as {u + v | u ∈ X₁, v ∈ X₂}",
+        "Does not show how α(u+v) + β(u'+v') decomposes into elements of X₁ and X₂",
+        "Does not invoke subspace properties of both X₁ and X₂ for both components",
+        "Does not conclude that the resulting sum lies in X₁ + X₂"
+      ],
+      "feedback": "You correctly noted that subspaces are closed under scalar multiplication, but the question asks about closure of X₁ + X₂ under *linear combinations*, which also requires closure under addition and decomposition across both subspaces. Review how to expand α(u+v) + β(u'+v') and use the subspace properties of both X₁ and X₂ separately."
+    },
+    {
+      "questionId": "v2gr3smx",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-0"
+      ],
+      "question": "Suppose $u = \\sum_{i=1}^n a_i u_i + \\sum_{i=1}^n b_i v_i$ and $v = \\sum_{i=1}^n c_i u_i + \\sum_{i=1}^n d_i v_i$, where $u_i \\in X_1$, $v_i \\in X_2$, and $X_1, X_2$ are subspaces. Express $\\alpha u + \\beta v$ as a sum of vectors from $\\operatorname{span}(X_1)$ and $\\operatorname{span}(X_2)$, and identify the coefficients of $u_j$ and $v_j$.",
+      "answer": "",
+      "referenceAnswer": "$\\alpha u + \\beta v = \\sum_{i=1}^n (\\alpha a_i + \\beta c_i) u_i + \\sum_{i=1}^n (\\alpha b_i + \\beta d_i) v_i$. The coefficient of $u_j$ is $\\alpha a_j + \\beta c_j$, and the coefficient of $v_j$ is $\\alpha b_j + \\beta d_j$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "h2iprjeu",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-1"
+      ],
+      "question": "Why does the span of $X_1 \\cup X_2$, denoted $[X_1 \\cup X_2]$, form a subspace of $V$ when $X_1$ and $X_2$ are subsets (not necessarily subspaces) of $V$? Justify using closure under addition and scalar multiplication.",
+      "answer": "",
+      "referenceAnswer": "The span $[X_1 \\cup X_2]$ consists of all finite linear combinations of vectors from $X_1$ and $X_2$. For any two such combinations, their sum is again a linear combination of vectors from $X_1 \\cup X_2$, and scaling preserves that form. Hence $[X_1 \\cup X_2]$ is closed under addition and scalar multiplication, making it a subspace.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "ncxkyjnx",
+      "subject": "chinese",
+      "materialId": "xpxwm4ii",
+      "chunkIds": [
+        "xpxwm4ii-0"
+      ],
+      "question": "《静夜思》中‘疑是地上霜’运用了什么修辞手法？其表达效果是什么？",
+      "answer": "",
+      "referenceAnswer": "运用了比喻的修辞手法，将皎洁清冷的月光比作地上的霜。这一比喻既突出了月光的明亮与寒意，又烘托出诗人独处异乡时孤寂清冷的心境。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "oi2cl4zx",
+      "subject": "chinese",
+      "materialId": "xpxwm4ii",
+      "chunkIds": [
+        "xpxwm4ii-0"
+      ],
+      "question": "《静夜思》为何被归类为五言绝句？请结合诗句结构说明。",
+      "answer": "",
+      "referenceAnswer": "因为全诗共四句，每句均由五个汉字组成，符合五言绝句‘四句、每句五字’的格律要求。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    }
+  ]
+}

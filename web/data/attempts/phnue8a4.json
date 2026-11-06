@@ -1,0 +1,86 @@
+{
+  "id": "phnue8a4",
+  "mode": "subject",
+  "source": {
+    "quizId": "mdvle2jj"
+  },
+  "createdAt": "2026-11-05T14:49:19.720Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "wpufmw7m",
+      "subject": "math",
+      "materialId": "jba7rfbs",
+      "chunkIds": [
+        "jba7rfbs-0"
+      ],
+      "question": "In triangle $ABD$, $AB = 3\\,\\text{cm}$ and $BD = 2\\,\\text{cm}$. Using Pythagoras’ theorem, find the length of $AD$.",
+      "answer": "",
+      "referenceAnswer": "$AD = \\sqrt{3^2 - 2^2}\\,\\text{cm} = \\sqrt{5}\\,\\text{cm}$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "akkrbbpx",
+      "subject": "math",
+      "materialId": "5q7siilx",
+      "chunkIds": [
+        "5q7siilx-7"
+      ],
+      "question": "In parallelogram $ABCD$, $AE = DC = 8\\,\\text{cm}$ and $AB = 18\\,\\text{cm}$. Find $EB$ and explain why $\\angle AEC = \\angle ADC$.",
+      "answer": "",
+      "referenceAnswer": "$EB = AB - AE = 18 - 8 = 10\\,\\text{cm}$. Since $EC \\parallel AD$, $AECD$ is a parallelogram, so opposite angles are equal: $\\angle AEC = \\angle ADC$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "kzinkkwv",
+      "subject": "math",
+      "materialId": "5q7siilx",
+      "chunkIds": [
+        "5q7siilx-8"
+      ],
+      "question": "In triangle $BCE$, $\\angle BEC = 70^\\circ$, $\\angle CBE = 38^\\circ$, and $BC = 10\\,\\text{cm}$. Use the angle sum of a triangle to find $\\angle BCE$, then use the sine formula to write an expression for $x = EC$.",
+      "answer": "",
+      "referenceAnswer": "Since $\\angle BCE + 70^\\circ + 38^\\circ = 180^\\circ$, $\\angle BCE = 72^\\circ$. By the sine formula: $\\frac{x}{\\sin 70^\\circ} = \\frac{10}{\\sin 72^\\circ}$, so $x = \\frac{10 \\sin 70^\\circ}{\\sin 72^\\circ}$ cm.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "ckj4hrog",
+      "subject": "math",
+      "materialId": "sf0qmfb4",
+      "chunkIds": [
+        "sf0qmfb4-2"
+      ],
+      "question": "Triangle $ABC$ has $AB = 5\\,\\text{cm}$, $AC = 4\\,\\text{cm}$, and area $8\\,\\text{cm}^2$. Given that $\\theta = \\angle BAC$ is acute, find $\\theta$ using the area formula.",
+      "answer": "",
+      "referenceAnswer": "Using $\\text{area} = \\frac{1}{2} \\times AB \\times AC \\times \\sin \\theta$: $8 = \\frac{1}{2} \\times 5 \\times 4 \\times \\sin \\theta$, so $\\sin \\theta = \\frac{4}{5}$. Since $\\theta$ is acute, $\\theta = \\sin^{-1}\\left(\\frac{4}{5}\\right) \\approx 53.1^\\circ$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "znrjuujy",
+      "subject": "math",
+      "materialId": "jba7rfbs",
+      "chunkIds": [
+        "jba7rfbs-1"
+      ],
+      "question": "In triangle $ABE$, $AE = \\frac{\\sqrt{5}}{2}\\,\\text{cm}$, $BE = \\frac{\\sqrt{21}}{2}\\,\\text{cm}$, and $\\sin \\angle BAE = \\frac{2}{3}$. Use the sine formula to find $\\sin \\theta$, where $\\theta = \\angle AEB$.",
+      "answer": "",
+      "referenceAnswer": "By the sine formula: $\\frac{AE}{\\sin \\theta} = \\frac{BE}{\\sin \\angle BAE}$, so $\\sin \\theta = AE \\cdot \\frac{\\sin \\angle BAE}{BE} = \\frac{\\sqrt{5}}{2} \\cdot \\frac{2/3}{\\sqrt{21}/2} = \\frac{2\\sqrt{105}}{63}$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    }
+  ]
+}

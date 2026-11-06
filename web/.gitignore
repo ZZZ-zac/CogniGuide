@@ -17,8 +17,6 @@ npm-debug.log*
 .env*
 !.env.example
 
-# local data (subjects, materials, RAG index)
-/data/
 
 # typescript
 *.tsbuildinfo

@@ -1,0 +1,24 @@
+{
+  "id": "wbvx8ji5",
+  "question": {
+    "id": "wbvx8ji5",
+    "question": "In question 17, $A = 74^\\circ$, $a = 16$ cm, $c = 9$ cm. Show that exactly one triangle can be formed, and find $C$ correct to one decimal place.",
+    "referenceAnswer": "Using $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$, we get $\\sin C = \\frac{9 \\sin 74^\\circ}{16} \\approx 0.540$, so $C \\approx 32.7^\\circ$. Since $A = 74^\\circ$ is acute and $a > c$, only one triangle is possible — the obtuse solution $C \\approx 147^\\circ$ is rejected because $A + C > 180^\\circ$.",
+    "evidence": "C = 32.7° or 147° (reject) ∴ Yes",
+    "chunkIds": [
+      "45ajf1sk-1"
+    ],
+    "subject": "math",
+    "materialId": "45ajf1sk",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 6,
+  "firstWrongAt": "2026-11-05T14:53:04.339Z",
+  "lastWrongAt": "2026-11-05T15:03:38.672Z"
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "zvfwlomy",
+    "question": "In triangle ABC, angle A = 40°, side b = 7 cm (i.e., AC = 7 cm), and side a = 5 cm (i.e., BC = 5 cm). Use the sine formula to find all possible values of angle B. Explain why there are two possible values.",
+    "referenceAnswer": "Using $\\frac{b}{\\sin B} = \\frac{a}{\\sin A}$: $\\frac{7}{\\sin B} = \\frac{5}{\\sin 40^\\circ}$. Solving gives $\\sin B = \\frac{7 \\sin 40^\\circ}{5} \\approx 0.900$, so $B \\approx 64.1^\\circ$ or $180^\\circ - 64.1^\\circ = 116^\\circ$. Both are valid because $A + B < 180^\\circ$ in each case.",
+    "evidence": "Supplementary Example 4(a): '$\\frac{7}{\\sin B} = \\frac{5}{\\sin 40^\\circ}$; $B = 64.1^\\circ$ or $116^\\circ$'",
+    "chunkIds": [
+      "lcu8w0oq-0",
+      "lcu8w0oq-1"
+    ],
+    "subject": "math",
+    "materialId": "lcu8w0oq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "t1yirfgn",
+    "question": "In triangle ABC, angle A = 40°, side b = 7 cm, and side a = 10 cm. Show that only one value of angle B is possible, and find it correct to 3 significant figures.",
+    "referenceAnswer": "Using $\\frac{b}{\\sin B} = \\frac{a}{\\sin A}$: $\\frac{7}{\\sin B} = \\frac{10}{\\sin 40^\\circ}$. Then $\\sin B = \\frac{7 \\sin 40^\\circ}{10} \\approx 0.450$, so $B \\approx 26.7^\\circ$. Since $A + B = 40^\\circ + 26.7^\\circ = 66.7^\\circ < 180^\\circ$, the obtuse supplement ($180^\\circ - 26.7^\\circ = 153.3^\\circ$) would make $A + B > 180^\\circ$, so it is invalid.",
+    "evidence": "Supplementary Example 4(b): '$\\frac{7}{\\sin B} = \\frac{10}{\\sin 40^\\circ}$; $B = 26.7^\\circ$'",
+    "chunkIds": [
+      "lcu8w0oq-0",
+      "lcu8w0oq-1"
+    ],
+    "subject": "math",
+    "materialId": "lcu8w0oq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "dzm6aldn",
+    "question": "In triangle ABC, angle A = 120°, side b = 9 cm, and side a = 15 cm. Find angle B and angle C, and then find side c, all correct to 3 significant figures.",
+    "referenceAnswer": "Using $\\frac{b}{\\sin B} = \\frac{a}{\\sin A}$: $\\frac{9}{\\sin B} = \\frac{15}{\\sin 120^\\circ}$. So $\\sin B = \\frac{9 \\sin 120^\\circ}{15} \\approx 0.520$, giving $B \\approx 31.3^\\circ$. Then $C = 180^\\circ - 120^\\circ - 31.3^\\circ = 28.7^\\circ$. Using $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$: $c = \\frac{15 \\sin 28.7^\\circ}{\\sin 120^\\circ} \\approx 8.32$ cm.",
+    "evidence": "Supplementary Example 5(a): '$\\frac{9}{\\sin B} = \\frac{15}{\\sin 120^\\circ}$; $B = 31.3^\\circ$; $C = 28.7^\\circ$; $c = 8.32$'",
+    "chunkIds": [
+      "lcu8w0oq-1",
+      "lcu8w0oq-2"
+    ],
+    "subject": "math",
+    "materialId": "lcu8w0oq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "ikfaonpn",
+    "question": "In triangle ABC, angle A = 120°, side b = 9 cm, and side a = $5\\sqrt{3}$ cm. Explain why no triangle can be formed with these measurements.",
+    "referenceAnswer": "Using $\\frac{b}{\\sin B} = \\frac{a}{\\sin A}$: $\\frac{9}{\\sin B} = \\frac{5\\sqrt{3}}{\\sin 120^\\circ}$. Since $\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$, this gives $\\sin B = \\frac{9 \\cdot \\frac{\\sqrt{3}}{2}}{5\\sqrt{3}} = \\frac{9}{10} = 0.9$, so $B \\approx 64.2^\\circ$. But then $A + B = 120^\\circ + 64.2^\\circ = 184.2^\\circ > 180^\\circ$, violating the angle sum property — so no triangle exists.",
+    "evidence": "Supplementary Example 5(b): '$\\frac{9}{\\sin B} = \\frac{5\\sqrt{3}}{\\sin 120^\\circ}$; $B = 64.2^\\circ$; $A + B = 184.2^\\circ > 180^\\circ$; $\\therefore$ No solution'",
+    "chunkIds": [
+      "lcu8w0oq-1",
+      "lcu8w0oq-2"
+    ],
+    "subject": "math",
+    "materialId": "lcu8w0oq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "fn5sjz0v",
+    "question": "In triangle ABC, angle B = 30° and side AB = 20 cm. Kelvin says the shortest possible length of side AC is 10 cm. Verify his claim using trigonometry and explain why this is the minimum.",
+    "referenceAnswer": "Side AC is opposite angle B. By the definition of sine in right triangle context (or by considering altitude from A to BC), the shortest AC occurs when triangle ABC is right-angled at C, so $\\sin 30^\\circ = \\frac{AC}{AB} = \\frac{AC}{20}$. Then $AC = 20 \\sin 30^\\circ = 20 \\times 0.5 = 10$ cm. For any other position of C, AC is longer — so 10 cm is indeed the minimum.",
+    "evidence": "Problem 7(a): '$\\sin 30^\\circ = \\frac{AC}{20}$; $AC = 10$ cm; $\\therefore$ Yes'",
+    "chunkIds": [
+      "lcu8w0oq-0"
+    ],
+    "subject": "math",
+    "materialId": "lcu8w0oq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

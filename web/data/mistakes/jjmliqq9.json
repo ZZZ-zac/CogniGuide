@@ -1,0 +1,35 @@
+{
+  "id": "jjmliqq9",
+  "question": {
+    "id": "jjmliqq9",
+    "question": "In triangle $PQR$, $\\angle P = 48^\\circ$, $QR = 16\\,\\text{cm}$, and $PR = 12\\,\\text{cm}$. Find $\\angle Q$. Give your answer correct to 3 significant figures. (Note: $\\angle Q$ is acute.)",
+    "referenceAnswer": "1. Use the sine formula: $\\frac{QR}{\\sin P} = \\frac{PR}{\\sin Q}$\n2. Substitute given values: $\\frac{16}{\\sin 48^\\circ} = \\frac{12}{\\sin Q}$\n3. Rearrange: $\\sin Q = \\frac{12 \\sin 48^\\circ}{16}$\n4. Compute: $\\sin Q = \\frac{12 \\times 0.7431}{16} = 0.5573$\n5. Take inverse sine: $Q = \\sin^{-1}(0.5573) = 33.9^\\circ$\nAnswer: $33.9^\\circ$",
+    "evidence": "$\\frac{7}{\\sin \\theta} = \\frac{9.5}{\\sin 61^\\circ}$\n$\\theta = 40.1^\\circ$",
+    "checks": [
+      "12*sin(48)/16 = 0.5573",
+      "asin(0.5573) = 33.9"
+    ],
+    "chunkIds": [
+      "qbvxhsg2-1"
+    ],
+    "subject": "math",
+    "materialId": "qbvxhsg2",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "33.9\n",
+  "lastScore": 40,
+  "feedback": "You got the correct final answer, 33.9°, but you didn’t show any working — no formula, no substitution, no calculation steps. To earn full marks, always write down the sine formula, substitute the numbers, show how you rearranged and computed sin Q, then take sin⁻¹. Review how to present multi-step trigonometry solutions clearly.",
+  "missedPoints": [
+    "Used the sine formula correctly",
+    "Substituted the given values into the formula",
+    "Rearranged to solve for sin Q",
+    "Computed sin Q accurately",
+    "Applied inverse sine to find angle Q",
+    "Stated the answer with correct units and precision (3 s.f.)"
+  ],
+  "wrongCount": 2,
+  "firstWrongAt": "2026-11-05T19:01:01.743Z",
+  "lastWrongAt": "2026-11-05T19:01:25.060Z"
+}

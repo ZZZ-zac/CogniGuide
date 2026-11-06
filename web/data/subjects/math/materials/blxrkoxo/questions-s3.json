@@ -1,0 +1,73 @@
+[
+  {
+    "id": "xp53qe5n",
+    "question": "In triangle ABC, angle A = 40°, side a (opposite A) = 5 cm, and side b (opposite B) = 7 cm. Use the sine formula to find all possible values of angle B, correct to 3 significant figures. Explain why there are two possible values.",
+    "referenceAnswer": "Using the sine formula: $\\frac{7}{\\sin B} = \\frac{5}{\\sin 40^\\circ}$, so $\\sin B = \\frac{7 \\sin 40^\\circ}{5} \\approx 0.900$. Then $B \\approx 64.1^\\circ$ or $180^\\circ - 64.1^\\circ = 116^\\circ$. There are two possible values because $\\sin \\theta = \\sin(180^\\circ - \\theta)$, and both angles give valid triangles when $a < b$ and $a > b \\sin A$ — this is the 'ambiguous case' (Case 3).",
+    "evidence": "In Supplementary Example 4(a): '$\\sin B = \\frac{7 \\sin 40^\\circ}{5}$, $B = 64.145^\\circ$ or $180^\\circ - 64.145^\\circ$, $\\therefore B = 64.1^\\circ$ or $116^\\circ$' — described as 'An example of Case 3'.",
+    "chunkIds": [
+      "blxrkoxo-1"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "nxperbrw",
+    "question": "In triangle ABC, angle A = 40°, side a = 10 cm, and side b = 7 cm. Find angle B, correct to 3 significant figures. Explain why only one triangle can be formed in this case.",
+    "referenceAnswer": "Using the sine formula: $\\frac{7}{\\sin B} = \\frac{10}{\\sin 40^\\circ}$, so $\\sin B = \\frac{7 \\sin 40^\\circ}{10} \\approx 0.450$, giving $B \\approx 26.7^\\circ$. Only one triangle exists because $a > b$, so side a is longest among the two given sides, making angle A the largest possible angle — thus B must be acute and unique (Case 4).",
+    "evidence": "Supplementary Example 4(b) computes $\\sin B = \\frac{7 \\sin 40^\\circ}{10}$ and gives $B = 26.7^\\circ$, labelled 'An example of Case 4'.",
+    "chunkIds": [
+      "blxrkoxo-1"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "p13yrgvg",
+    "question": "In triangle ABC, angle A = 120°, side a = 15 cm, and side b = 9 cm. Solve the triangle completely: find angles B and C, and side c, all correct to 3 significant figures.",
+    "referenceAnswer": "By sine formula: $\\frac{9}{\\sin B} = \\frac{15}{\\sin 120^\\circ}$ → $\\sin B = \\frac{9 \\sin 120^\\circ}{15} \\approx 0.520$, so $B \\approx 31.3^\\circ$. Then $C = 180^\\circ - 120^\\circ - 31.3^\\circ = 28.7^\\circ$. Finally, $\\frac{c}{\\sin 28.7^\\circ} = \\frac{15}{\\sin 120^\\circ}$ → $c \\approx 8.32$ cm.",
+    "evidence": "Supplementary Example 5(a) shows: '$\\sin B = \\frac{9 \\sin 120^\\circ}{15}$, $B = 31.3^\\circ$', then finds $C = 28.7^\\circ$ and $c = 8.32$ cm — described as 'Case 6'.",
+    "chunkIds": [
+      "blxrkoxo-2",
+      "blxrkoxo-3"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "krqk3rex",
+    "question": "In triangle ABC, angle A = 120°, side a = $5\\sqrt{3}$ cm, and side b = 9 cm. Explain why no triangle can be formed with these measurements.",
+    "referenceAnswer": "Using the sine formula: $\\sin B = \\frac{9 \\sin 120^\\circ}{5\\sqrt{3}} \\approx 0.900$, so $B \\approx 64.2^\\circ$. But then $A + B \\approx 120^\\circ + 64.2^\\circ = 184.2^\\circ > 180^\\circ$, violating the angle sum of a triangle. Hence, no triangle exists (Case 5).",
+    "evidence": "Supplementary Example 5(b): '$\\sin B = \\frac{9 \\sin 120^\\circ}{5\\sqrt{3}}$, $B = 64.158^\\circ$, $A + B = 184.158^\\circ > 180^\\circ$, i.e. triangle cannot be formed. ∴ No solution.' — labelled 'Case 5'.",
+    "chunkIds": [
+      "blxrkoxo-3"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "hxssp9p2",
+    "question": "In triangle ABC, angle B = 30° and side AB = 20 cm. Kelvin says the shortest possible length of side AC is 10 cm. Verify his claim using trigonometry and explain the geometric condition that gives this minimum.",
+    "referenceAnswer": "Yes, the claim is correct. The shortest AC occurs when AC is perpendicular to BC (i.e., when triangle ABC is right-angled at C). Then $\\sin 30^\\circ = \\frac{AC}{AB} = \\frac{AC}{20}$, so $AC = 20 \\sin 30^\\circ = 10$ cm. This is the perpendicular distance from A to line BC — the shortest possible distance from A to any point on BC.",
+    "evidence": "Source blxrkoxo-0 states: 'When $AC \\perp BC$, the length of $AC$ is minimum and $\\sin 30^\\circ = \\frac{AC}{20 \\text{ cm}}$, so $AC = 20 \\sin 30^\\circ = 10$ cm. ∴ The claim is agreed.'",
+    "chunkIds": [
+      "blxrkoxo-0"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

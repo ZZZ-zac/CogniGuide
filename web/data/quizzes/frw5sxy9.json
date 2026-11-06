@@ -1,0 +1,104 @@
+{
+  "id": "frw5sxy9",
+  "kind": "quick",
+  "topic": "math",
+  "level": "s1",
+  "createdAt": "2026-11-06T09:53:46.774Z",
+  "questions": [
+    {
+      "id": "hfflgvgx",
+      "question": "In triangle $PQR$, $\\angle P = 30^\\circ$, side $p = 6$ cm (opposite $\\angle P$), and side $r = 10$ cm (opposite $\\angle R$). Determine whether triangle $PQR$ can be formed. Show your working.",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{r}{\\sin R} = \\frac{p}{\\sin P}$\n2. Rearrange to find $\\sin R$: $\\sin R = \\frac{r \\sin P}{p}$\n3. Substitute values: $\\sin R = \\frac{10 \\times \\sin 30^\\circ}{6} = \\frac{10 \\times 0.5}{6} = 0.8333$\n4. Since $0.8333 < 1$, a valid angle $R$ exists\n5. So triangle $PQR$ can be formed\nAnswer: Yes",
+      "evidence": "By the sine formula, $\\frac{(4\\ \\text{cm})}{\\sin A} = \\frac{(2\\ \\text{cm})}{\\sin(30^\\circ)}$ — $\\sin A = \\frac{4\\sin30^\\circ}{2} = 1$ — $A = 90^\\circ$ — $\\therefore$ $\\triangle ABC$ can be formed.",
+      "checks": [
+        "10*0.5/6 = 0.8333",
+        "0.8333 < 1"
+      ],
+      "chunkIds": [
+        "b9oivaak-3",
+        "b9oivaak-4"
+      ],
+      "subject": "math",
+      "materialId": "b9oivaak",
+      "language": "en",
+      "level": "s1",
+      "origin": "notes"
+    },
+    {
+      "id": "xo3rkbxu",
+      "question": "In triangle $XYZ$, $\\angle X = 120^\\circ$, side $x = 15$ cm (opposite $\\angle X$), and side $z = 8$ cm (opposite $\\angle Z$). Determine whether triangle $XYZ$ can be formed. Show your working.",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{z}{\\sin Z} = \\frac{x}{\\sin X}$\n2. Rearrange to find $\\sin Z$: $\\sin Z = \\frac{z \\sin X}{x}$\n3. Substitute values: $\\sin Z = \\frac{8 \\times \\sin 120^\\circ}{15}$\n4. Compute: $\\sin 120^\\circ = \\sin(180^\\circ - 60^\\circ) = \\sin 60^\\circ \\approx 0.8660$\n5. So $\\sin Z = \\frac{8 \\times 0.8660}{15} = 0.4619$\n6. Since $0.4619 < 1$, triangle $XYZ$ can be formed\nAnswer: Yes",
+      "evidence": "$A = 74^\\circ$, $a = 16$ cm, $c = 9$ cm — $\\frac{9}{\\sin C} = \\frac{16}{\\sin 74^\\circ}$ — $C = 32.7^\\circ$ or $147^\\circ$ (reject) — $\\therefore$ Yes",
+      "checks": [
+        "sin(120) = 0.8660",
+        "8*0.8660/15 = 0.4619",
+        "0.4619 < 1"
+      ],
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "language": "en",
+      "level": "s1",
+      "origin": "notes"
+    },
+    {
+      "id": "dqdhxrte",
+      "question": "In triangle $LMN$, $\\angle L = 40^\\circ$, side $l = 5$ cm (opposite $\\angle L$), and side $n = 9$ cm (opposite $\\angle N$). Determine whether triangle $LMN$ can be formed. Show your working.",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{n}{\\sin N} = \\frac{l}{\\sin L}$\n2. Rearrange to find $\\sin N$: $\\sin N = \\frac{n \\sin L}{l}$\n3. Substitute values: $\\sin N = \\frac{9 \\times \\sin 40^\\circ}{5}$\n4. Compute: $\\sin 40^\\circ \\approx 0.6428$\n5. So $\\sin N = \\frac{9 \\times 0.6428}{5} = 1.1570$\n6. Since $1.1570 > 1$, no such angle $N$ exists — triangle cannot be formed\nAnswer: No",
+      "evidence": "$C = 70^\\circ$, $b = 12$ cm, $c = 10$ cm — $\\frac{12\\ \\text{cm}}{\\sin B} = \\frac{10\\ \\text{cm}}{\\sin70^\\circ}$ — $\\sin B = \\frac{12\\sin70^\\circ}{10} = 1.13$ — $> 1$ — $\\therefore$ cannot be formed.",
+      "checks": [
+        "sin(40) = 0.6428",
+        "9*0.6428/5 = 1.1570",
+        "1.1570 > 1"
+      ],
+      "chunkIds": [
+        "b9oivaak-4"
+      ],
+      "subject": "math",
+      "materialId": "b9oivaak",
+      "language": "en",
+      "level": "s1",
+      "origin": "notes"
+    },
+    {
+      "id": "b1avby69",
+      "question": "In triangle $DEF$, $\\angle D = 25^\\circ$, side $d = 7$ cm (opposite $\\angle D$), and side $f = 16$ cm (opposite $\\angle F$). Determine whether triangle $DEF$ can be formed. Show your working.",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{f}{\\sin F} = \\frac{d}{\\sin D}$\n2. Rearrange to find $\\sin F$: $\\sin F = \\frac{f \\sin D}{d}$\n3. Substitute values: $\\sin F = \\frac{16 \\times \\sin 25^\\circ}{7}$\n4. Compute: $\\sin 25^\\circ \\approx 0.4226$\n5. So $\\sin F = \\frac{16 \\times 0.4226}{7} = 0.9659$\n6. Since $0.9659 < 1$, triangle $DEF$ can be formed\nAnswer: Yes",
+      "evidence": "$A = 25^\\circ$, $a = 11$ cm, $c = 27$ cm — $\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}$ — $\\sin C = 1.04 > 1$ — $\\therefore$ No",
+      "checks": [
+        "sin(25) = 0.4226",
+        "16*0.4226/7 = 0.9659",
+        "0.9659 < 1"
+      ],
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "language": "en",
+      "level": "s1",
+      "origin": "notes"
+    },
+    {
+      "id": "6jycjhlh",
+      "question": "In triangle $ABC$, $\\angle A = 130^\\circ$, side $a = 12$ cm (opposite $\\angle A$), and side $c = 5$ cm (opposite $\\angle C$). Determine whether triangle $ABC$ can be formed. Show your working.",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$\n2. Rearrange to find $\\sin C$: $\\sin C = \\frac{c \\sin A}{a}$\n3. Substitute values: $\\sin C = \\frac{5 \\times \\sin 130^\\circ}{12}$\n4. Compute: $\\sin 130^\\circ = \\sin(180^\\circ - 50^\\circ) = \\sin 50^\\circ \\approx 0.7660$\n5. So $\\sin C = \\frac{5 \\times 0.7660}{12} = 0.3192$\n6. Since $0.3192 < 1$, triangle $ABC$ can be formed\nAnswer: Yes",
+      "evidence": "$B = 135^\\circ$, $c = 7$ cm, $b = 2$ cm — $\\frac{7}{\\sin C} = \\frac{2}{\\sin 135^\\circ}$ — $\\sin C = 2.47 > 1$ — $\\therefore$ No",
+      "checks": [
+        "sin(130) = 0.7660",
+        "5*0.7660/12 = 0.3192",
+        "0.3192 < 1"
+      ],
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "language": "en",
+      "level": "s1",
+      "origin": "notes"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "w2wl3ezv",
+  "mode": "subject",
+  "source": {
+    "quizId": "isyagmqd"
+  },
+  "createdAt": "2026-11-04T13:09:35.741Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "memtlgat",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-2"
+      ],
+      "question": "Suppose $X_1$ and $X_2$ are subspaces of a vector space $V$, and let $u \\in X_1$, $v \\in X_2$. Explain why the sum $u + v$ must belong to the set $X_1 + X_2$, using the definition of $X_1 + X_2$ implied in the sources.",
+      "answer": "I do not know",
+      "referenceAnswer": "By definition, $X_1 + X_2 = \\{ u + v \\mid u \\in X_1,\\, v \\in X_2 \\}$. Since $u \\in X_1$ and $v \\in X_2$, their sum $u + v$ is explicitly an element of $X_1 + X_2$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "The definition of the sum of two subspaces X₁ + X₂ is the set of all possible sums u + v where u ∈ X₁ and v ∈ X₂",
+        "Given that u ∈ X₁ and v ∈ X₂, u + v satisfies this defining condition and therefore belongs to X₁ + X₂"
+      ],
+      "feedback": "Don’t worry — this is a foundational definition. Please re-read the source material on how X₁ + X₂ is defined, and practice writing out definitions in your own words. You’ll get it with a little review!"
+    },
+    {
+      "questionId": "ilfyfxfv",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-1"
+      ],
+      "question": "Let $X_1 = \\{u_1, u_2, \\ldots, u_n\\}$ and $X_2 = \\{v_1, v_2, \\ldots, v_n\\}$ be subspaces of $V$. Why does closure under scalar multiplication for $X_1$ imply that $\\alpha_i u_i \\in X_1$ for all scalars $\\alpha_i$ and all $i$? Justify using the subspace criteria given.",
+      "answer": "",
+      "referenceAnswer": "Since $X_1$ is a subspace, it is closed under scalar multiplication: for any $u_i \\in X_1$ and any scalar $\\alpha_i$, the product $\\alpha_i u_i$ must also be in $X_1$. This is directly stated as a property of subspaces in the source.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "lhdg4bep",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-0",
+        "vde6feoe-1"
+      ],
+      "question": "Given $u = a_1 u_1 + \\cdots + a_n u_n + b_1 v_1 + \\cdots + b_n v_n$ and $v = c_1 u_1 + \\cdots + c_n u_n + d_1 v_1 + \\cdots + d_n v_n$, where all $u_i \\in X_1$, $v_j \\in X_2$, show that $\\alpha u + \\beta v$ can be written as a linear combination of vectors from $X_1 \\cup X_2$. What does this imply about $[X_1 \\cup X_2]$?",
+      "answer": "",
+      "referenceAnswer": "Expanding $\\alpha u + \\beta v$ yields $\\sum_{i=1}^n (\\alpha a_i + \\beta c_i) u_i + \\sum_{i=1}^n (\\alpha b_i + \\beta d_i) v_i$, which is a linear combination of vectors in $X_1 \\cup X_2$. Hence $\\alpha u + \\beta v \\in [X_1 \\cup X_2]$, confirming closure under linear combinations — a key step in proving $[X_1 \\cup X_2]$ is a subspace.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "otm770eq",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-1",
+        "vde6feoe-0"
+      ],
+      "question": "The source states that $[X_1 \\cup X_2]$ is a subspace of $V$. Using only the information provided, explain why this span must contain all finite linear combinations of vectors from $X_1$ and $X_2$.",
+      "answer": "",
+      "referenceAnswer": "By definition, the span $[X_1 \\cup X_2]$ is the set of all finite linear combinations of vectors in $X_1 \\cup X_2$. Since $X_1$ and $X_2$ are sets of vectors (and subspaces), any such combination — e.g., $p_1 u_1 + \\cdots + p_n u_n + q_1 v_1 + \\cdots + q_n v_n$ — lies in $[X_1 \\cup X_2]$, as shown in the algebraic derivation.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "vvp4gdyn",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-1"
+      ],
+      "question": "Suppose $u_i, u_j \\in X_1$, where $X_1$ is a subspace of $V$. Why must $u_i + u_j$ also belong to $X_1$? Use the subspace axioms referenced in the source.",
+      "answer": "",
+      "referenceAnswer": "Because $X_1$ is a subspace, it is closed under vector addition: for any two elements $u_i, u_j \\in X_1$, their sum $u_i + u_j$ must also lie in $X_1$. This is explicitly stated as a consequence of $X_1$ being a subspace.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    }
+  ]
+}

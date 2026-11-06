@@ -1,0 +1,72 @@
+[
+  {
+    "id": "xzajunis",
+    "question": "In triangle ABC, angle A = 88°, angle C = 35°, and side AB = 31 cm. Find the size of angle B and the length of side CA. Show your working.",
+    "referenceAnswer": "Angle B = 180° − 88° − 35° = 57°. Using the sine rule: $\\frac{CA}{\\sin 57^\\circ} = \\frac{31}{\\sin 88^\\circ}$, so $CA = \\frac{31 \\sin 57^\\circ}{\\sin 88^\\circ} \\approx 26.0\\,\\text{cm}$.",
+    "evidence": "7. $88^\\circ + 35^\\circ + B = 180^\\circ$, $B = 57^\\circ$; $\\frac{CA}{\\sin 57^\\circ} = \\frac{31}{\\sin 88^\\circ}$; $CA = 26.0\\,\\text{cm}$",
+    "chunkIds": [
+      "qbvxhsg2-0"
+    ],
+    "subject": "math",
+    "materialId": "qbvxhsg2",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "gbxjsx7x",
+    "question": "In a triangle with angles 22°, 123°, and C, side AB (opposite angle C) is 19 cm. Find angle C and the length of side CA (opposite angle 22°).",
+    "referenceAnswer": "Angle C = 180° − 22° − 123° = 35°. Using the sine rule: $\\frac{19}{\\sin 35^\\circ} = \\frac{CA}{\\sin 22^\\circ}$, so $CA = \\frac{19 \\sin 22^\\circ}{\\sin 35^\\circ} \\approx 12.9\\,\\text{cm}$.",
+    "evidence": "8. $22^\\circ + 123^\\circ + C = 180^\\circ$, $C = 35^\\circ$; $\\frac{19}{\\sin 35^\\circ} = \\frac{CA}{\\sin 22^\\circ}$; $CA = 12.9\\,\\text{cm}$",
+    "chunkIds": [
+      "qbvxhsg2-0"
+    ],
+    "subject": "math",
+    "materialId": "qbvxhsg2",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "qrwpg0yt",
+    "question": "In triangle ABC, angle A = 87°, angle C = 41°, and side AC = 22 cm. Find angle B and the length of side BC (opposite angle 41°).",
+    "referenceAnswer": "Angle B = 180° − 87° − 41° = 52°. Using the sine rule: $\\frac{22}{\\sin 52^\\circ} = \\frac{BC}{\\sin 41^\\circ}$, so $BC = \\frac{22 \\sin 41^\\circ}{\\sin 52^\\circ} \\approx 18.3\\,\\text{cm}$.",
+    "evidence": "9. $B + 87^\\circ + 41^\\circ = 180^\\circ$, $B = 52^\\circ$; $\\frac{22}{\\sin 52^\\circ} = \\frac{BC}{\\sin 41^\\circ}$; $BC = 18.3\\,\\text{cm}$",
+    "chunkIds": [
+      "qbvxhsg2-1"
+    ],
+    "subject": "math",
+    "materialId": "qbvxhsg2",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "fuiv701q",
+    "question": "In a triangle, side a = 7 units is opposite angle $\\theta$, side b = 9.5 units is opposite angle 61°. Given that $\\theta$ is acute, find $\\theta$ using the sine rule.",
+    "referenceAnswer": "Using the sine rule: $\\frac{7}{\\sin \\theta} = \\frac{9.5}{\\sin 61^\\circ}$. Rearranging: $\\sin \\theta = \\frac{7 \\sin 61^\\circ}{9.5} \\approx 0.645$, so $\\theta \\approx 40.1^\\circ$.",
+    "evidence": "10. $\\frac{7}{\\sin \\theta} = \\frac{9.5}{\\sin 61^\\circ}$; $\\theta = 40.1^\\circ$",
+    "chunkIds": [
+      "qbvxhsg2-1"
+    ],
+    "subject": "math",
+    "materialId": "qbvxhsg2",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "zlvndmrk",
+    "question": "Two angles in a triangle are 37° and $\\theta$, with opposite sides 7 cm and 11 cm respectively. If $\\theta$ is acute, use the sine rule to find $\\theta$.",
+    "referenceAnswer": "Using the sine rule: $\\frac{11}{\\sin \\theta} = \\frac{7}{\\sin 37^\\circ}$. So $\\sin \\theta = \\frac{11 \\sin 37^\\circ}{7} \\approx 0.946$, and since $\\theta$ is acute, $\\theta \\approx 71.0^\\circ$.",
+    "evidence": "12. $\\theta$ is acute; $\\frac{11}{\\sin \\theta} = \\frac{7}{\\sin 37^\\circ}$; $\\theta = 71.0^\\circ$",
+    "chunkIds": [
+      "qbvxhsg2-1"
+    ],
+    "subject": "math",
+    "materialId": "qbvxhsg2",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

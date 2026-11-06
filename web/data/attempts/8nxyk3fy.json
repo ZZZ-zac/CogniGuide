@@ -1,0 +1,92 @@
+{
+  "id": "8nxyk3fy",
+  "mode": "quick",
+  "source": {
+    "quizId": "6dvmxz1i"
+  },
+  "createdAt": "2026-11-04T13:02:18.111Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "cl0vknkr",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-2"
+      ],
+      "question": "Suppose $X_1$ and $X_2$ are subspaces of a vector space $V$, and let $u_i \\in X_1$, $v_i \\in X_2$ for all $1 \\le i \\le n$. Explain why the sum $\\alpha_i u_i + \\beta_i v_i$ must belong to $X_1 + X_2$, and clarify whether it necessarily belongs to $X_1 \\cup X_2$. Justify using definitions from the sources.",
+      "answer": "I am not sure.",
+      "referenceAnswer": "Since $\\alpha_i u_i \\in X_1$ and $\\beta_i v_i \\in X_2$ (as subspaces are closed under scalar multiplication), their sum lies in $X_1 + X_2 = \\{x_1 + x_2 : x_1 \\in X_1, x_2 \\in X_2\\}$ by definition. However, $\\alpha_i u_i + \\beta_i v_i$ does not necessarily belong to $X_1 \\cup X_2$, because the union contains only vectors that lie *entirely* in $X_1$ or *entirely* in $X_2$, not sums across both — unless one subspace contains the other.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Subspaces are closed under scalar multiplication, so α_i u_i ∈ X₁ and β_i v_i ∈ X₂",
+        "X₁ + X₂ is defined as the set of all sums x₁ + x₂ where x₁ ∈ X₁ and x₂ ∈ X₂, so α_i u_i + β_i v_i ∈ X₁ + X₂ by definition",
+        "X₁ ∪ X₂ contains only vectors that belong to X₁ *or* X₂ (not sums across both), so the sum need not lie in the union — counterexample possible unless one subspace contains the other"
+      ],
+      "feedback": "Don’t worry — this is a common point of confusion! Review the definitions of subspace closure properties (especially scalar multiplication) and the precise set definitions of X₁ + X₂ versus X₁ ∪ X₂ from your notes. Try constructing a simple counterexample in ℝ² (e.g., X₁ = x-axis, X₂ = y-axis) to see why the sum isn’t generally in the union."
+    },
+    {
+      "questionId": "duifcvzv",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-0",
+        "vde6feoe-1"
+      ],
+      "question": "Let $u_1, \\dots, u_n$ be vectors in subspace $X_1$, and $v_1, \\dots, v_n$ be vectors in subspace $X_2$. Using the expression for $\\alpha u + \\beta v$ given in the source, explain why the set $[X_1 \\cup X_2]$ — the span of the union — is closed under linear combinations, and hence is a subspace of $V$.",
+      "answer": "",
+      "referenceAnswer": "Any linear combination $\\alpha u + \\beta v$, where $u, v \\in [X_1 \\cup X_2]$, expands into a sum of scalar multiples of the $u_i$’s and $v_j$’s. As shown, this yields coefficients like $(\\alpha a_i + \\beta c_i)$ for $u_i$ and $(\\alpha b_i + \\beta d_i)$ for $v_i$, resulting in a vector of the form $\\sum p_i u_i + \\sum q_j v_j$, which lies in $[X_1 \\cup X_2]$. Thus, $[X_1 \\cup X_2]$ is closed under addition and scalar multiplication, satisfying subspace criteria.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "4lapixtx",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-1",
+        "vde6feoe-2"
+      ],
+      "question": "Given that $X_1$ and $X_2$ are subspaces of $V$, why is it true that $u_i + u_j \\in X_1$ for all $i,j$, but not necessarily true that $u_i + v_j \\in X_1$ or $X_2$? Use closure properties stated in the sources to justify your answer.",
+      "answer": "",
+      "referenceAnswer": "Because $X_1$ is a subspace, it is closed under vector addition: if $u_i, u_j \\in X_1$, then $u_i + u_j \\in X_1$. However, $v_j \\notin X_1$ (in general), so $u_i + v_j$ involves vectors from different subspaces; the closure property does not apply across subspaces. Indeed, $u_i + v_j$ belongs to $X_1 + X_2$, not necessarily to $X_1$ or $X_2$ individually.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "atheonwj",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "《静夜思》中‘疑是地上霜’一句运用了什么修辞手法？这一手法对表达诗人情感起到了什么作用？请结合诗句内容简要分析。",
+      "answer": "",
+      "referenceAnswer": "运用了比喻的修辞手法，将皎洁清冷的月光比作地上的霜。这一比喻既突出了月光的洁白、清寒与铺洒之广，又暗含孤寂凄清的氛围，强化了诗人独处异乡、触景生情的深切思乡之情。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "6aq9dzai",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "诗中‘举头望明月，低头思故乡’两句通过‘举头’与‘低头’两个动作的对比，揭示了怎样的心理过程？这种写法体现了绝句在表情达意上的什么特点？",
+      "answer": "",
+      "referenceAnswer": "‘举头’是对外界明月的自然注视，触发联想；‘低头’则是内敛沉思，情感由外而内、由景及情自然转化，展现思乡之情的萌生与凝聚过程。这体现了五言绝句以少总多、动作凝练而意蕴丰沛的艺术特点。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    }
+  ]
+}

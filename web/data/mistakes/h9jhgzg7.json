@@ -1,0 +1,28 @@
+{
+  "id": "h9jhgzg7",
+  "question": {
+    "id": "h9jhgzg7",
+    "question": "In triangle $LMN$, $LM = 35\\,\\text{cm}$, $LN = 28\\,\\text{cm}$, and $\\angle M = 56^\\circ$. Find $\\angle N$. Give your answer correct to 3 significant figures. (Note: $\\angle N$ is acute.)",
+    "referenceAnswer": "1. Use the sine formula: $\\frac{LN}{\\sin M} = \\frac{LM}{\\sin N}$\n2. Substitute: $\\frac{28}{\\sin 56^\\circ} = \\frac{35}{\\sin N}$\n3. Rearrange: $\\sin N = \\frac{35 \\sin 56^\\circ}{28}$\n4. Compute: $35 \\times 0.8290 / 28 = 1.036$\n5. Since $1.036 > 1$, no such triangle exists.\nAnswer: No",
+    "evidence": "$A = 25^\\circ$, $a = 11$ cm, $c = 27$ cm\n$$\n\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\n$$\n$\\sin C = 1.04$\n$> 1$\n$\\therefore$ No",
+    "checks": [
+      "35*sin(56)/28 = 1.036",
+      "1.036 > 1"
+    ],
+    "chunkIds": [
+      "45ajf1sk-1"
+    ],
+    "subject": "math",
+    "materialId": "45ajf1sk",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 2,
+  "firstWrongAt": "2026-11-05T19:01:01.743Z",
+  "lastWrongAt": "2026-11-05T19:01:25.060Z"
+}

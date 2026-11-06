@@ -1,0 +1,72 @@
+[
+  {
+    "id": "29kqvrtm",
+    "question": "In question 19, why does the equation $\\sin A = \\frac{8 \\sin 103^\\circ}{3\\sqrt{5}} \\approx 1.16$ imply that triangle $ABC$ cannot be formed?",
+    "referenceAnswer": "Because the sine of any angle must be between $-1$ and $1$, and $\\sin A > 1$ is impossible. So no angle $A$ satisfies the sine formula, meaning no such triangle exists.",
+    "evidence": "$\\sin A = \\frac{8 \\sin 103^\\circ}{3\\sqrt{5}} = 1.16, \\text{ cor. to } 3 \\text{ sig. fig.} > 1$. $\\therefore$ There is no solution for $A$. $\\therefore$ $\\triangle ABC$ cannot be formed.",
+    "chunkIds": [
+      "uwaud6jq-0"
+    ],
+    "subject": "math",
+    "materialId": "uwaud6jq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "rq1ih9tt",
+    "question": "In question 20(a), how is $\\angle DCE$ found to be $48^\\circ$? Explain using angle sum in a triangle and the geometry of straight lines.",
+    "referenceAnswer": "In $\\triangle ABC$, the angles sum to $180^\\circ$, so $\\angle ACB = 180^\\circ - 60^\\circ - 72^\\circ = 48^\\circ$. Since $ACD$ is a straight line, $\\angle DCE$ and $\\angle ACB$ are vertically opposite (or same angle at point $C$ on intersecting lines), so $\\angle DCE = \\angle ACB = 48^\\circ$.",
+    "evidence": "$\\angle BAC + \\angle ABC + \\angle ACB = 180^\\circ$, $60^\\circ + 72^\\circ + \\angle ACB = 180^\\circ$, $\\angle ACB = 48^\\circ$, $\\angle DCE = \\angle ACB = 48^\\circ$",
+    "chunkIds": [
+      "uwaud6jq-1"
+    ],
+    "subject": "math",
+    "materialId": "uwaud6jq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "vt2uucsj",
+    "question": "In question 20(b), given $CE = 10$ cm, $DE = 8$ cm, and $\\angle DCE = 48^\\circ$, why is $\\angle CDE$ taken to be acute, and how is its value calculated?",
+    "referenceAnswer": "The problem states '$\\angle CDE$ is an acute angle', so we choose the acute solution of the inverse sine. Using the sine formula: $\\frac{10}{\\sin \\angle CDE} = \\frac{8}{\\sin 48^\\circ}$, so $\\sin \\angle CDE = \\frac{10 \\sin 48^\\circ}{8} \\approx 0.929$, giving $\\angle CDE \\approx 68.3^\\circ$ (acute, not $180^\\circ - 68.3^\\circ$).",
+    "evidence": "In $\\triangle CDE$, by the sine formula, $\\frac{10 \\text{ cm}}{\\sin \\angle CDE} = \\frac{8 \\text{ cm}}{\\sin 48^\\circ}$, $\\sin \\angle CDE = \\frac{10 \\sin 48^\\circ}{8}$, $\\angle CDE = 68.3^\\circ$, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "uwaud6jq-1"
+    ],
+    "subject": "math",
+    "materialId": "uwaud6jq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "r0pjgr2l",
+    "question": "In question 21(a), explain why $\\angle ADB = 6^\\circ$, using the fact that $BD = CD$ and the exterior angle property.",
+    "referenceAnswer": "Since $BD = CD$, $\\triangle BCD$ is isosceles, so $\\angle CBD = \\angle BCD = 61^\\circ$. In $\\triangle ABD$, $\\angle CBD$ is an exterior angle at $B$, so it equals the sum of the two non-adjacent interior angles: $\\angle ADB + \\angle BAD = \\angle CBD$. Substituting gives $\\angle ADB + 55^\\circ = 61^\\circ$, so $\\angle ADB = 6^\\circ$.",
+    "evidence": "$\\because BD = CD$ $\\therefore \\angle CBD = \\angle BCD = 61^\\circ$. In $\\triangle ABD$, $\\angle ADB + \\angle BAD = \\angle CBD$, $\\angle ADB + 55^\\circ = 61^\\circ$, $\\angle ADB = 6^\\circ$",
+    "chunkIds": [
+      "uwaud6jq-2"
+    ],
+    "subject": "math",
+    "materialId": "uwaud6jq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "cqpisygp",
+    "question": "In question 22(b), why is $\\triangle PRS$ not isosceles? Use the angles you know or can calculate.",
+    "referenceAnswer": "The three angles of $\\triangle PRS$ are $\\angle PSR = 113^\\circ$, $\\angle PRS \\approx 32.2^\\circ$, and $\\angle SPR \\approx 34.8^\\circ$. Since all three angles are different, no two sides can be equal — so $\\triangle PRS$ is not isosceles.",
+    "evidence": "The three angles in $\\triangle PRS$ are all different. $\\therefore \\triangle PRS$ is not an isosceles triangle.",
+    "chunkIds": [
+      "uwaud6jq-4"
+    ],
+    "subject": "math",
+    "materialId": "uwaud6jq",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

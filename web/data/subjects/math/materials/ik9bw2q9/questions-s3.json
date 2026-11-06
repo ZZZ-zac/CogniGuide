@@ -1,0 +1,73 @@
+[
+  {
+    "id": "i5uewblc",
+    "question": "In a triangle with angles $50^\\circ$, $30^\\circ$, and a side of length $4\\ \\text{cm}$ opposite the $30^\\circ$ angle, use the sine formula to find the side length $x$ opposite the $50^\\circ$ angle. Show your working and give your answer correct to 3 significant figures.",
+    "referenceAnswer": "Using the sine formula: $\\frac{x}{\\sin 50^\\circ} = \\frac{4}{\\sin 30^\\circ}$. So $x = \\frac{4 \\sin 50^\\circ}{\\sin 30^\\circ} \\approx 6.13$ (3 sig. fig.).",
+    "evidence": "By the sine formula, $\\frac{x \\text{ cm}}{\\sin 50^\\circ} = \\frac{4 \\text{ cm}}{\\sin 30^\\circ}$, $x = \\frac{4 \\sin 50^\\circ}{\\sin 30^\\circ} = \\underline{6.13}$, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "ik9bw2q9-0"
+    ],
+    "subject": "math",
+    "materialId": "ik9bw2q9",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "xjuecube",
+    "question": "A triangle has angles $52^\\circ$, $63^\\circ$, and an unknown angle $A$. A side of length $6\\ \\text{cm}$ lies opposite angle $A$. Find angle $A$, then use the sine formula to find the side $x$ opposite the $63^\\circ$ angle. Give $x$ correct to 3 significant figures.",
+    "referenceAnswer": "Since angles in a triangle sum to $180^\\circ$, $A = 180^\\circ - 52^\\circ - 63^\\circ = 65^\\circ$. By the sine formula: $\\frac{x}{\\sin 63^\\circ} = \\frac{6}{\\sin 65^\\circ}$, so $x = \\frac{6 \\sin 63^\\circ}{\\sin 65^\\circ} \\approx 5.90$ (3 sig. fig.).",
+    "evidence": "$A + 52^\\circ + 63^\\circ = 180^\\circ$, so $A = 65^\\circ$. By the sine formula, $\\frac{x \\text{ cm}}{\\sin 63^\\circ} = \\frac{6 \\text{ cm}}{\\sin 65^\\circ}$, $x = \\frac{6 \\sin 63^\\circ}{\\sin 65^\\circ} = \\underline{5.90}$, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "ik9bw2q9-1"
+    ],
+    "subject": "math",
+    "materialId": "ik9bw2q9",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "iyihq5mp",
+    "question": "In a triangle, one angle is $120^\\circ$, another is $13^\\circ$, and the side opposite the $13^\\circ$ angle is $1\\ \\text{cm}$. Use the sine formula to find the side $x$ opposite the $120^\\circ$ angle. Give your answer correct to 3 significant figures.",
+    "referenceAnswer": "Using the sine formula: $\\frac{x}{\\sin 120^\\circ} = \\frac{1}{\\sin 13^\\circ}$, so $x = \\frac{\\sin 120^\\circ}{\\sin 13^\\circ} \\approx 3.85$ (3 sig. fig.).",
+    "evidence": "By the sine formula, $\\frac{x \\text{ cm}}{\\sin 120^\\circ} = \\frac{1 \\text{ cm}}{\\sin 13^\\circ}$, $x = \\frac{\\sin 120^\\circ}{\\sin 13^\\circ} = \\underline{3.85}$, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "ik9bw2q9-1"
+    ],
+    "subject": "math",
+    "materialId": "ik9bw2q9",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "x8gs3v4s",
+    "question": "A triangle has angles $46^\\circ$, $83^\\circ$, and an unknown angle $B$. A side of length $\\sqrt{7}\\ \\text{cm}$ lies opposite the $83^\\circ$ angle. Find angle $B$, then use the sine formula to find the side $x$ opposite angle $B$. Give $x$ correct to 3 significant figures.",
+    "referenceAnswer": "Since $46^\\circ + B + 83^\\circ = 180^\\circ$, $B = 51^\\circ$. By the sine formula: $\\frac{x}{\\sin 51^\\circ} = \\frac{\\sqrt{7}}{\\sin 83^\\circ}$, so $x = \\frac{\\sqrt{7} \\sin 51^\\circ}{\\sin 83^\\circ} \\approx 2.07$ (3 sig. fig.).",
+    "evidence": "$46^\\circ + B + 83^\\circ = 180^\\circ$, so $B = 51^\\circ$. By the sine formula, $\\frac{x \\text{ cm}}{\\sin 51^\\circ} = \\frac{\\sqrt{7} \\text{ cm}}{\\sin 83^\\circ}$, $x = \\frac{\\sqrt{7} \\sin 51^\\circ}{\\sin 83^\\circ} = \\underline{2.07}$, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "ik9bw2q9-2"
+    ],
+    "subject": "math",
+    "materialId": "ik9bw2q9",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "izk7j5be",
+    "question": "A triangle has angles $45^\\circ$, $105^\\circ$, and an unknown angle $A$. A side of length $\\sqrt{8}\\ \\text{cm}$ lies opposite angle $A$. Find $A$, then use the sine formula to find the side $x$ opposite the $45^\\circ$ angle. Simplify your final answer exactly.",
+    "referenceAnswer": "Since $A + 45^\\circ + 105^\\circ = 180^\\circ$, $A = 30^\\circ$. By the sine formula: $\\frac{x}{\\sin 45^\\circ} = \\frac{\\sqrt{8}}{\\sin 30^\\circ}$. Since $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}$ and $\\sin 30^\\circ = \\frac{1}{2}$, and $\\sqrt{8} = 2\\sqrt{2}$, we get $x = \\frac{2\\sqrt{2} \\cdot \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}} = \\frac{2}{\\frac{1}{2}} = 4$.",
+    "evidence": "$A + 45^\\circ + 105^\\circ = 180^\\circ$, so $A = 30^\\circ$. By the sine formula, $\\frac{x \\text{ cm}}{\\sin 45^\\circ} = \\frac{\\sqrt{8} \\text{ cm}}{\\sin 30^\\circ}$, $x = \\frac{\\sqrt{8} \\sin 45^\\circ}{\\sin 30^\\circ} = \\underline{4}$",
+    "chunkIds": [
+      "ik9bw2q9-2",
+      "ik9bw2q9-3"
+    ],
+    "subject": "math",
+    "materialId": "ik9bw2q9",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

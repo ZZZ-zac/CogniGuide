@@ -1,0 +1,29 @@
+{
+  "id": "2fqflz8b",
+  "question": {
+    "id": "2fqflz8b",
+    "question": "In $\\triangle ABC$, $A = 47^\\circ$, $B = 69^\\circ$ and $c = 18$ cm. Solve the triangle completely: find $C$, $a$, and $b$, each correct to 3 significant figures.",
+    "referenceAnswer": "1. Use angle sum of triangle: $A + B + C = 180^\\circ$\n2. Substitute: $47^\\circ + 69^\\circ + C = 180^\\circ$, so $C = 64^\\circ$\n3. Use sine formula for $a$: $\\frac{a}{\\sin A} = \\frac{c}{\\sin C}$ → $a = \\frac{18 \\sin 47^\\circ}{\\sin 64^\\circ}$\n4. Compute $a$: $18 \\sin 47^\\circ / \\sin 64^\\circ = 14.7$ cm\n5. Use sine formula for $b$: $\\frac{b}{\\sin B} = \\frac{c}{\\sin C}$ → $b = \\frac{18 \\sin 69^\\circ}{\\sin 64^\\circ}$\n6. Compute $b$: $18 \\sin 69^\\circ / \\sin 64^\\circ = 18.7$ cm\nAnswer: $C = 64.0^\\circ$, $a = 14.7$ cm, $b = 18.7$ cm",
+    "evidence": "$A + B + C = 180^\\circ$, $123^\\circ + 22^\\circ + C = 180^\\circ$, $C = 35^\\circ$. By the sine formula, $\\frac{AC}{\\sin 22^\\circ} = \\frac{19 \\text{ cm}}{\\sin 35^\\circ}$",
+    "checks": [
+      "180 - 47 - 69 = 64",
+      "18*sin(47)/sin(64) = 14.7",
+      "18*sin(69)/sin(64) = 18.7"
+    ],
+    "chunkIds": [
+      "tldqryqe-1"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 6,
+  "firstWrongAt": "2026-11-05T18:56:48.221Z",
+  "lastWrongAt": "2026-11-05T18:59:29.124Z"
+}

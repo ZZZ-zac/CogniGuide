@@ -1,0 +1,76 @@
+{
+  "id": "t7fjatrw",
+  "kind": "review",
+  "level": "s3",
+  "createdAt": "2026-11-05T15:06:23.718Z",
+  "questions": [
+    {
+      "id": "asgrk1rc",
+      "question": "诗中‘举头望明月，低头思故乡’通过哪两个动作展现情感变化？这种写法有何作用？",
+      "referenceAnswer": "通过‘举头’与‘低头’两个动作展现由外物触发到内心感怀的情感过程；二者形成动作对比，凝练而生动地写出思乡之情自然生发、难以抑制的心理状态。",
+      "evidence": "“举头” 与 “低头” 两个动作形成对比，写出思乡的过程。",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "language": "zh",
+      "level": "s3"
+    },
+    {
+      "id": "6ambehrz",
+      "question": "从内容与结构角度看，《静夜思》前两句与后两句分别侧重描写什么？二者之间构成怎样的关系？",
+      "referenceAnswer": "前两句侧重描写眼前所见之景（床前月光如霜），后两句转向内心所感之情（望月思乡）；景与情紧密相连，由景入情、情景交融，自然完成从外在感知到内在抒怀的过渡。",
+      "evidence": "“疑是地上霜” 运用了比喻……“举头” 与 “低头” 两个动作形成对比，写出思乡的过程。",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "language": "zh",
+      "level": "s3"
+    },
+    {
+      "id": "s3zoxgfu",
+      "question": "In triangle ABC, if angle A = 50° and angle B = 25°, explain whether it is true that BC = 2AC. Use the sine formula and your reasoning.",
+      "referenceAnswer": "Angle C = 180° - 50° - 25° = 105°. By the sine formula, \\(\\frac{BC}{\\sin 50^\\circ} = \\frac{AC}{\\sin 25^\\circ}\\). So \\(BC = 1.81 \\times AC\\). Since 1.81 ≠ 2, BC ≠ 2AC. Therefore, the statement is false.",
+      "evidence": "In \\(\\triangle ABC\\), \\(\\angle C = 50^\\circ + 25^\\circ = 180^\\circ\\) \\(\\therefore \\angle C = 105^\\circ\\). \\(\\frac{BC}{\\sin 50^\\circ} = \\frac{AC}{\\sin 25^\\circ}\\) \\(\\Rightarrow BC = 1.81 \\, AC\\) \\(\\therefore \\text{False}\\)",
+      "chunkIds": [
+        "o33egjhy-1"
+      ],
+      "subject": "math",
+      "materialId": "o33egjhy",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "nqfsjlxm",
+      "question": "In triangle ABC, if angle A = 45°, side a = 5 cm, and side c = 5\\sqrt{2} cm, can triangle ABC be formed? Explain using the sine formula.",
+      "referenceAnswer": "By the sine formula, \\(\\frac{5\\sqrt{2}}{\\sin C} = \\frac{5}{\\sin 45^\\circ}\\). Solving gives \\(\\sin C = 1\\), so \\(C = 90^\\circ\\). Since \\(-1 \\le \\sin C \\le 1\\), and \\(\\sin C = 1\\) is valid, triangle ABC can be formed.",
+      "evidence": "By the sine formula, \\(\\frac{(5\\sqrt{2})}{\\sin C} = \\frac{(5)}{\\sin(45^\\circ)}\\) \\(\\Rightarrow \\sin C = 1\\) \\(\\Rightarrow C = 90^\\circ\\) \\(\\therefore \\triangle ABC\\) (can / cannot) be formed.",
+      "chunkIds": [
+        "z8xs67wj-2"
+      ],
+      "subject": "math",
+      "materialId": "z8xs67wj",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "h5c5cqen",
+      "question": "In triangle ABC, if angle A = 25°, side a = 11 cm, and side c = 27 cm, is there a valid solution? Explain your reasoning using the sine formula.",
+      "referenceAnswer": "Using the sine formula, \\(\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\\), so \\(\\sin C = \\frac{27 \\sin 25^\\circ}{11} \\approx 1.04 > 1\\). Since \\(\\sin C\\) cannot be greater than 1, there is no valid solution.",
+      "evidence": "16. \\(A = 25^\\circ\\), \\(a = 11\\) cm, \\(c = 27\\) cm. \\(\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\\) \\(\\Rightarrow \\sin C \\approx 1.04 > 1\\) \\(\\therefore\\) no solution.",
+      "chunkIds": [
+        "tldqryqe-2"
+      ],
+      "subject": "math",
+      "materialId": "tldqryqe",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    }
+  ]
+}

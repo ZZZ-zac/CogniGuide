@@ -1,0 +1,95 @@
+{
+  "id": "x2yfge8t",
+  "mode": "practice",
+  "source": {
+    "subject": "chinese",
+    "materialId": "xpxwm4ii"
+  },
+  "createdAt": "2026-11-04T12:46:31.285Z",
+  "totalScore": 20,
+  "items": [
+    {
+      "questionId": "yikqhfu7",
+      "subject": "chinese",
+      "materialId": "xpxwm4ii",
+      "chunkIds": [
+        "xpxwm4ii-0"
+      ],
+      "question": "《静夜思》属于哪种诗歌体裁？请说明其句数与每句字数特征。",
+      "answer": "五言绝句，四句，每句五个字",
+      "referenceAnswer": "《静夜思》是一首五言绝句，共四句，每句五个字。",
+      "score": 100,
+      "correctPoints": [
+        "五言绝句",
+        "四句",
+        "每句五个字"
+      ],
+      "missedPoints": [],
+      "feedback": "你的回答完全正确！可以再结合笔记第1点，巩固五言绝句的结构特征。"
+    },
+    {
+      "questionId": "t02uizxa",
+      "subject": "chinese",
+      "materialId": "xpxwm4ii",
+      "chunkIds": [
+        "xpxwm4ii-0"
+      ],
+      "question": "诗中‘疑是地上霜’运用了什么修辞手法？其本体和喻体分别是什么？",
+      "answer": "用了拟人",
+      "referenceAnswer": "运用了比喻的修辞手法；本体是‘明月光’，喻体是‘地上霜’。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "诗中‘疑是地上霜’运用的是比喻，不是拟人",
+        "本体是‘明月光’",
+        "喻体是‘地上霜’"
+      ],
+      "feedback": "请仔细复习笔记第3点：‘疑是地上霜’运用了比喻，把月光比作地上的霜。拟人是赋予事物以人的动作或情感，而这里没有拟人特征，请重点区分比喻和拟人的修辞特点。"
+    },
+    {
+      "questionId": "bvqlt34y",
+      "subject": "chinese",
+      "materialId": "xpxwm4ii",
+      "chunkIds": [
+        "xpxwm4ii-0"
+      ],
+      "question": "诗中哪两个动词形成鲜明对比？这一对比表现了怎样的情感过程？",
+      "answer": "",
+      "referenceAnswer": "‘举头’与‘低头’两个动词形成对比；表现了由仰望明月触发回忆，再到低头沉思故乡的完整思乡过程。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "tpuhxigt",
+      "subject": "chinese",
+      "materialId": "xpxwm4ii",
+      "chunkIds": [
+        "xpxwm4ii-0"
+      ],
+      "question": "诗人借何种自然意象抒发情感？该意象在诗中承载了怎样的思想感情？",
+      "answer": "",
+      "referenceAnswer": "借‘明月’这一自然意象抒发情感；它承载了诗人对故乡深切的思念之情。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "8dskv7w2",
+      "subject": "chinese",
+      "materialId": "xpxwm4ii",
+      "chunkIds": [
+        "xpxwm4ii-0"
+      ],
+      "question": "从内容与结构角度看，《静夜思》如何通过典型细节展现思乡主题？请结合诗句简要分析。",
+      "answer": "",
+      "referenceAnswer": "通过‘床前明月光’的视觉细节引出错觉‘疑是地上霜’，再以‘举头’‘低头’的动作细节勾连明月与故乡，以简驭繁、层层递进地展现思乡主题。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    }
+  ]
+}

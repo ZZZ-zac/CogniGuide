@@ -1,0 +1,80 @@
+{
+  "id": "c1wkxpym",
+  "mode": "subject",
+  "source": {
+    "quizId": "4sa7wkbk"
+  },
+  "createdAt": "2026-11-04T13:09:01.591Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "wfpzadq8",
+      "subject": "geography",
+      "materialId": "",
+      "chunkIds": [],
+      "question": "Explain why Hong Kong experiences a humid subtropical climate (Köppen classification Cfa), referring to its latitude and the influence of the East Asian monsoon.",
+      "answer": "I do not know",
+      "referenceAnswer": "Hong Kong lies at about 22°N, within the subtropical zone where warm, moist air masses dominate in summer. In summer, the southeast monsoon brings warm, humid air from the Pacific Ocean, causing heavy rainfall. In winter, the northeast monsoon brings cooler, drier air from the Asian continent, but temperatures rarely fall below 5°C due to maritime influence and low latitude.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Latitude (22°N) places Hong Kong in the subtropical zone",
+        "Summer southeast monsoon brings warm, moist air and heavy rain",
+        "Winter northeast monsoon brings cooler, drier air but temperatures stay above 5°C due to maritime influence and low latitude"
+      ],
+      "feedback": "Don’t worry — this is a chance to review how latitude and monsoons shape climate. Look again at Hong Kong’s position near 22°N and how summer and winter monsoons bring different air masses. Your textbook or class notes on East Asian monsoons and Köppen climate types will help!"
+    },
+    {
+      "questionId": "uue6cklx",
+      "subject": "geography",
+      "materialId": "",
+      "chunkIds": [],
+      "question": "A student measures the temperature at sea level in Hong Kong as 28°C. Using the standard environmental lapse rate of $6.5^{\\circ}\\text{C}/1000\\text{m}$, calculate the expected temperature at the summit of Tai Mo Shan (957 m above sea level).",
+      "answer": "",
+      "referenceAnswer": "Temperature decrease = $\\frac{6.5}{1000} \\times 957 \\approx 6.22^{\\circ}\\text{C}$. So expected temperature = $28 - 6.22 = 21.8^{\\circ}\\text{C}$ (rounded to one decimal place).",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "3iwtxe3c",
+      "subject": "geography",
+      "materialId": "",
+      "chunkIds": [],
+      "question": "Describe one physical factor and one human factor that make the New Territories a major area for agriculture in Hong Kong.",
+      "answer": "",
+      "referenceAnswer": "Physically, the New Territories has relatively flat alluvial plains (e.g., Yuen Long Plain) with fertile soil and access to freshwater from rivers and reservoirs. Human factors include government support through the Agriculture, Fisheries and Conservation Department (AFCD) and proximity to urban markets, enabling quick distribution of fresh produce.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "txz75zpf",
+      "subject": "geography",
+      "materialId": "",
+      "chunkIds": [],
+      "question": "Why do many buildings in Hong Kong have 'dragon gates' or open spaces at ground level? Link your answer to local wind patterns and urban heat island effects.",
+      "answer": "",
+      "referenceAnswer": "These open ground-level spaces (often called 'dragon gates') allow sea breezes — especially the prevailing southerly/southeasterly winds in summer — to flow through dense urban areas. This improves natural ventilation, reduces heat buildup, and helps mitigate the urban heat island effect by enhancing airflow and cooling.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "qam6yplx",
+      "subject": "geography",
+      "materialId": "",
+      "chunkIds": [],
+      "question": "Explain how coastal erosion threatens the village of Tai O on Lantau Island, and name one common coastal management strategy used there.",
+      "answer": "",
+      "referenceAnswer": "Tai O is built on stilts over a tidal mangrove wetland; rising sea levels and stronger storm surges increase erosion of its soft mudflat and mangrove edges, undermining stilt foundations and increasing flood risk. A common management strategy is the construction of riprap (rock armour) along vulnerable shorelines to absorb wave energy and reduce erosion.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    }
+  ]
+}

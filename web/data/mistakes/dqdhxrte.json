@@ -1,0 +1,34 @@
+{
+  "id": "dqdhxrte",
+  "question": {
+    "id": "dqdhxrte",
+    "question": "In triangle $LMN$, $\\angle L = 40^\\circ$, side $l = 5$ cm (opposite $\\angle L$), and side $n = 9$ cm (opposite $\\angle N$). Determine whether triangle $LMN$ can be formed. Show your working.",
+    "referenceAnswer": "1. Use the sine formula: $\\frac{n}{\\sin N} = \\frac{l}{\\sin L}$\n2. Rearrange to find $\\sin N$: $\\sin N = \\frac{n \\sin L}{l}$\n3. Substitute values: $\\sin N = \\frac{9 \\times \\sin 40^\\circ}{5}$\n4. Compute: $\\sin 40^\\circ \\approx 0.6428$\n5. So $\\sin N = \\frac{9 \\times 0.6428}{5} = 1.1570$\n6. Since $1.1570 > 1$, no such angle $N$ exists — triangle cannot be formed\nAnswer: No",
+    "evidence": "$C = 70^\\circ$, $b = 12$ cm, $c = 10$ cm — $\\frac{12\\ \\text{cm}}{\\sin B} = \\frac{10\\ \\text{cm}}{\\sin70^\\circ}$ — $\\sin B = \\frac{12\\sin70^\\circ}{10} = 1.13$ — $> 1$ — $\\therefore$ cannot be formed.",
+    "checks": [
+      "sin(40) = 0.6428",
+      "9*0.6428/5 = 1.1570",
+      "1.1570 > 1"
+    ],
+    "chunkIds": [
+      "b9oivaak-4"
+    ],
+    "subject": "math",
+    "materialId": "b9oivaak",
+    "language": "en",
+    "level": "s1",
+    "origin": "notes"
+  },
+  "lastAnswer": "2qw3terew",
+  "lastScore": 0,
+  "feedback": "You didn’t show any working or reasoning — please try applying the sine formula like in your notes: write \\(\\frac{n}{\\sin N} = \\frac{l}{\\sin L}\\), rearrange to find \\(\\sin N\\), then substitute the numbers. Remember: if \\(\\sin N > 1\\), the triangle can’t be formed.",
+  "missedPoints": [
+    "Used no valid method or working",
+    "Did not apply the sine formula",
+    "Did not compute sin 40° or substitute values",
+    "Did not compare result to 1 to determine possibility"
+  ],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-06T10:04:08.766Z",
+  "lastWrongAt": "2026-11-06T10:04:08.766Z"
+}

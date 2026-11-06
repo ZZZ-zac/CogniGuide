@@ -1,0 +1,89 @@
+{
+  "id": "fdzwxgum",
+  "mode": "practice",
+  "source": {
+    "subject": "math",
+    "materialId": "45ajf1sk"
+  },
+  "createdAt": "2026-11-05T14:53:25.200Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "axtbytuo",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-0",
+        "45ajf1sk-1"
+      ],
+      "question": "In question 16, $A = 25^\\circ$, $a = 11$ cm, and $c = 27$ cm. Explain why no triangle $\\triangle ABC$ can be formed, using the sine rule and the range of possible values for $\\sin C$.",
+      "answer": "",
+      "referenceAnswer": "Using the sine rule: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$, so $\\sin C = \\frac{c \\sin A}{a} = \\frac{27 \\sin 25^\\circ}{11} \\approx 1.04$. Since $\\sin C > 1$, which is impossible, no such triangle exists.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "wbvx8ji5",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "question": "In question 17, $A = 74^\\circ$, $a = 16$ cm, $c = 9$ cm. Show that exactly one triangle can be formed, and find $C$ correct to one decimal place.",
+      "answer": "",
+      "referenceAnswer": "Using $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$, we get $\\sin C = \\frac{9 \\sin 74^\\circ}{16} \\approx 0.540$, so $C \\approx 32.7^\\circ$. Since $A = 74^\\circ$ is acute and $a > c$, only one triangle is possible — the obtuse solution $C \\approx 147^\\circ$ is rejected because $A + C > 180^\\circ$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "e3quqe4y",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "question": "In question 18, $B = 135^\\circ$, $c = 7$ cm, $b = 2$ cm. Explain why no triangle can be formed, referencing the sine rule and the maximum possible value of sine.",
+      "answer": "",
+      "referenceAnswer": "Applying the sine rule: $\\frac{c}{\\sin C} = \\frac{b}{\\sin B}$, so $\\sin C = \\frac{c \\sin B}{b} = \\frac{7 \\sin 135^\\circ}{2} \\approx 2.47$. Since $\\sin C > 1$, which is outside the valid range $[0,1]$, no triangle exists.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "bsxjufse",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-0"
+      ],
+      "question": "In the first worked example (line 15), $\\theta$ is obtuse and $\\frac{13}{\\sin A} = \\frac{8}{\\sin 17^\\circ}$. Given $A = 28.4^\\circ$, explain how $\\theta = 135^\\circ$ is obtained, and verify that $\\theta$ is indeed obtuse.",
+      "answer": "",
+      "referenceAnswer": "Since angles in a triangle sum to $180^\\circ$, $\\theta = 180^\\circ - A - 17^\\circ = 180^\\circ - 28.4^\\circ - 17^\\circ = 134.6^\\circ \\approx 135^\\circ$. As $135^\\circ > 90^\\circ$, $\\theta$ is obtuse, satisfying the given condition.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "pficeuro",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-0",
+        "45ajf1sk-1"
+      ],
+      "question": "Compare the outcomes of questions 16 and 18: both give $\\sin(\\text{angle}) > 1$. What do their given angle–side pairs have in common that leads to this impossibility?",
+      "answer": "",
+      "referenceAnswer": "In both cases, the side opposite the given angle is too short to reach the other side: in Q16, side $a = 11$ cm is too short to form a triangle with angle $A = 25^\\circ$ and side $c = 27$ cm; in Q18, side $b = 2$ cm is too short opposite the large obtuse angle $B = 135^\\circ$ and side $c = 7$ cm. In both, the sine rule yields $\\sin(\\text{angle}) > 1$, violating the fundamental bound of sine.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    }
+  ]
+}

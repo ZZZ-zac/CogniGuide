@@ -1,0 +1,24 @@
+{
+  "id": "ckj4hrog",
+  "question": {
+    "id": "ckj4hrog",
+    "question": "Triangle $ABC$ has $AB = 5\\,\\text{cm}$, $AC = 4\\,\\text{cm}$, and area $8\\,\\text{cm}^2$. Given that $\\theta = \\angle BAC$ is acute, find $\\theta$ using the area formula.",
+    "referenceAnswer": "Using $\\text{area} = \\frac{1}{2} \\times AB \\times AC \\times \\sin \\theta$: $8 = \\frac{1}{2} \\times 5 \\times 4 \\times \\sin \\theta$, so $\\sin \\theta = \\frac{4}{5}$. Since $\\theta$ is acute, $\\theta = \\sin^{-1}\\left(\\frac{4}{5}\\right) \\approx 53.1^\\circ$.",
+    "evidence": "Area of $\\triangle ABC = \\frac{1}{2} \\times AB \\times AC \\times \\sin A$; $8 = \\frac{1}{2} \\times 5 \\times 4 \\times \\sin \\theta$; $\\sin \\theta = \\frac{4}{5}$; $\\theta = 53.130^\\circ$ or $180^\\circ - 53.130^\\circ$ (reject); $= 53.1^\\circ$",
+    "chunkIds": [
+      "sf0qmfb4-2"
+    ],
+    "subject": "math",
+    "materialId": "sf0qmfb4",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 7,
+  "firstWrongAt": "2026-11-05T14:48:12.876Z",
+  "lastWrongAt": "2026-11-05T14:49:35.593Z"
+}

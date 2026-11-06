@@ -1,0 +1,73 @@
+[
+  {
+    "id": "j9wjxuuf",
+    "question": "In triangle ABC, AC = 11.856 cm, BC = 6 cm, and AB = 8 cm. Use the cosine formula to find ∠ACB, and explain why the answer is given to 5 significant figures.",
+    "referenceAnswer": "Using the cosine formula: cos ∠ACB = (AC² + BC² − AB²) / (2 × AC × BC) = (11.856² + 6² − 8²) / (2 × 11.856 × 6) ≈ 0.7917. So ∠ACB ≈ 37.700°. It is given to 5 sig. fig. because the input lengths (e.g., 11.856 cm) have 5 sig. fig., and intermediate calculations preserve precision before final rounding.",
+    "evidence": "In △ABC, by the cosine formula, cos ∠ACB = (AC² + BC² − AB²) / (2 × AC × BC) = (11.856² + 6² − 8²) / (2 × 11.856 × 6) = 37.700°, cor. to 5 sig. fig.",
+    "chunkIds": [
+      "rhgcj9vv-0"
+    ],
+    "subject": "math",
+    "materialId": "rhgcj9vv",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "6he8im4k",
+    "question": "In triangle ACD, AD = 6 cm, CD = 11.856 cm, and ∠ADC = 130°. Explain why ∠CAD = 22.809° is accepted but its supplement is rejected.",
+    "referenceAnswer": "Using the sine formula: sin ∠CAD = (6 sin 130°)/11.856 ≈ 0.387, so ∠CAD ≈ 22.809° or 157.191°. But 157.191° + 130° > 180°, violating the triangle angle sum. So only 22.809° is valid.",
+    "evidence": "sin ∠CAD = (6 sin 130°)/11.856; ∠CAD = 22.809° or 180 − 22.809° (rejected); 22.809° + ∠ACD + 130° = 180°",
+    "chunkIds": [
+      "rhgcj9vv-0"
+    ],
+    "subject": "math",
+    "materialId": "rhgcj9vv",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "dgntxgxx",
+    "question": "Points A, B, C, D form a quadrilateral with EC ∥ AD, E on AB. Given AB = 13 cm, DC = 7 cm, and AD = 12 cm, explain why AE = 7 cm and EC = 12 cm.",
+    "referenceAnswer": "Since EC ∥ AD and AE ∥ DC (implied by construction to form a parallelogram AECD), opposite sides are equal: AE = DC = 7 cm and EC = AD = 12 cm.",
+    "evidence": "EC = AD = 12 cm (opp. sides of //gram); AE = DC = 7 cm (opp. sides of //gram)",
+    "chunkIds": [
+      "rhgcj9vv-1"
+    ],
+    "subject": "math",
+    "materialId": "rhgcj9vv",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "cfbzalcz",
+    "question": "In triangle BCE, EB = 6 cm, BC = 9 cm, and EC = 12 cm. Use the cosine formula to find ∠ABC, and explain how EB was found.",
+    "referenceAnswer": "EB = AB − AE = 13 − 7 = 6 cm. Then cos ∠ABC = (EB² + BC² − EC²)/(2 × EB × BC) = (6² + 9² − 12²)/(2 × 6 × 9) = −0.25, so ∠ABC ≈ 104° (since cos⁻¹(−0.25) ≈ 104°).",
+    "evidence": "EB = AB − AE = (13 − 7) cm = 6 cm; cos ∠ABC = (EB² + BC² − EC²)/(2 × EB × BC) = (6² + 9² − 12²)/(2 × 6 × 9); ∠ABC = 104°, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "rhgcj9vv-1"
+    ],
+    "subject": "math",
+    "materialId": "rhgcj9vv",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "vw8umgqu",
+    "question": "In quadrilateral PQRS, ∠QPS = 59°, ∠PQS = 64°, PS = 7.5 cm, QR = 7 cm, RS = 3 cm. Explain why PQRS is not cyclic.",
+    "referenceAnswer": "First, ∠PSQ = 180° − 59° − 64° = 57°. Using sine formula, QS ≈ 7.6654 cm. Then cos ∠QRS = (QR² + RS² − QS²)/(2 × QR × RS) gives ∠QRS ≈ 91.035°. Since ∠QPS + ∠QRS = 59° + 91.035° = 150.035° ≠ 180°, opposite angles are not supplementary → PQRS is not cyclic.",
+    "evidence": "∠PSQ = 57°; QS = 7.6654 cm; cos ∠QRS = (7² + 3² − 7.6654²)/(2 × 7 × 3); ∠QRS = 91.035°; ∠QPS + ∠QRS = 59° + 91.035° = 150° ≠ 180°; ∴ PQRS is not a cyclic quadrilateral.",
+    "chunkIds": [
+      "rhgcj9vv-3",
+      "rhgcj9vv-4"
+    ],
+    "subject": "math",
+    "materialId": "rhgcj9vv",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

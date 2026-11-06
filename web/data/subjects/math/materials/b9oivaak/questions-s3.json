@@ -1,0 +1,73 @@
+[
+  {
+    "id": "5vvbrkp9",
+    "question": "In triangle ABC, angle A = 40°, side c = 7 cm (i.e., AB = 7 cm), and side a = 3 cm (i.e., BC = 3 cm). Explain why no triangle can be formed with these measurements.",
+    "referenceAnswer": "Using the sine formula: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$, so $\\sin C = \\frac{c \\sin A}{a} = \\frac{7 \\sin 40^\\circ}{3} \\approx 1.50 > 1$. Since sine values cannot exceed 1, no angle C exists — hence no triangle can be formed.",
+    "evidence": "‘$\\sin C = \\frac{7\\sin40^\\circ}{3} = 1.50$, cor. to 3 sig. fig. > 1 ∴ There is no solution for $C$. ∴ $\\triangle ABC$ cannot be formed.’",
+    "chunkIds": [
+      "b9oivaak-2"
+    ],
+    "subject": "math",
+    "materialId": "b9oivaak",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "jhhf3olx",
+    "question": "Triangle ABC has angle A = 45°, side c = $5\\sqrt{2}$ cm, and side a = 5 cm. Find angle C and state whether the triangle can be formed.",
+    "referenceAnswer": "Using the sine formula: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$, so $\\sin C = \\frac{c \\sin A}{a} = \\frac{5\\sqrt{2} \\cdot \\sin 45^\\circ}{5} = 1$. Thus $C = 90^\\circ$, which is valid, so triangle ABC can be formed.",
+    "evidence": "‘$\\sin C = \\frac{(5\\sqrt{2})\\sin(45^\\circ)}{(5)} = (1)$, $C = (90^\\circ)$ ∴ $\\triangle ABC$ (can / cannot) be formed.’",
+    "chunkIds": [
+      "b9oivaak-3"
+    ],
+    "subject": "math",
+    "materialId": "b9oivaak",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "qubjvodw",
+    "question": "In triangle ABC, angle B = 30°, side a = 4 cm (i.e., BC), and side b = 2 cm (i.e., AC). Determine whether a triangle can be formed, and if so, find angle A.",
+    "referenceAnswer": "Using the sine formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$, so $\\sin A = \\frac{a \\sin B}{b} = \\frac{4 \\sin 30^\\circ}{2} = 1$. Thus $A = 90^\\circ$, which is valid, so exactly one triangle can be formed.",
+    "evidence": "‘$\\sin A = \\frac{4\\sin30^\\circ}{2} = 1$, $A = 90^\\circ$ ∴ $\\triangle ABC$ can be formed.’",
+    "chunkIds": [
+      "b9oivaak-4"
+    ],
+    "subject": "math",
+    "materialId": "b9oivaak",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "jju5h21l",
+    "question": "In a triangle, two sides are 7 cm and 5 cm, and the angle opposite the 7 cm side is 40°. Explain why the angle opposite the 5 cm side must be acute, and find its size correct to 3 significant figures.",
+    "referenceAnswer": "Since the given angle (40°) is acute and the side opposite it (5 cm) is shorter than the other given side (7 cm), the unknown angle must be acute (as only one acute solution satisfies the sine formula). Using $\\frac{7}{\\sin \\theta} = \\frac{5}{\\sin 40^\\circ}$, we get $\\sin \\theta = \\frac{7 \\sin 40^\\circ}{5} \\approx 0.900$, so $\\theta \\approx 64.1^\\circ$.",
+    "evidence": "‘$\\theta$ is acute. By the sine formula, $\\frac{7\\ \\text{cm}}{\\sin\\theta} = \\frac{5\\ \\text{cm}}{\\sin40^\\circ}$, $\\sin\\theta = \\frac{7\\sin40^\\circ}{5}$, $\\theta = \\underline{64.1^\\circ}$, cor. to 3 sig. fig.’",
+    "chunkIds": [
+      "b9oivaak-0",
+      "b9oivaak-1"
+    ],
+    "subject": "math",
+    "materialId": "b9oivaak",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "gzn3pwci",
+    "question": "Triangle ABC has angle C = 70°, side b = 12 cm (i.e., AC), and side c = 10 cm (i.e., AB). Explain why no triangle can be formed, referring to the sine formula and the range of possible sine values.",
+    "referenceAnswer": "Using the sine formula: $\\frac{b}{\\sin B} = \\frac{c}{\\sin C}$, so $\\sin B = \\frac{b \\sin C}{c} = \\frac{12 \\sin 70^\\circ}{10} \\approx 1.13 > 1$. Since $\\sin B$ cannot exceed 1, no such angle B exists — thus no triangle can be formed.",
+    "evidence": "‘$\\sin B = \\frac{12\\sin70^\\circ}{10} = 1.13$, cor. to 3 sig. fig. > 1 ∴ There is no solution for $B$. ∴ $\\triangle ABC$ cannot be formed.’",
+    "chunkIds": [
+      "b9oivaak-4"
+    ],
+    "subject": "math",
+    "materialId": "b9oivaak",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

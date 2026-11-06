@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tgcyb5s8",
+    "question": "In triangle ABC, angle A = 40°, angle B = 55°, and side c = 12 cm (where c is opposite angle C). Explain how to find angle C and then use the sine formula to write an expression for side a. Do not evaluate the expression.",
+    "referenceAnswer": "First, use the angle sum of a triangle: $C = 180^\\circ - 40^\\circ - 55^\\circ = 85^\\circ$. Then apply the sine formula: $\\frac{a}{\\sin A} = \\frac{c}{\\sin C}$, so $a = \\frac{12 \\sin 40^\\circ}{\\sin 85^\\circ}$ cm.",
+    "evidence": "Given Two Angles and One Side (AAS or ASA): (i) Use the angle sum of triangle to find the remaining angle. (ii) Use the sine formula to find the other two sides. Sine Formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$",
+    "chunkIds": [
+      "jknta7fh-0"
+    ],
+    "subject": "math",
+    "materialId": "jknta7fh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "zi0xxfz4",
+    "question": "Triangle ABC has A = 30°, C = 110°, and b = 8 cm. Explain why we can solve this triangle using the sine formula, and state which two steps (in order) must be taken.",
+    "referenceAnswer": "We can solve it because two angles and one side are given (ASA case). First, find angle B using the angle sum of a triangle: $B = 180^\\circ - 30^\\circ - 110^\\circ = 40^\\circ$. Second, use the sine formula to find sides a and c, e.g., $\\frac{a}{\\sin 30^\\circ} = \\frac{8}{\\sin 40^\\circ}$ and $\\frac{c}{\\sin 110^\\circ} = \\frac{8}{\\sin 40^\\circ}$.",
+    "evidence": "Given Two Angles and One Side (AAS or ASA): If two angles and one side of a triangle are given, the triangle can be solved by the following steps. (i) Use the angle sum of triangle to find the remaining angle. (ii) Use the sine formula to find the other two sides.",
+    "chunkIds": [
+      "jknta7fh-0"
+    ],
+    "subject": "math",
+    "materialId": "jknta7fh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "9bgkmdku",
+    "question": "In triangle ABC, A = 22°, C = 123°, and c = 30 cm. Show the calculation used to find side a, quoting the relevant part of the sine formula and substituting the given values.",
+    "referenceAnswer": "Using $\\frac{a}{\\sin A} = \\frac{c}{\\sin C}$, substitute to get $\\frac{a}{\\sin 22^\\circ} = \\frac{30}{\\sin 123^\\circ}$, so $a = \\frac{30 \\sin 22^\\circ}{\\sin 123^\\circ}$ cm.",
+    "evidence": "By the sine formula, $\\frac{a}{\\sin A} = \\frac{c}{\\sin C}$, $\\frac{a}{\\sin (22^\\circ)} = \\frac{(30 \\text{ cm})}{\\sin (123^\\circ)}$, $a = \\frac{(30)(\\sin 22^\\circ)}{(\\sin 123^\\circ)} \\text{ cm}$",
+    "chunkIds": [
+      "jknta7fh-2"
+    ],
+    "subject": "math",
+    "materialId": "jknta7fh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "otb9him5",
+    "question": "Explain why the sine formula cannot be directly used to solve a triangle when only three angles are known (e.g., A = 50°, B = 60°, C = 70°). What essential information is missing?",
+    "referenceAnswer": "The sine formula relates sides to their opposite angles, but with only angles given, there is no side length to anchor the scale of the triangle. So infinitely many similar triangles satisfy those angles — the actual sizes of sides a, b, c cannot be determined without at least one side length.",
+    "evidence": "The sine formula is $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$ — it requires at least one side and its opposite angle (or equivalent info) to solve for unknown sides.",
+    "chunkIds": [
+      "jknta7fh-0"
+    ],
+    "subject": "math",
+    "materialId": "jknta7fh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "jk1vtkez",
+    "question": "In triangle ABC, A = 65°, C = 85°, and b = 15 cm. Calculate angle B, then write the full equation from the sine formula that lets you find side c — including numbers and units.",
+    "referenceAnswer": "Angle B = $180^\\circ - 65^\\circ - 85^\\circ = 30^\\circ$. From the sine formula: $\\frac{c}{\\sin 85^\\circ} = \\frac{15 \\text{ cm}}{\\sin 30^\\circ}$.",
+    "evidence": "$A + B + C = 180^\\circ$ gives $B = 30^\\circ$. Then $\\frac{c}{\\sin C} = \\frac{b}{\\sin B}$ becomes $\\frac{c}{\\sin 85^\\circ} = \\frac{15 \\text{ cm}}{\\sin 30^\\circ}$",
+    "chunkIds": [
+      "jknta7fh-1"
+    ],
+    "subject": "math",
+    "materialId": "jknta7fh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

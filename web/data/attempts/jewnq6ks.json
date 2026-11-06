@@ -1,0 +1,110 @@
+{
+  "id": "jewnq6ks",
+  "mode": "quick",
+  "source": {
+    "quizId": "frw5sxy9"
+  },
+  "createdAt": "2026-11-06T10:04:08.777Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "hfflgvgx",
+      "subject": "math",
+      "materialId": "b9oivaak",
+      "chunkIds": [
+        "b9oivaak-3",
+        "b9oivaak-4"
+      ],
+      "question": "In triangle $PQR$, $\\angle P = 30^\\circ$, side $p = 6$ cm (opposite $\\angle P$), and side $r = 10$ cm (opposite $\\angle R$). Determine whether triangle $PQR$ can be formed. Show your working.",
+      "answer": "i",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{r}{\\sin R} = \\frac{p}{\\sin P}$\n2. Rearrange to find $\\sin R$: $\\sin R = \\frac{r \\sin P}{p}$\n3. Substitute values: $\\sin R = \\frac{10 \\times \\sin 30^\\circ}{6} = \\frac{10 \\times 0.5}{6} = 0.8333$\n4. Since $0.8333 < 1$, a valid angle $R$ exists\n5. So triangle $PQR$ can be formed\nAnswer: Yes",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Did not write any working or calculation",
+        "Did not apply the sine formula",
+        "Did not compute sin R or compare it to 1",
+        "Did not state a reason why the triangle can or cannot be formed"
+      ],
+      "feedback": "You wrote only 'i' — please try again by writing the sine formula, substituting the given values, and checking whether sin R is between 0 and 1. Review Instant Practice 2 and Questions 5–6 in your notes to see the full working steps."
+    },
+    {
+      "questionId": "xo3rkbxu",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "question": "In triangle $XYZ$, $\\angle X = 120^\\circ$, side $x = 15$ cm (opposite $\\angle X$), and side $z = 8$ cm (opposite $\\angle Z$). Determine whether triangle $XYZ$ can be formed. Show your working.",
+      "answer": "81iqt37raesf",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{z}{\\sin Z} = \\frac{x}{\\sin X}$\n2. Rearrange to find $\\sin Z$: $\\sin Z = \\frac{z \\sin X}{x}$\n3. Substitute values: $\\sin Z = \\frac{8 \\times \\sin 120^\\circ}{15}$\n4. Compute: $\\sin 120^\\circ = \\sin(180^\\circ - 60^\\circ) = \\sin 60^\\circ \\approx 0.8660$\n5. So $\\sin Z = \\frac{8 \\times 0.8660}{15} = 0.4619$\n6. Since $0.4619 < 1$, triangle $XYZ$ can be formed\nAnswer: Yes",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Did not attempt the question or provide any working or answer"
+      ],
+      "feedback": "Please try the question again. Use the sine formula like in your notes: write \\(\\frac{z}{\\sin Z} = \\frac{x}{\\sin X}\\), then solve for \\(\\sin Z\\) and check if it's between 0 and 1."
+    },
+    {
+      "questionId": "dqdhxrte",
+      "subject": "math",
+      "materialId": "b9oivaak",
+      "chunkIds": [
+        "b9oivaak-4"
+      ],
+      "question": "In triangle $LMN$, $\\angle L = 40^\\circ$, side $l = 5$ cm (opposite $\\angle L$), and side $n = 9$ cm (opposite $\\angle N$). Determine whether triangle $LMN$ can be formed. Show your working.",
+      "answer": "2qw3terew",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{n}{\\sin N} = \\frac{l}{\\sin L}$\n2. Rearrange to find $\\sin N$: $\\sin N = \\frac{n \\sin L}{l}$\n3. Substitute values: $\\sin N = \\frac{9 \\times \\sin 40^\\circ}{5}$\n4. Compute: $\\sin 40^\\circ \\approx 0.6428$\n5. So $\\sin N = \\frac{9 \\times 0.6428}{5} = 1.1570$\n6. Since $1.1570 > 1$, no such angle $N$ exists — triangle cannot be formed\nAnswer: No",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Used no valid method or working",
+        "Did not apply the sine formula",
+        "Did not compute sin 40° or substitute values",
+        "Did not compare result to 1 to determine possibility"
+      ],
+      "feedback": "You didn’t show any working or reasoning — please try applying the sine formula like in your notes: write \\(\\frac{n}{\\sin N} = \\frac{l}{\\sin L}\\), rearrange to find \\(\\sin N\\), then substitute the numbers. Remember: if \\(\\sin N > 1\\), the triangle can’t be formed."
+    },
+    {
+      "questionId": "b1avby69",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "question": "In triangle $DEF$, $\\angle D = 25^\\circ$, side $d = 7$ cm (opposite $\\angle D$), and side $f = 16$ cm (opposite $\\angle F$). Determine whether triangle $DEF$ can be formed. Show your working.",
+      "answer": "2351",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{f}{\\sin F} = \\frac{d}{\\sin D}$\n2. Rearrange to find $\\sin F$: $\\sin F = \\frac{f \\sin D}{d}$\n3. Substitute values: $\\sin F = \\frac{16 \\times \\sin 25^\\circ}{7}$\n4. Compute: $\\sin 25^\\circ \\approx 0.4226$\n5. So $\\sin F = \\frac{16 \\times 0.4226}{7} = 0.9659$\n6. Since $0.9659 < 1$, triangle $DEF$ can be formed\nAnswer: Yes",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "No working shown",
+        "No use of sine formula",
+        "No calculation of sin F",
+        "No comparison to 1 to determine possibility",
+        "No conclusion justified"
+      ],
+      "feedback": "You wrote '2351' but didn't show any working or reasoning. To solve this, recall the sine rule: write it down, substitute the given values, calculate sin F, and check if it's between 0 and 1. Try again step by step!"
+    },
+    {
+      "questionId": "6jycjhlh",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "question": "In triangle $ABC$, $\\angle A = 130^\\circ$, side $a = 12$ cm (opposite $\\angle A$), and side $c = 5$ cm (opposite $\\angle C$). Determine whether triangle $ABC$ can be formed. Show your working.",
+      "answer": "q523awrf",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$\n2. Rearrange to find $\\sin C$: $\\sin C = \\frac{c \\sin A}{a}$\n3. Substitute values: $\\sin C = \\frac{5 \\times \\sin 130^\\circ}{12}$\n4. Compute: $\\sin 130^\\circ = \\sin(180^\\circ - 50^\\circ) = \\sin 50^\\circ \\approx 0.7660$\n5. So $\\sin C = \\frac{5 \\times 0.7660}{12} = 0.3192$\n6. Since $0.3192 < 1$, triangle $ABC$ can be formed\nAnswer: Yes",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Did not write any working or answer",
+        "Did not apply the sine formula",
+        "Did not calculate sin C or check if it is between 0 and 1",
+        "Did not state whether the triangle can be formed"
+      ],
+      "feedback": "You haven’t written any working or answer for this question. Please review how to use the sine formula to check if a triangle can be formed when two sides and a non-included angle are given. Try substituting the values into $\\sin C = \\frac{c \\sin A}{a}$ and see if the result is between 0 and 1."
+    }
+  ]
+}

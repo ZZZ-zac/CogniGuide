@@ -1,0 +1,106 @@
+{
+  "v": 2,
+  "questions": [
+    {
+      "id": "uhvdlh4g",
+      "question": "In triangle $PQR$, $PQ = 7\\text{ cm}$, $PR = 10\\text{ cm}$, and $\\angle Q = 40^\\circ$. Use the sine formula to determine whether triangle $PQR$ can be formed. If it can, find all possible values of $\\angle R$, correct to 3 significant figures.",
+      "referenceAnswer": "1. sine formula: $\\frac{PR}{\\sin Q} = \\frac{PQ}{\\sin R}$\n2. substitute: $\\frac{10}{\\sin 40^\\circ} = \\frac{7}{\\sin R}$\n3. solve for $\\sin R$: $\\sin R = \\frac{7 \\sin 40^\\circ}{10} = 0.4500$\n4. find acute angle: $R = \\arcsin(0.4500) = 26.743^\\circ$\n5. check obtuse possibility: $180^\\circ - 26.743^\\circ = 153.257^\\circ$\n6. verify triangle angle sum: $Q + R = 40^\\circ + 153.257^\\circ = 193.257^\\circ > 180^\\circ$, so rejected\nAnswer: $26.7^\\circ$",
+      "evidence": "By the sine formula, $\\frac{18 \\text{ cm}}{\\sin B} = \\frac{12 \\text{ cm}}{\\sin 36^\\circ} = \\frac{9 \\text{ cm}}{\\sin 42^\\circ}$ ... $B = 62.327^\\circ \\text{ or } 180^\\circ - 62.327^\\circ$ ... $= 62.3^\\circ \\text{ or } 118^\\circ$",
+      "checks": [
+        "7*sin(40)/10 = 0.4500",
+        "asin(0.4500) = 26.743",
+        "40 + 26.743 = 66.743 < 180",
+        "40 + (180 - 26.743) = 193.257 > 180"
+      ],
+      "chunkIds": [
+        "5q7siilx-0"
+      ],
+      "subject": "math",
+      "materialId": "5q7siilx",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "nwfird9g",
+      "question": "In triangle $XYZ$, $XY = 4\\text{ cm}$, $YZ = 9\\text{ cm}$, and $\\angle X = 125^\\circ$. Use the sine formula to determine whether triangle $XYZ$ can be formed. Show your reasoning clearly.",
+      "referenceAnswer": "1. sine formula: $\\frac{YZ}{\\sin X} = \\frac{XY}{\\sin Z}$\n2. substitute: $\\frac{9}{\\sin 125^\\circ} = \\frac{4}{\\sin Z}$\n3. solve for $\\sin Z$: $\\sin Z = \\frac{4 \\sin 125^\\circ}{9} = 0.3642$\n4. find acute angle: $Z = \\arcsin(0.3642) = 21.362^\\circ$\n5. check obtuse possibility: $180^\\circ - 21.362^\\circ = 158.638^\\circ$\n6. verify triangle angle sum: $X + Z = 125^\\circ + 158.638^\\circ = 283.638^\\circ > 180^\\circ$, so rejected; but $125^\\circ + 21.362^\\circ = 146.362^\\circ < 180^\\circ$, so valid\nAnswer: Yes, triangle can be formed",
+      "evidence": "By the sine formula, \n$$\n\\frac{40 \\text{ cm}}{\\sin B} = \\frac{36 \\text{ cm}}{\\sin 130^\\circ} = \\frac{36}{40 \\sin 130^\\circ}\n$$\n$$\n\\sin B = \\frac{36}{40 \\sin 130^\\circ}\n$$\n$$\nB = 58.338^\\circ \\text{ or } 180^\\circ - 58.338^\\circ \\text{ (rejected)}\n$$\n$$\nA + B = 130^\\circ + 58.338^\\circ = 188^\\circ > 180^\\circ\n$$\n$\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "4*sin(125)/9 = 0.3642",
+        "asin(0.3642) = 21.362",
+        "125 + 21.362 = 146.362 < 180",
+        "125 + (180 - 21.362) = 283.638 > 180"
+      ],
+      "chunkIds": [
+        "5q7siilx-1"
+      ],
+      "subject": "math",
+      "materialId": "5q7siilx",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "2fgad7rb",
+      "question": "In triangle $LMN$, $LN = 5\\text{ cm}$, $MN = 8\\text{ cm}$, and $\\angle L = 110^\\circ$. Use the sine formula to find $\\angle N$, correct to 3 significant figures. State whether the triangle is ambiguous and explain why.",
+      "referenceAnswer": "1. sine formula: $\\frac{MN}{\\sin L} = \\frac{LN}{\\sin N}$\n2. substitute: $\\frac{8}{\\sin 110^\\circ} = \\frac{5}{\\sin N}$\n3. solve for $\\sin N$: $\\sin N = \\frac{5 \\sin 110^\\circ}{8} = 0.5878$\n4. find acute angle: $N = \\arcsin(0.5878) = 36.000^\\circ$\n5. check obtuse possibility: $180^\\circ - 36.000^\\circ = 144.000^\\circ$\n6. verify angle sum: $L + N = 110^\\circ + 144.000^\\circ = 254^\\circ > 180^\\circ$, so only one solution\nAnswer: $36.0^\\circ$",
+      "evidence": "By the sine formula, \n$$\n\\frac{8 \\text{ cm}}{\\sin \\angle BAD} = \\frac{11 \\text{ cm}}{\\sin 117^\\circ}\n$$\n$$\n\\sin \\angle BAD = \\frac{8 \\sin 117^\\circ}{11}\n$$\n$$\n\\angle BAD = 40.391^\\circ \\text{ or } 180^\\circ - 40.391^\\circ \\text{ (rejected)}\n$$",
+      "checks": [
+        "5*sin(110)/8 = 0.5878",
+        "asin(0.5878) = 36.000",
+        "110 + 36.000 = 146.000 < 180",
+        "110 + (180 - 36.000) = 254.000 > 180"
+      ],
+      "chunkIds": [
+        "5q7siilx-6"
+      ],
+      "subject": "math",
+      "materialId": "5q7siilx",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "pfdyd5rb",
+      "question": "In triangle $UVW$, $UV = 6\\text{ cm}$, $UW = 12\\text{ cm}$, and $\\angle V = 25^\\circ$. Use the sine formula to determine whether triangle $UVW$ can be formed. If not, explain why using the sine ratio.",
+      "referenceAnswer": "1. sine formula: $\\frac{UW}{\\sin V} = \\frac{UV}{\\sin W}$\n2. substitute: $\\frac{12}{\\sin 25^\\circ} = \\frac{6}{\\sin W}$\n3. solve for $\\sin W$: $\\sin W = \\frac{6 \\sin 25^\\circ}{12} = 0.2113$\n4. since $0.2113 < 1$, solution exists\n5. find acute angle: $W = \\arcsin(0.2113) = 12.189^\\circ$\n6. check obtuse possibility: $180^\\circ - 12.189^\\circ = 167.811^\\circ$; $V + W = 25^\\circ + 167.811^\\circ = 192.811^\\circ > 180^\\circ$, so rejected\nAnswer: Yes, triangle can be formed",
+      "evidence": "$\\sin B = \\frac{3 \\sin 54^\\circ}{5} = 1.35, \\text{ cor. to } 3 \\text{ sig. fig.} > 1$ $\\therefore$ There are no solutions for $B$. $\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "6*sin(25)/12 = 0.2113",
+        "0.2113 < 1",
+        "asin(0.2113) = 12.189",
+        "25 + 12.189 = 37.189 < 180",
+        "25 + (180 - 12.189) = 192.811 > 180"
+      ],
+      "chunkIds": [
+        "5q7siilx-0"
+      ],
+      "subject": "math",
+      "materialId": "5q7siilx",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "fxit2hzy",
+      "question": "In triangle $FGH$, $FG = 9\\text{ cm}$, $GH = 6\\text{ cm}$, and $\\angle H = 30^\\circ$. Use the sine formula to find the length of side $FH$, correct to 3 significant figures.",
+      "referenceAnswer": "1. sine formula: $\\frac{FG}{\\sin H} = \\frac{GH}{\\sin F}$\n2. first find $\\sin F$: $\\frac{9}{\\sin 30^\\circ} = \\frac{6}{\\sin F}$\n3. solve: $\\sin F = \\frac{6 \\sin 30^\\circ}{9} = 0.3333$\n4. $F = \\arcsin(0.3333) = 19.471^\\circ$\n5. find $G = 180^\\circ - 30^\\circ - 19.471^\\circ = 130.529^\\circ$\n6. apply sine formula again: $\\frac{FH}{\\sin G} = \\frac{9}{\\sin 30^\\circ}$ → $FH = \\frac{9 \\sin 130.529^\\circ}{\\sin 30^\\circ} = 13.6\\text{ cm}$\nAnswer: $13.6\\text{ cm}$",
+      "evidence": "In $\\triangle ACD$, by the sine formula, \n$$\n\\frac{9 \\text{ cm}}{\\sin \\angle DCB} = \\frac{6 \\text{ cm}}{\\sin 30^\\circ}\n$$\n$$\n\\sin \\angle DCB = \\frac{9 \\sin 30^\\circ}{6}\n$$\n$$\n\\angle DCB = 48.590^\\circ, \\text{ cor. to } 5 \\text{ sig. fig.}\n$$",
+      "checks": [
+        "6*sin(30)/9 = 0.3333",
+        "asin(0.3333) = 19.471",
+        "180 - 30 - 19.471 = 130.529",
+        "9*sin(130.529)/sin(30) = 13.600"
+      ],
+      "chunkIds": [
+        "5q7siilx-3"
+      ],
+      "subject": "math",
+      "materialId": "5q7siilx",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    }
+  ]
+}

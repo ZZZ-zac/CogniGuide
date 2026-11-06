@@ -1,0 +1,75 @@
+[
+  {
+    "id": "rhjxacjv",
+    "question": "In quadrilateral $ABCD$, $AB = 5$ cm, $BC = 15$ cm, $CD = 12$ cm, $AC = 18$ cm, and $\\angle ADC = 118^\\circ$. Explain how to find $\\angle DCA$ using the sine formula and angle sum of a triangle.",
+    "referenceAnswer": "First, in $\\triangle ACD$, apply the sine formula: $\\frac{CD}{\\sin \\angle DAC} = \\frac{AC}{\\sin \\angle ADC}$, so $\\frac{12}{\\sin \\angle DAC} = \\frac{18}{\\sin 118^\\circ}$. Solve to get $\\angle DAC \\approx 36.060^\\circ$. Then use angle sum: $\\angle DCA = 180^\\circ - \\angle DAC - \\angle ADC = 180^\\circ - 36.060^\\circ - 118^\\circ = 25.9^\\circ$.",
+    "evidence": "In $\\triangle ACD$, by the sine formula, $\\frac{12 \\text{ cm}}{\\sin \\angle DAC} = \\frac{18 \\text{ cm}}{\\sin 118^\\circ}$; $\\angle DAC = 36.060^\\circ$ ... $\\angle DAC + \\angle DCA + \\angle ADC = 180^\\circ$; $\\angle DCA = 25.9^\\circ$",
+    "chunkIds": [
+      "lrfzkktf-0"
+    ],
+    "subject": "math",
+    "materialId": "lrfzkktf",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "isyyyzx1",
+    "question": "Quadrilateral $ABCD$ is split into $\\triangle ABC$ and $\\triangle ACD$ by diagonal $AC$. Given $AB = 5$ cm, $BC = 15$ cm, $AC = 18$ cm, $CD = 12$ cm, and $\\angle DCA = 25.940^\\circ$, explain why the total area of $ABCD$ is less than $80\\ \\text{cm}^2$.",
+    "referenceAnswer": "Area of $\\triangle ABC$ is found using Heron’s formula with semi-perimeter $s = 19$ cm: $\\sqrt{19(19-5)(19-15)(19-18)} \\approx 32.619\\ \\text{cm}^2$. Area of $\\triangle ACD$ is $\\frac{1}{2} \\times AC \\times CD \\times \\sin \\angle DCA = \\frac{1}{2} \\times 18 \\times 12 \\times \\sin 25.940^\\circ \\approx 47.242\\ \\text{cm}^2$. Sum is $79.861\\ \\text{cm}^2 < 80\\ \\text{cm}^2$.",
+    "evidence": "By Heron’s formula, area of $\\triangle ABC = \\sqrt{19(19-5)(19-15)(19-18)}$ cm$^2 = 32.619$ cm$^2$ ... area of $\\triangle ACD = \\frac{1}{2} \\times 18 \\times 12 \\times \\sin 25.940^\\circ$ cm$^2 = 47.242$ cm$^2$ ... Area of $ABCD = (32.619 + 47.242)$ cm$^2 = 79.861$ cm$^2 < 80$ cm$^2$",
+    "chunkIds": [
+      "lrfzkktf-0",
+      "lrfzkktf-1"
+    ],
+    "subject": "math",
+    "materialId": "lrfzkktf",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "epqhebmp",
+    "question": "In sector $OABC$ with centre $O$, $OC = 9$ cm and $\\angle AOC = 90^\\circ$. Point $D$ lies on $OA$ such that $OD = 2AD$. Find $OD$ and explain how $\\angle DCO$ is calculated.",
+    "referenceAnswer": "Since $OD = 2AD$ and $OD + AD = OA = OC = 9$ cm, then $2AD + AD = 9$, so $AD = 3$ cm and $OD = 6$ cm. In right triangle $\\triangle OCD$, $\\tan \\angle DCO = \\frac{OD}{OC} = \\frac{6}{9}$, so $\\angle DCO = \\tan^{-1}(\\frac{2}{3}) \\approx 33.690^\\circ$.",
+    "evidence": "$OD + AD = OA$; $2AD + AD = 9$ cm; $AD = 3$ cm; $\\therefore OD = OA - AD = (9 - 3)$ cm $= 6$ cm. In $\\triangle OCD$, $\\tan \\angle DCO = \\frac{OD}{OC} = \\frac{6}{9}$; $\\angle DCO = 33.690^\\circ$",
+    "chunkIds": [
+      "lrfzkktf-2"
+    ],
+    "subject": "math",
+    "materialId": "lrfzkktf",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "7warhlri",
+    "question": "Given that $CD$ bisects $\\angle OCB$ in sector $OABC$, and $\\angle DCO = 33.690^\\circ$, explain how $\\angle BOC$ is found using triangle angle sum in $\\triangle OBC$.",
+    "referenceAnswer": "Since $CD$ bisects $\\angle OCB$, $\\angle OCB = 2 \\times \\angle DCO = 67.380^\\circ$. As $OB = OC$, $\\triangle OBC$ is isosceles, so $\\angle OBC = \\angle OCB = 67.380^\\circ$. Then by angle sum: $\\angle BOC = 180^\\circ - 67.380^\\circ - 67.380^\\circ = 45.240^\\circ$.",
+    "evidence": "$\\because CD$ is the angle bisector of $\\angle OCB$. $\\therefore \\angle BCD = \\angle DCO = 33.690^\\circ$ ... $\\because OB = OC$ $\\therefore \\angle OBC = \\angle OCB = 2(33.690^\\circ) = 67.380^\\circ$ ... In $\\triangle OBC$, $\\angle BOC + \\angle OCB + \\angle OBC = 180^\\circ$; $\\angle BOC + 2(67.380^\\circ) = 180^\\circ$; $\\angle BOC = 45.240^\\circ$",
+    "chunkIds": [
+      "lrfzkktf-2",
+      "lrfzkktf-3"
+    ],
+    "subject": "math",
+    "materialId": "lrfzkktf",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "8cjxmhxc",
+    "question": "The shaded region $ABED$ lies inside sector $OABC$ but outside $\\triangle DOE$. Given $OA = 9$ cm, $\\angle AOB = \\angle DOE = 44.760^\\circ$, $OD = 6$ cm, and $OE \\approx 5.0869$ cm, write the expression for its area and explain each term.",
+    "referenceAnswer": "Area = (area of sector $AOB$) − (area of $\\triangle DOE$). Sector area is $\\pi \\times 9^2 \\times \\frac{44.760^\\circ}{360^\\circ}$, since radius $= OA = 9$ cm and central angle $= \\angle AOB = 44.760^\\circ$. Triangle area is $\\frac{1}{2} \\times OD \\times OE \\times \\sin \\angle DOE = \\frac{1}{2} \\times 6 \\times 5.0869 \\times \\sin 44.760^\\circ$, using two sides and included angle.",
+    "evidence": "Area of the shaded region $ABED = \\pi \\times OA^2 \\times \\frac{\\angle AOB}{360^\\circ} - \\frac{1}{2} \\times OD \\times OE \\times \\sin \\angle AOB$; $\\angle DOE = 90^\\circ - \\angle BOC = 44.760^\\circ$; $OE = \\frac{6 \\sin 56.310^\\circ}{\\sin 78.930^\\circ}$ cm $= 5.0869$ cm",
+    "chunkIds": [
+      "lrfzkktf-3",
+      "lrfzkktf-4"
+    ],
+    "subject": "math",
+    "materialId": "lrfzkktf",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

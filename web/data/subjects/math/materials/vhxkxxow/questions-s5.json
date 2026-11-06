@@ -1,0 +1,99 @@
+{
+  "v": 2,
+  "questions": [
+    {
+      "id": "4xkuh9xk",
+      "question": "In $\\triangle PQR$, $\\angle P = 42^\\circ$, side $p = QR = 10$ cm, and side $r = PQ = 14$ cm. Determine whether $\\triangle PQR$ can be formed. If yes, find $\\angle R$, correct to 3 significant figures. If not, explain why.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{14}{\\sin R} = \\frac{10}{\\sin 42^\\circ}$.\n2. Solve for $\\sin R$: $\\sin R = \\frac{14 \\sin 42^\\circ}{10}$.\n3. Compute: $\\sin R = 0.9367$, which is ≤ 1 → solution exists.\n4. Since $\\angle P = 42^\\circ$ is acute and $r > p$, there is only one possible triangle (no ambiguous case).\n5. So $R = \\arcsin(0.9367) = 69.5^\\circ$, correct to 3 sig. fig.\n6. Check angle sum: $P + R = 42^\\circ + 69.5^\\circ = 111.5^\\circ < 180^\\circ$, so valid.\nAnswer: $69.5^\\circ$",
+      "evidence": "By the sine formula, \n$$\n\\frac{27\\ \\text{cm}}{\\sin C} = \\frac{11\\ \\text{cm}}{\\sin 25^\\circ}\n$$ \n$$\n\\sin C = \\frac{27 \\sin 25^\\circ}{11}\n$$ \n$$\n= 1.04,\\ \\text{cor. to 3 sig. fig.}\n$$ \n$$\n> 1\n$$ \n$\\therefore$ There is no solution for $C$. \n$\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "14*sin(42)/10 = 0.9367",
+        "asin(0.9367) = 69.5",
+        "42 + 69.5 = 111.5"
+      ],
+      "chunkIds": [
+        "vhxkxxow-1",
+        "vhxkxxow-2"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s5",
+      "origin": "notes"
+    },
+    {
+      "id": "qlaxywsm",
+      "question": "In $\\triangle XYZ$, $\\angle Y = 110^\\circ$, side $y = XZ = 12$ cm, and side $z = XY = 5$ cm. Determine whether $\\triangle XYZ$ can be formed. If yes, find $\\angle Z$, correct to 3 significant figures. If not, explain why.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{5}{\\sin Z} = \\frac{12}{\\sin 110^\\circ}$.\n2. Solve for $\\sin Z$: $\\sin Z = \\frac{5 \\sin 110^\\circ}{12}$.\n3. Compute: $\\sin Z = 0.3923$, which is ≤ 1 → solution exists.\n4. Since $\\angle Y = 110^\\circ$ is obtuse, and $z < y$, exactly one triangle is possible.\n5. So $Z = \\arcsin(0.3923) = 23.1^\\circ$, correct to 3 sig. fig.\n6. Check angle sum: $Y + Z = 110^\\circ + 23.1^\\circ = 133.1^\\circ < 180^\\circ$, so valid.\nAnswer: $23.1^\\circ$",
+      "evidence": "By the sine formula, \n$$\n\\frac{9\\ \\text{cm}}{\\sin C} = \\frac{16\\ \\text{cm}}{\\sin 74^\\circ}\n$$ \n$$\n\\sin C = \\frac{9 \\sin 74^\\circ}{16}\n$$ \n$$\nC = 32.7^\\circ,\\ \\text{cor. to 3 sig. fig.}\n$$ \n$$\nA + C = 74^\\circ + 32.732^\\circ\n$$ \n$$\n= 107^\\circ,\\ \\text{cor. to 3 sig. fig.}\n$$ \n$$\n< 180^\\circ\n$$ \n$\\therefore$ $\\triangle ABC$ can be formed and $C = 32.7^\\circ$.",
+      "checks": [
+        "5*sin(110)/12 = 0.3923",
+        "asin(0.3923) = 23.1",
+        "110 + 23.1 = 133.1"
+      ],
+      "chunkIds": [
+        "vhxkxxow-2"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s5",
+      "origin": "notes"
+    },
+    {
+      "id": "tmitpxdw",
+      "question": "In $\\triangle DEF$, $\\angle D = 30^\\circ$, side $d = EF = 6$ cm, and side $f = DE = 13$ cm. Determine whether $\\triangle DEF$ can be formed. If yes, find $\\angle F$, correct to 3 significant figures. If not, explain why.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{13}{\\sin F} = \\frac{6}{\\sin 30^\\circ}$.\n2. Solve for $\\sin F$: $\\sin F = \\frac{13 \\sin 30^\\circ}{6}$.\n3. Compute: $\\sin F = 1.083$, which is > 1.\n4. Therefore, no real angle $F$ satisfies this.\n5. So $\\triangle DEF$ cannot be formed.\n6. This is because the given side opposite the known angle is too short to reach — the height from $E$ to line $DF$ is $13 \\sin 30^\\circ = 6.5$ cm > $d = 6$ cm.\nAnswer: No such triangle exists",
+      "evidence": "By the sine formula, \n$$\n\\frac{27\\ \\text{cm}}{\\sin C} = \\frac{11\\ \\text{cm}}{\\sin 25^\\circ}\n$$ \n$$\n\\sin C = \\frac{27 \\sin 25^\\circ}{11}\n$$ \n$$\n= 1.04,\\ \\text{cor. to 3 sig. fig.}\n$$ \n$$\n> 1\n$$ \n$\\therefore$ There is no solution for $C$. \n$\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "13*sin(30)/6 = 1.083"
+      ],
+      "chunkIds": [
+        "vhxkxxow-1",
+        "vhxkxxow-2"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s5",
+      "origin": "notes"
+    },
+    {
+      "id": "ykxuwxks",
+      "question": "In $\\triangle LMN$, $\\angle M = 125^\\circ$, side $m = LN = 4$ cm, and side $n = LM = 9$ cm. Determine whether $\\triangle LMN$ can be formed. If yes, find $\\angle N$, correct to 3 significant figures. If not, explain why.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{9}{\\sin N} = \\frac{4}{\\sin 125^\\circ}$.\n2. Solve for $\\sin N$: $\\sin N = \\frac{9 \\sin 125^\\circ}{4}$.\n3. Compute: $\\sin N = 1.842$, which is > 1.\n4. Therefore, no real angle $N$ satisfies this.\n5. Since $\\angle M$ is obtuse and $n > m$, but the sine calculation exceeds 1, no triangle exists.\n6. Geometrically, side $n$ is too long relative to the fixed obtuse angle — the law of sines fails, confirming impossibility.\nAnswer: No such triangle exists",
+      "evidence": "By the sine formula, \n$$\n\\frac{7\\ \\text{cm}}{\\sin C} = \\frac{2\\ \\text{cm}}{\\sin 135^\\circ}\n$$ \n$$\n\\sin C = \\frac{7 \\sin 135^\\circ}{2}\n$$ \n$$\n= 2.47,\\ \\text{cor. to 3 sig. fig.}\n$$ \n$$\n> 1\n$$ \n$\\therefore$ There is no solution for $C$.\n$\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "9*sin(125)/4 = 1.842"
+      ],
+      "chunkIds": [
+        "vhxkxxow-2",
+        "vhxkxxow-3"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s5",
+      "origin": "notes"
+    },
+    {
+      "id": "s5c6qllt",
+      "question": "In $\\triangle ABC$, $\\angle A = 50^\\circ$, side $a = BC = 8.5$ cm, and side $c = AB = 10.2$ cm. Determine whether $\\triangle ABC$ can be formed. If yes, find $\\angle C$, correct to 3 significant figures. If not, explain why.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{10.2}{\\sin C} = \\frac{8.5}{\\sin 50^\\circ}$.\n2. Solve for $\\sin C$: $\\sin C = \\frac{10.2 \\sin 50^\\circ}{8.5}$.\n3. Compute: $\\sin C = 0.9192$, which is ≤ 1 → solution exists.\n4. Since $\\angle A = 50^\\circ$ is acute and $c > a$, only one triangle is possible (larger side opposite larger angle; $C > A$).\n5. So $C = \\arcsin(0.9192) = 66.8^\\circ$, correct to 3 sig. fig.\n6. Check angle sum: $A + C = 50^\\circ + 66.8^\\circ = 116.8^\\circ < 180^\\circ$, so valid.\nAnswer: $66.8^\\circ$",
+      "evidence": "By the sine formula,\n$$\n\\frac{7.2\\ \\text{cm}}{\\sin B} = \\frac{8.6\\ \\text{cm}}{\\sin 58^\\circ}\n$$ \n$$\n\\sin B = \\frac{7.2 \\sin 58^\\circ}{8.6}\n$$ \n$$\nB = 45.234^\\circ,\\ \\text{cor. to 5 sig. fig.}\n$$ \n$$\nA + B + C = 180^\\circ\n$$ \n$$\n58^\\circ + 45.234^\\circ + \\theta = 180^\\circ\n$$ \n$$\n\\theta = 76.8^\\circ,\\ \\text{cor. to 3 sig. fig.}\n$$",
+      "checks": [
+        "10.2*sin(50)/8.5 = 0.9192",
+        "asin(0.9192) = 66.8",
+        "50 + 66.8 = 116.8"
+      ],
+      "chunkIds": [
+        "vhxkxxow-0"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s5",
+      "origin": "notes"
+    }
+  ]
+}

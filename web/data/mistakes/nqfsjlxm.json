@@ -1,0 +1,24 @@
+{
+  "id": "nqfsjlxm",
+  "question": {
+    "id": "nqfsjlxm",
+    "question": "In triangle ABC, if angle A = 45°, side a = 5 cm, and side c = 5\\sqrt{2} cm, can triangle ABC be formed? Explain using the sine formula.",
+    "referenceAnswer": "By the sine formula, \\(\\frac{5\\sqrt{2}}{\\sin C} = \\frac{5}{\\sin 45^\\circ}\\). Solving gives \\(\\sin C = 1\\), so \\(C = 90^\\circ\\). Since \\(-1 \\le \\sin C \\le 1\\), and \\(\\sin C = 1\\) is valid, triangle ABC can be formed.",
+    "evidence": "By the sine formula, \\(\\frac{(5\\sqrt{2})}{\\sin C} = \\frac{(5)}{\\sin(45^\\circ)}\\) \\(\\Rightarrow \\sin C = 1\\) \\(\\Rightarrow C = 90^\\circ\\) \\(\\therefore \\triangle ABC\\) (can / cannot) be formed.",
+    "chunkIds": [
+      "z8xs67wj-2"
+    ],
+    "subject": "math",
+    "materialId": "z8xs67wj",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-05T12:43:34.975Z",
+  "lastWrongAt": "2026-11-05T12:43:34.975Z"
+}

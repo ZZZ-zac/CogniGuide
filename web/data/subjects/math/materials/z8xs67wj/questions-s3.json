@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sqdoyev2",
+    "question": "In a triangle, two sides are $a = 4$ cm and $b = 2$ cm, and the angle opposite side $b$ is $B = 30^\\circ$. Use the sine formula to determine whether a triangle can be formed, and explain your conclusion.",
+    "referenceAnswer": "Using the sine formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$, so $\\frac{4}{\\sin A} = \\frac{2}{\\sin 30^\\circ}$. Since $\\sin 30^\\circ = 0.5$, we get $\\sin A = \\frac{4 \\times 0.5}{2} = 1$, so $A = 90^\\circ$. Since $\\sin A = 1$ is valid and gives a unique acute angle, exactly one triangle can be formed.",
+    "evidence": "For Q5: '$B = 30^\\circ$, $a = 4$ cm, $b = 2$ cm' → '$\\frac{(4)}{\\sin A} = \\frac{(2)}{\\sin(30^\\circ)}$' → '$A = 90^\\circ$' → '∴ Yes'.",
+    "chunkIds": [
+      "z8xs67wj-3"
+    ],
+    "subject": "math",
+    "materialId": "z8xs67wj",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "sxewbmnc",
+    "question": "Given $A = 40^\\circ$, $c = 7$ cm, and $a = 3$ cm, show that no triangle can be formed by computing $\\sin C$ using the sine formula and explaining why this value is impossible.",
+    "referenceAnswer": "By the sine formula: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$, so $\\sin C = \\frac{c \\sin A}{a} = \\frac{7 \\sin 40^\\circ}{3} \\approx 1.50$. Since $\\sin C$ must lie between $-1$ and $1$, and $1.50 > 1$, no such angle $C$ exists. Therefore, no triangle can be formed.",
+    "evidence": "Instant Example 2 computes $\\sin C = \\frac{7\\sin 40^\\circ}{3} = 1.50 > 1$, concluding 'There is no solution for $C$' because '$-1 \\le \\sin C \\le 1$'.",
+    "chunkIds": [
+      "z8xs67wj-1",
+      "z8xs67wj-2"
+    ],
+    "subject": "math",
+    "materialId": "z8xs67wj",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "7wj7dlax",
+    "question": "Triangle $ABC$ has $C = 70^\\circ$, $b = 12$ cm, and $c = 10$ cm. Use the sine formula to find $\\sin B$, and state whether a triangle can be formed. Justify your answer.",
+    "referenceAnswer": "Using $\\frac{c}{\\sin C} = \\frac{b}{\\sin B}$, we get $\\sin B = \\frac{b \\sin C}{c} = \\frac{12 \\sin 70^\\circ}{10} \\approx 1.13$. Since $\\sin B > 1$, which is impossible, no triangle can be formed.",
+    "evidence": "Q6: '$C = 70^\\circ$, $b = 12$ cm, $c = 10$ cm' → '$\\frac{10}{\\sin 70^\\circ} = \\frac{12}{\\sin B}$' → '$\\sin\\theta \\approx 1.13 > 1$' → '∴ No'.",
+    "chunkIds": [
+      "z8xs67wj-3"
+    ],
+    "subject": "math",
+    "materialId": "z8xs67wj",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "vdlnil1k",
+    "question": "In a triangle, side $a = 7$, side $b = 5$, and angle $A = 40^\\circ$ (opposite side $a$). Given that $\\theta$ (i.e., angle $B$) is acute, find $\\theta$ using the sine formula.",
+    "referenceAnswer": "By the sine formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$, so $\\frac{7}{\\sin 40^\\circ} = \\frac{5}{\\sin \\theta}$. Rearranging: $\\sin \\theta = \\frac{5 \\sin 40^\\circ}{7} \\approx 0.460$, so $\\theta \\approx 64.1^\\circ$.",
+    "evidence": "Q3: '$\\theta$ is acute. $\\frac{7}{\\sin\\theta} = \\frac{5}{\\sin40^\\circ}$ → $\\theta = 64.1^\\circ$'.",
+    "chunkIds": [
+      "z8xs67wj-0"
+    ],
+    "subject": "math",
+    "materialId": "z8xs67wj",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "sorxammk",
+    "question": "When two sides $a$, $b$ and an acute angle $A$ (opposite side $a$) are given, the number of possible triangles depends on comparing $a$ with $h = b \\sin A$. Describe what happens in Case 3 ($h < a < b$) and explain why two triangles are possible.",
+    "referenceAnswer": "In Case 3, where $h < a < b$, the side $a$ is longer than the height $h = b \\sin A$ (so it reaches the opposite side) but shorter than side $b$, allowing the side $a$ to intersect the opposite side at two different points — one giving an acute angle $B$, the other an obtuse angle $B$. Hence, two distinct triangles satisfy the given conditions.",
+    "evidence": "Table: 'Case 3: $h < a < b$' → 'Two triangles are formed.' Also, the text states: 'When two sides $a$, $b$ and one acute opposite angle $A$ are given, the number of triangles that can be formed is 0, 1 or 2.'",
+    "chunkIds": [
+      "z8xs67wj-0",
+      "z8xs67wj-1"
+    ],
+    "subject": "math",
+    "materialId": "z8xs67wj",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

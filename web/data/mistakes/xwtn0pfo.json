@@ -1,0 +1,29 @@
+{
+  "id": "xwtn0pfo",
+  "question": {
+    "id": "xwtn0pfo",
+    "question": "In $\\triangle LMN$, $L = 53^\\circ$, $M = 31^\\circ$ and $n = 24$ cm. Solve the triangle completely: find $N$, $l$, and $m$, each correct to 3 significant figures.",
+    "referenceAnswer": "1. Use angle sum of triangle: $L + M + N = 180^\\circ$\n2. Substitute: $53^\\circ + 31^\\circ + N = 180^\\circ$, so $N = 96^\\circ$\n3. Use sine formula for $l$: $\\frac{l}{\\sin L} = \\frac{n}{\\sin N}$ → $l = \\frac{24 \\sin 53^\\circ}{\\sin 96^\\circ}$\n4. Compute $l$: $24 \\sin 53^\\circ / \\sin 96^\\circ = 19.2$ cm\n5. Use sine formula for $m$: $\\frac{m}{\\sin M} = \\frac{n}{\\sin N}$ → $m = \\frac{24 \\sin 31^\\circ}{\\sin 96^\\circ}$\n6. Compute $m$: $24 \\sin 31^\\circ / \\sin 96^\\circ = 12.4$ cm\nAnswer: $N = 96.0^\\circ$, $l = 19.2$ cm, $m = 12.4$ cm",
+    "evidence": "$A + B + C = 180^\\circ$, $41^\\circ + B + 87^\\circ = 180^\\circ$, $B = 52^\\circ$. By the sine formula, $\\frac{AB}{\\sin 87^\\circ} = \\frac{22 \\text{ cm}}{\\sin 52^\\circ}$",
+    "checks": [
+      "180 - 53 - 31 = 96",
+      "24*sin(53)/sin(96) = 19.2",
+      "24*sin(31)/sin(96) = 12.4"
+    ],
+    "chunkIds": [
+      "tldqryqe-1"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 6,
+  "firstWrongAt": "2026-11-05T18:56:48.221Z",
+  "lastWrongAt": "2026-11-05T18:59:29.124Z"
+}

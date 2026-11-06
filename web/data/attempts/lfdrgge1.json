@@ -1,0 +1,86 @@
+{
+  "id": "lfdrgge1",
+  "mode": "subject",
+  "source": {
+    "quizId": "hgy3mqda"
+  },
+  "createdAt": "2026-11-04T13:12:02.667Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "whsqun8h",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "《静夜思》中‘疑是地上霜’一句运用了什么修辞手法？请结合诗句内容简要说明其表达效果。",
+      "answer": "",
+      "referenceAnswer": "运用了比喻的修辞手法，将皎洁清冷的月光比作地上的白霜。这一比喻既突出了月光的明亮与寒意，又暗含诗人孤寂凄清的心境，为后文‘思故乡’的情感铺垫了氛围。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "gkgq53iw",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "从体裁角度看，《静夜思》属于哪一类古典诗歌？请写出其基本形式特征。",
+      "answer": "",
+      "referenceAnswer": "属于五言绝句；基本特征是共四句，每句五个字，押平声韵（本诗押‘光’‘霜’‘乡’，属平声阳韵）。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "nwbopmku",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "诗中‘举头望明月，低头思故乡’两句通过动作描写传达情感。请分析‘举头’与‘低头’的对比关系及其在表情达意上的作用。",
+      "answer": "",
+      "referenceAnswer": "‘举头’与‘低头’构成空间与心理的双重对比：由仰望明月（外向、追寻）到垂首沉思（内向、回归），自然呈现思乡情感的触发与深化过程，使抽象的乡愁具象化、动态化。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "vyqfg8lh",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "为什么说‘明月’在本诗中不仅是景物描写，更是关键的抒情意象？请依据诗句和笔记说明。",
+      "answer": "",
+      "referenceAnswer": "因为诗人并非单纯写月之形色，而是借‘明月’触发并承载思乡之情——‘举头望明月’是情感的起点，‘低头思故乡’是其必然归宿，体现‘月’作为传统乡愁意象的高度凝练性与象征性。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "hexzxbtf",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "有同学认为‘床前明月光’中的‘床’指现代意义上的卧具。你是否同意？请结合本诗情感逻辑与笔记中对诗歌整体理解的要求，简要说明理由。",
+      "answer": "",
+      "referenceAnswer": "不同意。此处‘床’更可能指坐具或井栏（据考），因若为卧具，则‘举头望明月’动作不自然；且全诗重在静夜独立凝思的意境营造，‘床前’强调诗人清醒独处的空间状态，方能自然引出‘举头’‘低头’的动作链与思乡之情。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    }
+  ]
+}

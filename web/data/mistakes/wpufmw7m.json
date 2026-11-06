@@ -1,0 +1,24 @@
+{
+  "id": "wpufmw7m",
+  "question": {
+    "id": "wpufmw7m",
+    "question": "In triangle $ABD$, $AB = 3\\,\\text{cm}$ and $BD = 2\\,\\text{cm}$. Using Pythagoras’ theorem, find the length of $AD$.",
+    "referenceAnswer": "$AD = \\sqrt{3^2 - 2^2}\\,\\text{cm} = \\sqrt{5}\\,\\text{cm}$.",
+    "evidence": "In $\\triangle ABD$, by Pythagoras’ theorem, $AB^2 = AD^2 + BD^2$; $AD = \\sqrt{3^2 - 2^2}\\,\\text{cm} = \\sqrt{5}\\,\\text{cm}$",
+    "chunkIds": [
+      "jba7rfbs-0"
+    ],
+    "subject": "math",
+    "materialId": "jba7rfbs",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 7,
+  "firstWrongAt": "2026-11-05T14:48:12.876Z",
+  "lastWrongAt": "2026-11-05T14:49:35.593Z"
+}

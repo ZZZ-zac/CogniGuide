@@ -1,0 +1,74 @@
+[
+  {
+    "id": "yyqpbw6c",
+    "question": "In the figure described, $ABCD$ is a square of side 2 cm, $AEB$ is a semicircle with centre $O$, and $AEC$ is a quarter-circle with centre $D$. Explain why $\\triangle ADE$ is isosceles.",
+    "referenceAnswer": "$\\triangle ADE$ is isosceles because $DA = DE = 2\\text{ cm}$ — $DA$ is a side of the square, and $DE$ is a radius of the quarter-circle centred at $D$ passing through $C$, so $DE = DC = 2\\text{ cm}$.",
+    "evidence": "In $\\triangle ADE$, $\\because\\; DA = DE$",
+    "chunkIds": [
+      "nzylv7kp-0"
+    ],
+    "subject": "math",
+    "materialId": "nzylv7kp",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "z6xvpn5w",
+    "question": "Using the fact that $OA = OE = 1\\text{ cm}$ (since $O$ is the centre of semicircle $AEB$ on diameter $AB = 2\\text{ cm}$), and $\\angle AOE = 180^\\circ - \\angle ADE$, show how the cosine formula applied to $\\triangle AOE$ gives $AE^2 = 2 + 2\\cos \\angle ADE$.",
+    "referenceAnswer": "By the cosine formula: $AE^2 = OA^2 + OE^2 - 2 \\cdot OA \\cdot OE \\cdot \\cos \\angle AOE = 1^2 + 1^2 - 2(1)(1)\\cos(180^\\circ - \\angle ADE)$. Since $\\cos(180^\\circ - x) = -\\cos x$, this simplifies to $2 + 2\\cos \\angle ADE$.",
+    "evidence": "$AE = \\sqrt{1^2 + 1^2 - 2 \\times 1 \\times 1 \\times \\cos (180^\\circ - \\angle ADE)} = \\sqrt{2 + 2 \\cos \\angle ADE}$",
+    "chunkIds": [
+      "nzylv7kp-1",
+      "nzylv7kp-2"
+    ],
+    "subject": "math",
+    "materialId": "nzylv7kp",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "d1nsnyh9",
+    "question": "Given $DA = DE = 2\\text{ cm}$ in $\\triangle ADE$, use the cosine formula to write an expression for $AE^2$ in terms of $\\cos \\angle ADE$.",
+    "referenceAnswer": "By the cosine formula: $AE^2 = DA^2 + DE^2 - 2 \\cdot DA \\cdot DE \\cdot \\cos \\angle ADE = 2^2 + 2^2 - 2(2)(2)\\cos \\angle ADE = 8 - 8\\cos \\angle ADE$.",
+    "evidence": "$AE^2 = DA^2 + DE^2 - 2 \\times DA \\times DE \\times \\cos \\angle ADE$",
+    "chunkIds": [
+      "nzylv7kp-2"
+    ],
+    "subject": "math",
+    "materialId": "nzylv7kp",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "xntxakzz",
+    "question": "Explain why $\\angle OAD + \\angle OED = 180^\\circ$ implies that quadrilateral $OADE$ is cyclic.",
+    "referenceAnswer": "If a pair of opposite angles in a quadrilateral are supplementary (sum to $180^\\circ$), then the quadrilateral is cyclic — this is the converse of the 'opposite angles of a cyclic quadrilateral are supplementary' theorem.",
+    "evidence": "$\\angle OAD + \\angle OED = 90^\\circ + 90^\\circ = 180^\\circ \\therefore\\; OADE$ is a cyclic quadrilateral. (opp. $\\angle$s supp.)",
+    "chunkIds": [
+      "nzylv7kp-1"
+    ],
+    "subject": "math",
+    "materialId": "nzylv7kp",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "xcmhduvw",
+    "question": "Given $\\cos \\angle ADE = \\frac{3}{5}$, find $\\sin \\angle ADE$ and explain why the negative value is rejected.",
+    "referenceAnswer": "Using $\\sin^2 x + \\cos^2 x = 1$: $\\sin \\angle ADE = \\sqrt{1 - \\left(\\frac{3}{5}\\right)^2} = \\frac{4}{5}$. The negative root is rejected because $\\angle ADE$ is an acute angle in the diagram (less than $90^\\circ$), so its sine must be positive.",
+    "evidence": "$\\sin \\angle ADE = \\pm \\sqrt{1 - \\left(\\frac{3}{5}\\right)^2} = \\frac{4}{5} \\text{ or } -\\frac{4}{5} \\text{ (rejected)}$",
+    "chunkIds": [
+      "nzylv7kp-2",
+      "nzylv7kp-3"
+    ],
+    "subject": "math",
+    "materialId": "nzylv7kp",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

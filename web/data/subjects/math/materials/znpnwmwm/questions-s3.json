@@ -1,0 +1,73 @@
+[
+  {
+    "id": "yagtxbnm",
+    "question": "In question 20, $\\angle ABC = 72^\\circ$ and $\\angle BAC = 60^\\circ$. Explain why $\\angle DCE = \\angle ACB$, and find its value.",
+    "referenceAnswer": "Since $ACD$ and $BCE$ are straight lines, points $A$, $C$, $D$ are collinear and points $B$, $C$, $E$ are collinear. So $\\angle DCE$ and $\\angle ACB$ are vertically opposite angles (or same angle formed at point $C$ between the two intersecting lines), hence equal. In $\\triangle ABC$, $\\angle ACB = 180^\\circ - 60^\\circ - 72^\\circ = 48^\\circ$, so $\\angle DCE = 48^\\circ$.",
+    "evidence": "‘$ACD$ and $BCE$ are two straight lines. … $\\angle DCE = \\angle ACB$’ and ‘$\\angle ACB = 48^\\circ$’",
+    "chunkIds": [
+      "znpnwmwm-0"
+    ],
+    "subject": "math",
+    "materialId": "znpnwmwm",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "dixvnbzr",
+    "question": "In question 20(b), $CE = 10$ cm, $DE = 8$ cm, and $\\angle DCE = 48^\\circ$. Given that $\\angle CDE$ is acute, use the sine formula to find $\\angle CDE$ correct to one decimal place.",
+    "referenceAnswer": "By the sine formula in $\\triangle CDE$: $\\frac{CE}{\\sin \\angle CDE} = \\frac{DE}{\\sin \\angle DCE}$, so $\\frac{10}{\\sin \\angle CDE} = \\frac{8}{\\sin 48^\\circ}$. Rearranging: $\\sin \\angle CDE = \\frac{10 \\sin 48^\\circ}{8} \\approx 0.9295$, so $\\angle CDE \\approx \\sin^{-1}(0.9295) \\approx 68.3^\\circ$.",
+    "evidence": "‘$\\frac{10}{\\sin \\angle CDE} = \\frac{8}{\\sin 48^\\circ}$’ and ‘$\\angle CDE = 68.3^\\circ$’",
+    "chunkIds": [
+      "znpnwmwm-0"
+    ],
+    "subject": "math",
+    "materialId": "znpnwmwm",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "ungc4hvj",
+    "question": "In question 21, $BD = CD$ and $\\angle BCD = 61^\\circ$. Explain why $\\angle DBC = 61^\\circ$, and use this to find $\\angle ABD$.",
+    "referenceAnswer": "Since $BD = CD$, triangle $BCD$ is isosceles with base $BC$, so base angles at $B$ and $C$ are equal: $\\angle DBC = \\angle BCD = 61^\\circ$. As $ABC$ is a straight line, $\\angle ABD$ and $\\angle DBC$ are adjacent angles on a straight line, so $\\angle ABD = 180^\\circ - 61^\\circ = 119^\\circ$.",
+    "evidence": "‘$\\angle DBC = \\angle DCB = 61^\\circ$’ and ‘$\\angle ABD = 119^\\circ$’",
+    "chunkIds": [
+      "znpnwmwm-1"
+    ],
+    "subject": "math",
+    "materialId": "znpnwmwm",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "g2uxhdbl",
+    "question": "In question 21(a), $\\angle BAD = 55^\\circ$, $\\angle ABD = 119^\\circ$, and $AD = 16$ cm. Find $\\angle ADB$ and explain your reasoning using angle sum in a triangle.",
+    "referenceAnswer": "In triangle $ABD$, the sum of interior angles is $180^\\circ$. So $\\angle ADB = 180^\\circ - \\angle BAD - \\angle ABD = 180^\\circ - 55^\\circ - 119^\\circ = 6^\\circ$.",
+    "evidence": "‘$\\angle ABD + 55^\\circ + \\angle ADB = 180^\\circ$’ and ‘$\\angle ADB = 6^\\circ$’",
+    "chunkIds": [
+      "znpnwmwm-1"
+    ],
+    "subject": "math",
+    "materialId": "znpnwmwm",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "txqkwtox",
+    "question": "In question 22, points $P$, $Q$, $R$, $S$ lie on a circle, $\\angle PQR = 67^\\circ$, and $\\angle PSR = \\angle PQR$. Explain why these two angles are equal, and determine whether $\\triangle PRS$ is isosceles. Justify your answer.",
+    "referenceAnswer": "$\\angle PSR$ and $\\angle PQR$ are angles subtended by the same arc $PR$ on the circumference of the circle, so they are equal (angles in the same segment). To check if $\\triangle PRS$ is isosceles, compare base angles: $\\angle SPR = 80.8^\\circ$ and $\\angle SRP = \\angle PRS = 32.2^\\circ$ — they are not equal, so $\\triangle PRS$ is not isosceles.",
+    "evidence": "‘$\\angle PSR = \\angle PQR = 67^\\circ$’ and ‘$\\because \\angle SPR \\ne \\angle SRP$ (by calc) $\\therefore$ No’",
+    "chunkIds": [
+      "znpnwmwm-1",
+      "znpnwmwm-2"
+    ],
+    "subject": "math",
+    "materialId": "znpnwmwm",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

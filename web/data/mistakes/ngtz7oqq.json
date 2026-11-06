@@ -1,0 +1,29 @@
+{
+  "id": "ngtz7oqq",
+  "question": {
+    "id": "ngtz7oqq",
+    "question": "In triangle $UVW$, $UV = 19\\,\\text{cm}$, $UW = 14\\,\\text{cm}$, and $\\angle V = 42^\\circ$. Find $\\angle W$. Give your answer correct to 3 significant figures. (Note: $\\angle W$ is obtuse.)",
+    "referenceAnswer": "1. Apply sine formula: $\\frac{UW}{\\sin V} = \\frac{UV}{\\sin W}$\n2. Substitute: $\\frac{14}{\\sin 42^\\circ} = \\frac{19}{\\sin W}$\n3. Solve: $\\sin W = \\frac{19 \\sin 42^\\circ}{14}$\n4. Compute: $19 \\times 0.6691 / 14 = 0.9083$\n5. Since $\\angle W$ is obtuse, $W = 180^\\circ - \\sin^{-1}(0.9083) = 180 - 65.3 = 114.7^\\circ$\nAnswer: $115^\\circ$",
+    "evidence": "$\\theta$ is obtuse.\n$$\n\\frac{46}{\\sin\\theta} = \\frac{45}{\\sin78^\\circ}\n$$\n$\\theta = 89.1^\\circ \\text{ (rec)} \\\\\n90.9^\\circ$",
+    "checks": [
+      "19*sin(42)/14 = 0.9083",
+      "asin(0.9083) = 65.3",
+      "180 - 65.3 = 114.7"
+    ],
+    "chunkIds": [
+      "z8xs67wj-0"
+    ],
+    "subject": "math",
+    "materialId": "z8xs67wj",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 2,
+  "firstWrongAt": "2026-11-05T19:01:01.743Z",
+  "lastWrongAt": "2026-11-05T19:01:25.060Z"
+}

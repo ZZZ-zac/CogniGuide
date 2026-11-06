@@ -1,0 +1,75 @@
+{
+  "id": "lkphdnvx",
+  "kind": "review",
+  "level": "s6",
+  "createdAt": "2026-11-05T15:03:54.471Z",
+  "questions": [
+    {
+      "id": "whsqun8h",
+      "question": "《静夜思》中‘疑是地上霜’一句运用了什么修辞手法？请结合诗句内容简要说明其表达效果。",
+      "referenceAnswer": "运用了比喻的修辞手法，将皎洁清冷的月光比作地上的白霜。这一比喻既突出了月光的明亮与寒意，又暗含诗人孤寂凄清的心境，为后文‘思故乡’的情感铺垫了氛围。",
+      "evidence": "“疑是地上霜” 运用了比喻，把月光比作地上的霜。",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "language": "zh",
+      "level": "s6",
+      "origin": "notes"
+    },
+    {
+      "id": "vyqfg8lh",
+      "question": "为什么说‘明月’在本诗中不仅是景物描写，更是关键的抒情意象？请依据诗句和笔记说明。",
+      "referenceAnswer": "因为诗人并非单纯写月之形色，而是借‘明月’触发并承载思乡之情——‘举头望明月’是情感的起点，‘低头思故乡’是其必然归宿，体现‘月’作为传统乡愁意象的高度凝练性与象征性。",
+      "evidence": "诗人借 “明月” 表达对故乡的思念之情。",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "language": "zh",
+      "level": "s6",
+      "origin": "notes"
+    },
+    {
+      "id": "ojwx6ot3",
+      "question": "诗中‘疑是地上霜’运用了什么修辞手法？其表达效果是什么？",
+      "referenceAnswer": "运用了比喻的修辞手法，将皎洁清冷的月光比作地上的白霜，既突出月光的明亮与寒意，又烘托出诗人孤寂清冷的心境。",
+      "evidence": "“疑是地上霜” 运用了比喻，把月光比作地上的霜。",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "language": "zh",
+      "level": "s3"
+    },
+    {
+      "id": "hrkj6zf8",
+      "question": "《静夜思》属于哪种诗歌体裁？请说明其形式特征。",
+      "referenceAnswer": "这是一首五言绝句。全诗共四句，每句五个字，符合五言绝句的格律要求。",
+      "evidence": "这是一首五言绝句，共四句，每句五个字。",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "language": "zh",
+      "level": "s3"
+    },
+    {
+      "id": "djrfvq34",
+      "question": "《静夜思》中诗人借何种意象抒发情感？该意象在诗中起到什么作用？",
+      "referenceAnswer": "诗人借‘明月’这一意象抒发对故乡的思念之情。明月是传统诗歌中象征团圆与乡愁的经典意象，此处以月光为媒介，自然引出深切的思乡情绪。",
+      "evidence": "诗人借 “明月” 表达对故乡的思念之情。",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "language": "zh",
+      "level": "s3"
+    }
+  ]
+}

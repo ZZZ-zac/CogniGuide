@@ -1,0 +1,70 @@
+[
+  {
+    "id": "n01z5yo1",
+    "question": "Let $ X_1 = \\{u_1, u_2, \\dots, u_n\\} $ and $ X_2 = \\{v_1, v_2, \\dots, v_n\\} $ be subspaces of a vector space $ V $. Explain why $ \\alpha_i u_i + \\beta_i v_i \\in X_1 + X_2 $ for all scalars $ \\alpha_i, \\beta_i $ and all $ i = 1, 2, \\dots, n $.",
+    "referenceAnswer": "Since $ X_1 $ is a subspace, $ \\alpha_i u_i \\in X_1 $; since $ X_2 $ is a subspace, $ \\beta_i v_i \\in X_2 $. By definition of the sum of subspaces, $ X_1 + X_2 = \\{x + y : x \\in X_1,\\, y \\in X_2\\} $, so $ \\alpha_i u_i + \\beta_i v_i \\in X_1 + X_2 $.",
+    "evidence": "$\\alpha_i u_i \\in X_1$, $\\beta_i v_i \\in X_2$, $\\forall\\ 1 \\le i \\le n$ ⇒ $\\alpha_i u_i + \\beta_i v_i \\in X_1 + X_2$, $\\forall\\ 1 \\le i \\le n$",
+    "chunkIds": [
+      "vde6feoe-1",
+      "vde6feoe-2"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s6"
+  },
+  {
+    "id": "kayki5ew",
+    "question": "Given that $ u = \\sum_{i=1}^n a_i u_i + \\sum_{i=1}^n b_i v_i $ and $ v = \\sum_{i=1}^n c_i u_i + \\sum_{i=1}^n d_i v_i $, derive the expression for $ \\alpha u + \\beta v $ in terms of $ u_i $ and $ v_i $, and identify the coefficients of $ u_k $ and $ v_k $.",
+    "referenceAnswer": "Expanding linearly: $ \\alpha u + \\beta v = \\sum_{i=1}^n (\\alpha a_i + \\beta c_i) u_i + \\sum_{i=1}^n (\\alpha b_i + \\beta d_i) v_i $. So the coefficient of $ u_k $ is $ \\alpha a_k + \\beta c_k $, and that of $ v_k $ is $ \\alpha b_k + \\beta d_k $.",
+    "evidence": "The derivation shows $ \\alpha u + \\beta v = (\\alpha a_1 + \\beta c_1) u_1 + \\cdots + (\\alpha a_n + \\beta c_n) u_n + (\\alpha b_1 + \\beta d_1) v_1 + \\cdots + (\\alpha b_n + \\beta d_n) v_n $",
+    "chunkIds": [
+      "vde6feoe-0"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s6"
+  },
+  {
+    "id": "fsuhq5yi",
+    "question": "Suppose $ X_1 $ and $ X_2 $ are subspaces of $ V $. Using the given reasoning, justify why $ [X_1 \\cup X_2] $ is a subspace of $ V $.",
+    "referenceAnswer": "Any linear combination $ \\alpha u + \\beta v $, where $ u, v \\in [X_1 \\cup X_2] $, can be expressed as a linear combination of vectors from $ X_1 \\cup X_2 $, i.e., in the form $ \\sum p_i u_i + \\sum q_j v_j $, which lies in $ [X_1 \\cup X_2] $. Hence it is closed under linear combinations and thus a subspace.",
+    "evidence": "The algebraic expansion shows $ \\alpha u + \\beta v = p_1 u_1 + \\cdots + p_n u_n + q_1 v_1 + \\cdots + q_n v_n \\in [X_1 \\cup X_2] $, therefore $ [X_1 \\cup X_2] $ is a subspace.",
+    "chunkIds": [
+      "vde6feoe-0",
+      "vde6feoe-1"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s6"
+  },
+  {
+    "id": "0xbyvetq",
+    "question": "Let $ X_1 = \\{u_1, \\dots, u_n\\} $ and $ X_2 = \\{v_1, \\dots, v_n\\} $ be subspaces of $ V $. Why does $ u_i + u_j \\in X_1 $ for all $ i,j $, and what property of subspaces ensures this?",
+    "referenceAnswer": "Because $ X_1 $ is a subspace, it is closed under vector addition; thus, for any $ u_i, u_j \\in X_1 $, their sum $ u_i + u_j $ must also belong to $ X_1 $.",
+    "evidence": "$\\because X_1$ is a subspace of $V$ ⇒ $u_i + u_j \\in X_1$, $\\forall\\ 1 \\le i, j \\le n$",
+    "chunkIds": [
+      "vde6feoe-1"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s6"
+  },
+  {
+    "id": "ehrq82hg",
+    "question": "Is it necessarily true that $ X_1 \\cup X_2 $ is a subspace of $ V $? Justify your answer using the definitions and properties stated in the sources.",
+    "referenceAnswer": "No. The union $ X_1 \\cup X_2 $ is generally not closed under addition — e.g., $ u_i \\in X_1 $ and $ v_j \\in X_2 $ need not have $ u_i + v_j \\in X_1 \\cup X_2 $. However, the *span* $ [X_1 \\cup X_2] $ *is* a subspace, as shown by closure under linear combinations.",
+    "evidence": "The text proves $ [X_1 \\cup X_2] $ is a subspace, but never claims $ X_1 \\cup X_2 $ itself is — instead, it uses closure of $ X_1 $ and $ X_2 $ separately, and constructs sums like $ \\alpha_i u_i + \\beta_i v_i $ only within $ X_1 + X_2 $ or $ [X_1 \\cup X_2] $.",
+    "chunkIds": [
+      "vde6feoe-1",
+      "vde6feoe-2"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s6"
+  }
+]

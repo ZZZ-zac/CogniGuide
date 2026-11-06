@@ -1,0 +1,24 @@
+{
+  "id": "znrjuujy",
+  "question": {
+    "id": "znrjuujy",
+    "question": "In triangle $ABE$, $AE = \\frac{\\sqrt{5}}{2}\\,\\text{cm}$, $BE = \\frac{\\sqrt{21}}{2}\\,\\text{cm}$, and $\\sin \\angle BAE = \\frac{2}{3}$. Use the sine formula to find $\\sin \\theta$, where $\\theta = \\angle AEB$.",
+    "referenceAnswer": "By the sine formula: $\\frac{AE}{\\sin \\theta} = \\frac{BE}{\\sin \\angle BAE}$, so $\\sin \\theta = AE \\cdot \\frac{\\sin \\angle BAE}{BE} = \\frac{\\sqrt{5}}{2} \\cdot \\frac{2/3}{\\sqrt{21}/2} = \\frac{2\\sqrt{105}}{63}$.",
+    "evidence": "$\\frac{AE}{\\sin\\theta} = \\frac{BE}{\\sin\\angle BAE}$; $\\sin\\theta = \\frac{\\sqrt{5}}{2} \\cdot \\frac{\\sin\\angle BAE}{BE}$; $\\sin\\angle BAE = \\frac{2}{3}$; $\\sin\\theta = \\frac{\\sqrt{5}}{2} \\cdot \\frac{2/3}{\\sqrt{21}/2} = \\frac{2\\sqrt{105}}{63}$",
+    "chunkIds": [
+      "jba7rfbs-1"
+    ],
+    "subject": "math",
+    "materialId": "jba7rfbs",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 7,
+  "firstWrongAt": "2026-11-05T14:48:12.876Z",
+  "lastWrongAt": "2026-11-05T14:49:35.593Z"
+}

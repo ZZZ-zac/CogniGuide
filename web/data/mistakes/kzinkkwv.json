@@ -1,0 +1,24 @@
+{
+  "id": "kzinkkwv",
+  "question": {
+    "id": "kzinkkwv",
+    "question": "In triangle $BCE$, $\\angle BEC = 70^\\circ$, $\\angle CBE = 38^\\circ$, and $BC = 10\\,\\text{cm}$. Use the angle sum of a triangle to find $\\angle BCE$, then use the sine formula to write an expression for $x = EC$.",
+    "referenceAnswer": "Since $\\angle BCE + 70^\\circ + 38^\\circ = 180^\\circ$, $\\angle BCE = 72^\\circ$. By the sine formula: $\\frac{x}{\\sin 70^\\circ} = \\frac{10}{\\sin 72^\\circ}$, so $x = \\frac{10 \\sin 70^\\circ}{\\sin 72^\\circ}$ cm.",
+    "evidence": "$\\angle BCE + 70^\\circ + 38^\\circ = 180^\\circ$ → $\\angle BCE = 72^\\circ$; $\\frac{x \\text{ cm}}{\\sin 70^\\circ} = \\frac{10 \\text{ cm}}{\\sin 72^\\circ}$",
+    "chunkIds": [
+      "5q7siilx-8"
+    ],
+    "subject": "math",
+    "materialId": "5q7siilx",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 7,
+  "firstWrongAt": "2026-11-05T14:48:12.876Z",
+  "lastWrongAt": "2026-11-05T14:49:35.593Z"
+}

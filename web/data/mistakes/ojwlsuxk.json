@@ -1,0 +1,27 @@
+{
+  "id": "ojwlsuxk",
+  "question": {
+    "id": "ojwlsuxk",
+    "question": "Triangle $DEF$ has $\\angle D = 40^\\circ$, $\\angle E = 65^\\circ$, and side $EF = 24\\,\\text{cm}$. Find the length of side $DF$. Give your answer correct to 3 significant figures.",
+    "referenceAnswer": "1. Find $\\angle F$: $\\angle F = 180^\\circ - 40^\\circ - 65^\\circ = 75^\\circ$\n2. Apply sine formula: $\\frac{DF}{\\sin E} = \\frac{EF}{\\sin D}$\n3. Substitute: $\\frac{DF}{\\sin 65^\\circ} = \\frac{24}{\\sin 40^\\circ}$\n4. Solve: $DF = \\frac{24 \\sin 65^\\circ}{\\sin 40^\\circ}$\n5. Compute: $24 \\times 0.9063 / 0.6428 = 33.9$\nAnswer: $33.9\\,\\text{cm}$",
+    "evidence": "$A + B + C = 180^\\circ$\n$35^\\circ + B + 88^\\circ = 180^\\circ$\n$B = \\underline{57^\\circ}$\nBy the sine formula,\n$\\dfrac{AC}{\\sin 57^\\circ} = \\dfrac{31 \\text{ cm}}{\\sin 88^\\circ}$",
+    "checks": [
+      "24*sin(65)/sin(40) = 33.9"
+    ],
+    "chunkIds": [
+      "tldqryqe-0"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 2,
+  "firstWrongAt": "2026-11-05T19:01:01.743Z",
+  "lastWrongAt": "2026-11-05T19:01:25.060Z"
+}

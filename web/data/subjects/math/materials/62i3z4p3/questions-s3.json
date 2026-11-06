@@ -1,0 +1,72 @@
+[
+  {
+    "id": "wl0orxid",
+    "question": "In triangle ABC, AB = 14 cm, BC = 20 cm, and ∠C = 72°. Explain how to find the length of side AC using the cosine formula, and write the full expression (do not evaluate).",
+    "referenceAnswer": "Use the cosine formula for side opposite angle C: $AC^2 = AB^2 + BC^2 - 2 \\cdot AB \\cdot BC \\cdot \\cos C$. Substituting gives $AC^2 = 14^2 + 20^2 - 2 \\times 14 \\times 20 \\times \\cos 72^\\circ$.",
+    "evidence": "By the cosine formula, $c^2 = a^2 + b^2 - 2ab \\cos C$; $c = \\sqrt{14^2 + 20^2 - 2 \\times 14 \\times 20 \\times \\cos 72^\\circ}$ cm",
+    "chunkIds": [
+      "62i3z4p3-0"
+    ],
+    "subject": "math",
+    "materialId": "62i3z4p3",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "eitbbxnp",
+    "question": "Triangle PQR has PQ = 15 cm, QR = 18 cm, and PR = 12 cm. Explain how to find ∠P using the cosine formula, and show the exact expression for $\\cos P$ before evaluating.",
+    "referenceAnswer": "Using the cosine formula for angle P (between sides PQ and PR), $\\cos P = \\frac{PQ^2 + PR^2 - QR^2}{2 \\cdot PQ \\cdot PR}$. Substituting gives $\\cos P = \\frac{15^2 + 12^2 - 18^2}{2 \\times 15 \\times 12}$.",
+    "evidence": "$\\cos A = \\frac{b^2 + c^2 - a^2}{2bc} = \\frac{15^2 + 18^2 - 12^2}{2 \\times 15 \\times 18}$",
+    "chunkIds": [
+      "62i3z4p3-0"
+    ],
+    "subject": "math",
+    "materialId": "62i3z4p3",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "fihmvbjn",
+    "question": "In quadrilateral ABCD, AD ∥ BC, ∠BAD = 104°, and ∠ADB = 43°. Explain why ∠DBC = 43°, and name the geometric reason.",
+    "referenceAnswer": "Since AD ∥ BC and BD is a transversal, ∠DBC and ∠ADB are corresponding angles, so they are equal. Therefore, ∠DBC = 43°.",
+    "evidence": "$\\angle DBC = \\angle ADB = 43^\\circ$ (corr. $\\angle$s, $AD \\parallel BC$)",
+    "chunkIds": [
+      "62i3z4p3-3"
+    ],
+    "subject": "math",
+    "materialId": "62i3z4p3",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "bfivxszj",
+    "question": "In triangle ABC, AB = 8 cm, BC = 17 cm, and AC = 12 cm. Write the cosine formula expression used to find ∠ABC, and compute $\\cos \\angle ABC$ as a simplified fraction or decimal (show working).",
+    "referenceAnswer": "Using the cosine formula: $\\cos \\angle ABC = \\frac{AB^2 + BC^2 - AC^2}{2 \\cdot AB \\cdot BC} = \\frac{8^2 + 17^2 - 12^2}{2 \\times 8 \\times 17} = \\frac{64 + 289 - 144}{272} = \\frac{209}{272} \\approx 0.768$.",
+    "evidence": "$\\cos \\angle ABC = \\frac{AB^2 + BC^2 - AC^2}{2 \\times AB \\times BC} = \\frac{8^2 + 17^2 - 12^2}{2 \\times 8 \\times 17}$",
+    "chunkIds": [
+      "62i3z4p3-1"
+    ],
+    "subject": "math",
+    "materialId": "62i3z4p3",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "ktyamehy",
+    "question": "In triangle ABD, AB = 12 cm, AD = 5 cm, and ∠BAD = 90°. BD is joined. Then in triangle BCD, CD = 8 cm, BC = 9 cm, and BD is known from the first triangle. Explain how to find ∠BCD using the cosine formula, and write the full expression for $\\cos \\angle BCD$.",
+    "referenceAnswer": "First find BD using Pythagoras: $BD = \\sqrt{12^2 + 5^2} = 13$ cm. Then in △BCD, apply the cosine formula for ∠BCD: $\\cos \\angle BCD = \\frac{CD^2 + BC^2 - BD^2}{2 \\cdot CD \\cdot BC} = \\frac{8^2 + 9^2 - 13^2}{2 \\times 8 \\times 9}$.",
+    "evidence": "In $\\triangle ABD$, by Pythagoras’ theorem, $BD^2 = AB^2 + AD^2$; $BD = \\sqrt{12^2 + 5^2}$ cm = 13 cm. In $\\triangle BCD$, by the cosine formula, $\\cos \\angle BCD = \\frac{CD^2 + BC^2 - BD^2}{2 \\times CD \\times BC} = \\frac{8^2 + 9^2 - 13^2}{2 \\times 8 \\times 9}$",
+    "chunkIds": [
+      "62i3z4p3-2"
+    ],
+    "subject": "math",
+    "materialId": "62i3z4p3",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

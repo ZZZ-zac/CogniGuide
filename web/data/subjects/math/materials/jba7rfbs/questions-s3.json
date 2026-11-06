@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ix8ka4xl",
+    "question": "In question 29(a), it is given that $\\triangle ABC$ is isosceles with $BC = 4\\,\\text{cm}$ and $BD = \\frac{1}{2} \\times 4\\,\\text{cm}$. Explain why $BD = 2\\,\\text{cm}$ and how this leads to $AD = \\sqrt{5}\\,\\text{cm}$ using Pythagoras’ theorem.",
+    "referenceAnswer": "Since $\\triangle ABC$ is isosceles with $AB = AC$, the altitude from $A$ to base $BC$ bisects $BC$, so $D$ is the midpoint and $BD = \\frac{1}{2} \\times 4 = 2\\,\\text{cm}$. In right triangle $\\triangle ABD$, $AB = 3\\,\\text{cm}$ (hypotenuse) and $BD = 2\\,\\text{cm}$, so $AD = \\sqrt{AB^2 - BD^2} = \\sqrt{3^2 - 2^2} = \\sqrt{5}\\,\\text{cm}$.",
+    "evidence": "29. (a) $\\triangle ABC$ is an isosceles triangle. $\\therefore \\quad BD = BC = \\frac{1}{2} \\times 4\\,\\text{cm} = 2\\,\\text{cm}$ — In $\\triangle ABD$, by Pythagoras’ theorem, $AB^2 = AD^2 + BD^2$; $AD = \\sqrt{3^2 - 2^2}\\,\\text{cm} = \\sqrt{5}\\,\\text{cm}$",
+    "chunkIds": [
+      "jba7rfbs-0"
+    ],
+    "subject": "math",
+    "materialId": "jba7rfbs",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "v6fhew8b",
+    "question": "In question 29(a), $AE = \\frac{1}{2} AD$. Given $AD = \\sqrt{5}\\,\\text{cm}$, find the exact length of $ED$. Justify your answer using the information provided.",
+    "referenceAnswer": "$ED = AE = \\frac{1}{2} AD = \\frac{1}{2} \\times \\sqrt{5} = \\frac{\\sqrt{5}}{2}\\,\\text{cm}$, because $E$ is the midpoint of $AD$, as stated by $AE = \\frac{1}{2} AD$ and $ED = AE$.",
+    "evidence": "$AE = \\frac{1}{2} AD$; $ED = AE = \\frac{\\sqrt{5}}{2}\\,\\text{cm}$",
+    "chunkIds": [
+      "jba7rfbs-0",
+      "jba7rfbs-1"
+    ],
+    "subject": "math",
+    "materialId": "jba7rfbs",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "5mzp0cde",
+    "question": "Using the values $BD = 2\\,\\text{cm}$ and $ED = \\frac{\\sqrt{5}}{2}\\,\\text{cm}$, apply Pythagoras’ theorem in $\\triangle BDE$ to show that $BE = \\frac{\\sqrt{21}}{2}\\,\\text{cm}$.",
+    "referenceAnswer": "In right triangle $\\triangle BDE$, $BD$ and $ED$ are perpendicular legs, so $BE^2 = BD^2 + ED^2 = 2^2 + \\left(\\frac{\\sqrt{5}}{2}\\right)^2 = 4 + \\frac{5}{4} = \\frac{21}{4}$. Therefore, $BE = \\sqrt{\\frac{21}{4}} = \\frac{\\sqrt{21}}{2}\\,\\text{cm}$.",
+    "evidence": "In $\\triangle BDE$, by Pythagoras’ theorem, $BE^2 = BD^2 + ED^2$; $BE = \\sqrt{2^2 + \\left(\\frac{\\sqrt{5}}{2}\\right)^2}\\,\\text{cm} = \\sqrt{\\frac{21}{4}}\\,\\text{cm} = \\frac{\\sqrt{21}}{2}\\,\\text{cm}$",
+    "chunkIds": [
+      "jba7rfbs-1"
+    ],
+    "subject": "math",
+    "materialId": "jba7rfbs",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "jbmdfhto",
+    "question": "In question 29(c), $\\sin\\angle BAE = \\frac{2}{3}$ is used. Explain how this value is obtained from $\\triangle ABD$.",
+    "referenceAnswer": "In right triangle $\\triangle ABD$, $\\angle BAE$ is the same as $\\angle BAD$, and $\\sin\\angle BAD = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{BD}{AB} = \\frac{2}{3}$, since $BD = 2\\,\\text{cm}$ is opposite $\\angle BAD$ and $AB = 3\\,\\text{cm}$ is the hypotenuse.",
+    "evidence": "$\\sin\\angle BAE = \\frac{BD}{AB} = \\frac{2}{3}$",
+    "chunkIds": [
+      "jba7rfbs-1"
+    ],
+    "subject": "math",
+    "materialId": "jba7rfbs",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "do1ljqt6",
+    "question": "Given $AE = \\frac{\\sqrt{5}}{2}\\,\\text{cm}$, $BE = \\frac{\\sqrt{21}}{2}\\,\\text{cm}$, and $\\sin\\angle BAE = \\frac{2}{3}$, use the sine formula in $\\triangle ABE$ to verify that $\\sin\\theta = \\frac{2\\sqrt{105}}{63}$. Show the key algebraic steps.",
+    "referenceAnswer": "By the sine formula: $\\frac{AE}{\\sin\\theta} = \\frac{BE}{\\sin\\angle BAE} \\Rightarrow \\sin\\theta = AE \\cdot \\frac{\\sin\\angle BAE}{BE} = \\frac{\\sqrt{5}}{2} \\cdot \\frac{2/3}{\\sqrt{21}/2} = \\frac{\\sqrt{5}}{2} \\cdot \\frac{2}{3} \\cdot \\frac{2}{\\sqrt{21}} = \\frac{2\\sqrt{5}}{3} \\cdot \\frac{2}{\\sqrt{21}} = \\frac{4\\sqrt{5}}{3\\sqrt{21}} = \\frac{4\\sqrt{105}}{63}$. Wait — but source says $\\frac{2\\sqrt{105}}{63}$. Rechecking: $\\frac{\\sqrt{5}}{2} \\cdot \\frac{2/3}{\\sqrt{21}/2} = \\frac{\\sqrt{5}}{2} \\cdot \\frac{2}{3} \\cdot \\frac{2}{\\sqrt{21}} = \\frac{2\\sqrt{5}}{3} \\cdot \\frac{2}{\\sqrt{21}}$ — no, $\\frac{\\sqrt{5}}{2} \\times \\frac{2}{3} = \\frac{\\sqrt{5}}{3}$, then $\\frac{\\sqrt{5}}{3} \\div \\frac{\\sqrt{21}}{2} = \\frac{\\sqrt{5}}{3} \\times \\frac{2}{\\sqrt{21}} = \\frac{2\\sqrt{5}}{3\\sqrt{21}} = \\frac{2\\sqrt{105}}{63}$. So $\\sin\\theta = \\frac{2\\sqrt{105}}{63}$.",
+    "evidence": "$\\sin\\theta = \\frac{\\sqrt{5}}{2} \\cdot \\frac{\\frac{2}{3}}{\\frac{\\sqrt{21}}{2}} = \\frac{2\\sqrt{105}}{63}$",
+    "chunkIds": [
+      "jba7rfbs-1"
+    ],
+    "subject": "math",
+    "materialId": "jba7rfbs",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

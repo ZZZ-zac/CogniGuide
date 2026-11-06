@@ -1,0 +1,103 @@
+{
+  "id": "ck7nql0z",
+  "mode": "practice",
+  "source": {
+    "subject": "chinese",
+    "materialId": "nxkw5gxb"
+  },
+  "createdAt": "2026-11-04T12:50:11.718Z",
+  "totalScore": 54,
+  "items": [
+    {
+      "questionId": "hrkj6zf8",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "《静夜思》属于哪种诗歌体裁？请说明其形式特征。",
+      "answer": "五言绝句，一共四句，每句五个字",
+      "referenceAnswer": "这是一首五言绝句。全诗共四句，每句五个字，符合五言绝句的格律要求。",
+      "score": 100,
+      "correctPoints": [
+        "五言绝句",
+        "一共四句",
+        "每句五个字"
+      ],
+      "missedPoints": [],
+      "feedback": "你的回答完全正确！可以再结合笔记第1条，巩固五言绝句的定义和形式特征。"
+    },
+    {
+      "questionId": "ojwx6ot3",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "诗中‘疑是地上霜’运用了什么修辞手法？其表达效果是什么？",
+      "answer": "比喻，把月光比作霜",
+      "referenceAnswer": "运用了比喻的修辞手法，将皎洁清冷的月光比作地上的白霜，既突出月光的明亮与寒意，又烘托出诗人孤寂清冷的心境。",
+      "score": 85,
+      "correctPoints": [
+        "比喻",
+        "把月光比作霜"
+      ],
+      "missedPoints": [
+        "未说明月光的特点（皎洁清冷、明亮、寒意）",
+        "未点明表达效果——烘托诗人孤寂清冷的心境"
+      ],
+      "feedback": "你准确指出了‘疑是地上霜’运用了比喻手法，也写出了本体和喻体，很棒！接下来请结合笔记第3点和诗歌整体情感，补充说明月光的特征（如清冷、明亮）以及这个比喻如何服务于思乡主题和心境营造。"
+    },
+    {
+      "questionId": "asgrk1rc",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "诗中‘举头望明月，低头思故乡’通过哪两个动作展现情感变化？这种写法有何作用？",
+      "answer": "举头和低头，表现由望月到思乡",
+      "referenceAnswer": "通过‘举头’与‘低头’两个动作展现由外物触发到内心感怀的情感过程；二者形成动作对比，凝练而生动地写出思乡之情自然生发、难以抑制的心理状态。",
+      "score": 85,
+      "correctPoints": [
+        "举头和低头两个动作",
+        "表现由望月到思乡"
+      ],
+      "missedPoints": [
+        "未明确指出这是‘动作对比’的写法",
+        "未说明这种对比的作用（如凝练生动、展现情感自然生发与难以抑制的心理状态）"
+      ],
+      "feedback": "你准确抓住了‘举头’和‘低头’这两个关键动作及其情感指向，很好！建议结合笔记第4点，进一步体会‘动作对比’这一手法的表达效果，复习时可多思考：为什么用对比而不用连续动作？它如何让思乡之情更打动人？"
+    },
+    {
+      "questionId": "djrfvq34",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "《静夜思》中诗人借何种意象抒发情感？该意象在诗中起到什么作用？",
+      "answer": "",
+      "referenceAnswer": "诗人借‘明月’这一意象抒发对故乡的思念之情。明月是传统诗歌中象征团圆与乡愁的经典意象，此处以月光为媒介，自然引出深切的思乡情绪。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    },
+    {
+      "questionId": "6ambehrz",
+      "subject": "chinese",
+      "materialId": "nxkw5gxb",
+      "chunkIds": [
+        "nxkw5gxb-0"
+      ],
+      "question": "从内容与结构角度看，《静夜思》前两句与后两句分别侧重描写什么？二者之间构成怎样的关系？",
+      "answer": "",
+      "referenceAnswer": "前两句侧重描写眼前所见之景（床前月光如霜），后两句转向内心所感之情（望月思乡）；景与情紧密相连，由景入情、情景交融，自然完成从外在感知到内在抒怀的过渡。",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "未作答。"
+    }
+  ]
+}

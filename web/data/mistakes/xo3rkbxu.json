@@ -1,0 +1,31 @@
+{
+  "id": "xo3rkbxu",
+  "question": {
+    "id": "xo3rkbxu",
+    "question": "In triangle $XYZ$, $\\angle X = 120^\\circ$, side $x = 15$ cm (opposite $\\angle X$), and side $z = 8$ cm (opposite $\\angle Z$). Determine whether triangle $XYZ$ can be formed. Show your working.",
+    "referenceAnswer": "1. Use the sine formula: $\\frac{z}{\\sin Z} = \\frac{x}{\\sin X}$\n2. Rearrange to find $\\sin Z$: $\\sin Z = \\frac{z \\sin X}{x}$\n3. Substitute values: $\\sin Z = \\frac{8 \\times \\sin 120^\\circ}{15}$\n4. Compute: $\\sin 120^\\circ = \\sin(180^\\circ - 60^\\circ) = \\sin 60^\\circ \\approx 0.8660$\n5. So $\\sin Z = \\frac{8 \\times 0.8660}{15} = 0.4619$\n6. Since $0.4619 < 1$, triangle $XYZ$ can be formed\nAnswer: Yes",
+    "evidence": "$A = 74^\\circ$, $a = 16$ cm, $c = 9$ cm — $\\frac{9}{\\sin C} = \\frac{16}{\\sin 74^\\circ}$ — $C = 32.7^\\circ$ or $147^\\circ$ (reject) — $\\therefore$ Yes",
+    "checks": [
+      "sin(120) = 0.8660",
+      "8*0.8660/15 = 0.4619",
+      "0.4619 < 1"
+    ],
+    "chunkIds": [
+      "45ajf1sk-1"
+    ],
+    "subject": "math",
+    "materialId": "45ajf1sk",
+    "language": "en",
+    "level": "s1",
+    "origin": "notes"
+  },
+  "lastAnswer": "81iqt37raesf",
+  "lastScore": 0,
+  "feedback": "Please try the question again. Use the sine formula like in your notes: write \\(\\frac{z}{\\sin Z} = \\frac{x}{\\sin X}\\), then solve for \\(\\sin Z\\) and check if it's between 0 and 1.",
+  "missedPoints": [
+    "Did not attempt the question or provide any working or answer"
+  ],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-06T10:04:08.766Z",
+  "lastWrongAt": "2026-11-06T10:04:08.766Z"
+}

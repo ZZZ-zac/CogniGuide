@@ -1,0 +1,28 @@
+{
+  "id": "lizpth5d",
+  "question": {
+    "id": "lizpth5d",
+    "question": "In $\\triangle PQR$, $P = 62^\\circ$, $p = 19$ cm and $r = 12$ cm. Determine whether $\\triangle PQR$ can be formed. If yes, find $R$, correct to 3 significant figures.",
+    "referenceAnswer": "1. Use the sine formula: $\\frac{r}{\\sin R} = \\frac{p}{\\sin P}$\n2. Substitute given values: $\\sin R = \\frac{12 \\sin 62^\\circ}{19}$\n3. Compute value: $12 \\sin 62^\\circ / 19 = 0.5587$\n4. Take inverse sine: $R = \\arcsin(0.5587) = 34.0^\\circ$\n5. Verify angle sum feasibility: $P + R = 62^\\circ + 34.0^\\circ = 96.0^\\circ < 180^\\circ$\nAnswer: $34.0^\\circ$",
+    "evidence": "$\\sin C = \\frac{9 \\sin 74^\\circ}{16}$, $C = 32.7^\\circ,\\ \\text{cor. to 3 sig. fig.}$",
+    "checks": [
+      "12*sin(62)/19 = 0.5587",
+      "asin(0.5587) = 34.0"
+    ],
+    "chunkIds": [
+      "vhxkxxow-2"
+    ],
+    "subject": "math",
+    "materialId": "vhxkxxow",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 5,
+  "firstWrongAt": "2026-11-05T18:56:48.221Z",
+  "lastWrongAt": "2026-11-05T18:59:29.124Z"
+}

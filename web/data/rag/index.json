@@ -1,0 +1,5 @@
+{
+  "model": "text-embedding-v4",
+  "dim": 1024,
+  "updatedAt": "2026-11-05T14:46:20.000Z"
+}

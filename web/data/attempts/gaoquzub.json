@@ -1,0 +1,96 @@
+{
+  "id": "gaoquzub",
+  "mode": "quick",
+  "source": {
+    "quizId": "dffwgjpt"
+  },
+  "createdAt": "2026-11-05T12:43:34.990Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "s3zoxgfu",
+      "subject": "math",
+      "materialId": "o33egjhy",
+      "chunkIds": [
+        "o33egjhy-1"
+      ],
+      "question": "In triangle ABC, if angle A = 50° and angle B = 25°, explain whether it is true that BC = 2AC. Use the sine formula and your reasoning.",
+      "answer": "Yes, BC = 2AC because the side opposite the larger angle is twice as long, and 50 is twice 25.",
+      "referenceAnswer": "Angle C = 180° - 50° - 25° = 105°. By the sine formula, \\(\\frac{BC}{\\sin 50^\\circ} = \\frac{AC}{\\sin 25^\\circ}\\). So \\(BC = 1.81 \\times AC\\). Since 1.81 ≠ 2, BC ≠ 2AC. Therefore, the statement is false.",
+      "score": 0,
+      "correctPoints": [
+        "Angle C = 180° - 50° - 25° = 105°",
+        "Use of the sine formula: BC / sin 50° = AC / sin 25°",
+        "Calculation that BC = 1.81 × AC",
+        "Conclusion that BC ≠ 2AC because 1.81 ≠ 2"
+      ],
+      "missedPoints": [
+        "The student incorrectly states that BC = 2AC",
+        "The student wrongly assumes that the side opposite a larger angle is twice as long just because 50° is twice 25°",
+        "No use of the sine formula with actual angles and side ratios",
+        "No correct reasoning or calculation to support the claim"
+      ],
+      "feedback": "You should review how to use the sine rule correctly in triangles. Just because one angle is twice another doesn't mean the opposite side is twice as long. Always use the sine formula with actual angle and side values to compare lengths."
+    },
+    {
+      "questionId": "nqfsjlxm",
+      "subject": "math",
+      "materialId": "z8xs67wj",
+      "chunkIds": [
+        "z8xs67wj-2"
+      ],
+      "question": "In triangle ABC, if angle A = 45°, side a = 5 cm, and side c = 5\\sqrt{2} cm, can triangle ABC be formed? Explain using the sine formula.",
+      "answer": "",
+      "referenceAnswer": "By the sine formula, \\(\\frac{5\\sqrt{2}}{\\sin C} = \\frac{5}{\\sin 45^\\circ}\\). Solving gives \\(\\sin C = 1\\), so \\(C = 90^\\circ\\). Since \\(-1 \\le \\sin C \\le 1\\), and \\(\\sin C = 1\\) is valid, triangle ABC can be formed.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "h5c5cqen",
+      "subject": "math",
+      "materialId": "tldqryqe",
+      "chunkIds": [
+        "tldqryqe-2"
+      ],
+      "question": "In triangle ABC, if angle A = 25°, side a = 11 cm, and side c = 27 cm, is there a valid solution? Explain your reasoning using the sine formula.",
+      "answer": "",
+      "referenceAnswer": "Using the sine formula, \\(\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\\), so \\(\\sin C = \\frac{27 \\sin 25^\\circ}{11} \\approx 1.04 > 1\\). Since \\(\\sin C\\) cannot be greater than 1, there is no valid solution.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "9oik2jgk",
+      "subject": "math",
+      "materialId": "tldqryqe",
+      "chunkIds": [
+        "tldqryqe-2"
+      ],
+      "question": "In triangle ABC, if angle A = 87°, side AB = 22 cm, and angle B = 52°, find the length of side BC using the sine formula. Show your steps.",
+      "answer": "",
+      "referenceAnswer": "Using the sine formula, \\(\\frac{BC}{\\sin 41^\\circ} = \\frac{22}{\\sin 52^\\circ}\\). Solving gives \\(BC = \\frac{22 \\sin 41^\\circ}{\\sin 52^\\circ} \\approx 18.3\\) cm (to 3 significant figures).",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "5pyptdel",
+      "subject": "math",
+      "materialId": "62i3z4p3",
+      "chunkIds": [
+        "62i3z4p3-0"
+      ],
+      "question": "In triangle ABC, if side AB = 14 cm, side BC = 20 cm, and angle C = 72°, find angle A using the cosine formula. Show your working.",
+      "answer": "",
+      "referenceAnswer": "Using the cosine formula, \\(\\cos A = \\frac{20^2 + 20.566^2 - 14^2}{2 \\times 20 \\times 20.566}\\) \\(\\approx \\frac{400 + 423.5 - 196}{822.6}\\) \\(\\approx \\frac{627.5}{822.6}\\) \\(\\approx 0.763\\), so \\(A \\approx 40.3^\\circ\\).",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    }
+  ]
+}

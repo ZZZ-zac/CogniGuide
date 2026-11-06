@@ -1,0 +1,117 @@
+{
+  "id": "mudx2oec",
+  "mode": "quick",
+  "source": {
+    "quizId": "m2nuatci"
+  },
+  "createdAt": "2026-11-05T19:01:01.749Z",
+  "totalScore": 8,
+  "items": [
+    {
+      "questionId": "jjmliqq9",
+      "subject": "math",
+      "materialId": "qbvxhsg2",
+      "chunkIds": [
+        "qbvxhsg2-1"
+      ],
+      "question": "In triangle $PQR$, $\\angle P = 48^\\circ$, $QR = 16\\,\\text{cm}$, and $PR = 12\\,\\text{cm}$. Find $\\angle Q$. Give your answer correct to 3 significant figures. (Note: $\\angle Q$ is acute.)",
+      "answer": "12341",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{QR}{\\sin P} = \\frac{PR}{\\sin Q}$\n2. Substitute given values: $\\frac{16}{\\sin 48^\\circ} = \\frac{12}{\\sin Q}$\n3. Rearrange: $\\sin Q = \\frac{12 \\sin 48^\\circ}{16}$\n4. Compute: $\\sin Q = \\frac{12 \\times 0.7431}{16} = 0.5573$\n5. Take inverse sine: $Q = \\sin^{-1}(0.5573) = 33.9^\\circ$\nAnswer: $33.9^\\circ$",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Used incorrect method or no valid method shown",
+        "Did not apply the sine rule correctly",
+        "No substitution of given values",
+        "No rearrangement to solve for sin Q",
+        "No computation of sin Q or angle Q",
+        "Answer is a 5-digit number with no units or degree symbol, and does not match the correct acute angle"
+      ],
+      "feedback": "You haven’t shown any working using the sine rule — please review how to set up and solve for an unknown angle when two sides and a non-included angle are given. Practice substituting values into $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$ and rearranging carefully."
+    },
+    {
+      "questionId": "p30i619e",
+      "subject": "math",
+      "materialId": "z8xs67wj",
+      "chunkIds": [
+        "z8xs67wj-3"
+      ],
+      "question": "In triangle $XYZ$, $\\angle X = 32^\\circ$, $YZ = 10\\,\\text{cm}$, and $XY = 18\\,\\text{cm}$. Determine whether triangle $XYZ$ can be formed.",
+      "answer": "24",
+      "referenceAnswer": "1. Apply the sine formula: $\\frac{YZ}{\\sin X} = \\frac{XY}{\\sin Z}$\n2. Solve for $\\sin Z$: $\\sin Z = \\frac{XY \\sin X}{YZ}$\n3. Substitute: $\\sin Z = \\frac{18 \\sin 32^\\circ}{10}$\n4. Compute: $18 \\times 0.5299 / 10 = 0.9538$\n5. Since $0.9538 \\leq 1$, a triangle can be formed.\nAnswer: Yes",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Did not apply the sine formula",
+        "Did not compute sin Z or compare it to 1",
+        "Gave only the number '24' with no reasoning or conclusion"
+      ],
+      "feedback": "You wrote '24', but the question asks you to determine whether triangle XYZ can be formed — and explain why. Review how to use the sine formula to check if a triangle is possible when given two sides and a non-included angle. Try following the steps in your notes: write the formula, solve for the unknown sine, then check if it’s between 0 and 1."
+    },
+    {
+      "questionId": "ojwlsuxk",
+      "subject": "math",
+      "materialId": "tldqryqe",
+      "chunkIds": [
+        "tldqryqe-0"
+      ],
+      "question": "Triangle $DEF$ has $\\angle D = 40^\\circ$, $\\angle E = 65^\\circ$, and side $EF = 24\\,\\text{cm}$. Find the length of side $DF$. Give your answer correct to 3 significant figures.",
+      "answer": "1",
+      "referenceAnswer": "1. Find $\\angle F$: $\\angle F = 180^\\circ - 40^\\circ - 65^\\circ = 75^\\circ$\n2. Apply sine formula: $\\frac{DF}{\\sin E} = \\frac{EF}{\\sin D}$\n3. Substitute: $\\frac{DF}{\\sin 65^\\circ} = \\frac{24}{\\sin 40^\\circ}$\n4. Solve: $DF = \\frac{24 \\sin 65^\\circ}{\\sin 40^\\circ}$\n5. Compute: $24 \\times 0.9063 / 0.6428 = 33.9$\nAnswer: $33.9\\,\\text{cm}$",
+      "score": 10,
+      "correctPoints": [],
+      "missedPoints": [
+        "Find angle F using angle sum of triangle",
+        "Identify correct sides and angles for sine rule (DF opposite angle E, EF opposite angle D)",
+        "Set up sine rule equation correctly",
+        "Substitute given values into the equation",
+        "Calculate DF accurately to 3 significant figures"
+      ],
+      "feedback": "You haven’t shown any working or reasoning yet — try starting by finding the third angle using the triangle angle sum. Then recall that the sine rule links each side with the sine of its opposite angle. Practice setting up the ratio before calculating."
+    },
+    {
+      "questionId": "h9jhgzg7",
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "question": "In triangle $LMN$, $LM = 35\\,\\text{cm}$, $LN = 28\\,\\text{cm}$, and $\\angle M = 56^\\circ$. Find $\\angle N$. Give your answer correct to 3 significant figures. (Note: $\\angle N$ is acute.)",
+      "answer": "13541",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{LN}{\\sin M} = \\frac{LM}{\\sin N}$\n2. Substitute: $\\frac{28}{\\sin 56^\\circ} = \\frac{35}{\\sin N}$\n3. Rearrange: $\\sin N = \\frac{35 \\sin 56^\\circ}{28}$\n4. Compute: $35 \\times 0.8290 / 28 = 1.036$\n5. Since $1.036 > 1$, no such triangle exists.\nAnswer: No",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "Used incorrect formula or misapplied sine rule",
+        "Did not set up proportion correctly (e.g., mixed up sides and opposite angles)",
+        "Did not compute sin 56° or perform the division",
+        "Did not recognise that sin N > 1 is impossible",
+        "Did not conclude 'no such triangle exists'"
+      ],
+      "feedback": "Your answer '13541' does not match the expected reasoning or conclusion. Review how to apply the sine rule: always pair each side with the sine of its *opposite* angle. Then check whether the calculated sine value lies between 0 and 1 — if not, no triangle exists. Practice setting up the ratio correctly using the given angle and its opposite side."
+    },
+    {
+      "questionId": "ngtz7oqq",
+      "subject": "math",
+      "materialId": "z8xs67wj",
+      "chunkIds": [
+        "z8xs67wj-0"
+      ],
+      "question": "In triangle $UVW$, $UV = 19\\,\\text{cm}$, $UW = 14\\,\\text{cm}$, and $\\angle V = 42^\\circ$. Find $\\angle W$. Give your answer correct to 3 significant figures. (Note: $\\angle W$ is obtuse.)",
+      "answer": "123",
+      "referenceAnswer": "1. Apply sine formula: $\\frac{UW}{\\sin V} = \\frac{UV}{\\sin W}$\n2. Substitute: $\\frac{14}{\\sin 42^\\circ} = \\frac{19}{\\sin W}$\n3. Solve: $\\sin W = \\frac{19 \\sin 42^\\circ}{14}$\n4. Compute: $19 \\times 0.6691 / 14 = 0.9083$\n5. Since $\\angle W$ is obtuse, $W = 180^\\circ - \\sin^{-1}(0.9083) = 180 - 65.3 = 114.7^\\circ$\nAnswer: $115^\\circ$",
+      "score": 30,
+      "correctPoints": [
+        "Used sine formula correctly in form",
+        "Recognised that angle W is obtuse and so used supplementary angle"
+      ],
+      "missedPoints": [
+        "Substituted sides and angles incorrectly — mixed up which side is opposite which angle",
+        "Calculated sin W incorrectly (19 sin 42° / 14 ≈ 0.908, not ~0.975)",
+        "Final angle value (123°) does not match inverse sine of correct sin W; 180° − sin⁻¹(0.908) ≈ 114.7°, not 123°",
+        "Did not show working steps or reasoning, so method cannot be fully verified"
+      ],
+      "feedback": "You remembered to use the sine formula and considered that ∠W is obtuse — great! But double-check which side is opposite which angle: UW is opposite ∠V, and UV is opposite ∠W, so the ratio should be 14/sin 42° = 19/sin W. Practice substituting carefully and using your calculator in degree mode for both sin and sin⁻¹."
+    }
+  ]
+}

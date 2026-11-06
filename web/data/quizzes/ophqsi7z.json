@@ -1,0 +1,99 @@
+{
+  "id": "ophqsi7z",
+  "kind": "quick",
+  "level": "s6",
+  "createdAt": "2026-11-05T18:56:23.952Z",
+  "questions": [
+    {
+      "id": "8upambci",
+      "question": "In $\\triangle XYZ$, $X = 38^\\circ$, $x = 14$ cm and $z = 25$ cm. Determine whether $\\triangle XYZ$ can be formed. If yes, find $Z$, correct to 3 significant figures.",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{z}{\\sin Z} = \\frac{x}{\\sin X}$\n2. Substitute given values: $\\sin Z = \\frac{25 \\sin 38^\\circ}{14}$\n3. Compute value: $25 \\sin 38^\\circ / 14 = 1.103 > 1$\nAnswer: No triangle can be formed.",
+      "evidence": "$\\sin C = \\frac{27 \\sin 25^\\circ}{11} = 1.04,\\ \\text{cor. to 3 sig. fig.} > 1$",
+      "checks": [
+        "25*sin(38)/14 = 1.103 > 1"
+      ],
+      "chunkIds": [
+        "vhxkxxow-1"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s6",
+      "origin": "notes"
+    },
+    {
+      "id": "lizpth5d",
+      "question": "In $\\triangle PQR$, $P = 62^\\circ$, $p = 19$ cm and $r = 12$ cm. Determine whether $\\triangle PQR$ can be formed. If yes, find $R$, correct to 3 significant figures.",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{r}{\\sin R} = \\frac{p}{\\sin P}$\n2. Substitute given values: $\\sin R = \\frac{12 \\sin 62^\\circ}{19}$\n3. Compute value: $12 \\sin 62^\\circ / 19 = 0.5587$\n4. Take inverse sine: $R = \\arcsin(0.5587) = 34.0^\\circ$\n5. Verify angle sum feasibility: $P + R = 62^\\circ + 34.0^\\circ = 96.0^\\circ < 180^\\circ$\nAnswer: $34.0^\\circ$",
+      "evidence": "$\\sin C = \\frac{9 \\sin 74^\\circ}{16}$, $C = 32.7^\\circ,\\ \\text{cor. to 3 sig. fig.}$",
+      "checks": [
+        "12*sin(62)/19 = 0.5587",
+        "asin(0.5587) = 34.0"
+      ],
+      "chunkIds": [
+        "vhxkxxow-2"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s6",
+      "origin": "notes"
+    },
+    {
+      "id": "a6jz03id",
+      "question": "In $\\triangle DEF$, $D = 128^\\circ$, $d = 22$ cm and $f = 8$ cm. Determine whether $\\triangle DEF$ can be formed. If yes, find $F$, correct to 3 significant figures.",
+      "referenceAnswer": "1. Use the sine formula: $\\frac{f}{\\sin F} = \\frac{d}{\\sin D}$\n2. Substitute given values: $\\sin F = \\frac{8 \\sin 128^\\circ}{22}$\n3. Compute value: $8 \\sin 128^\\circ / 22 = 0.2853$\n4. Take inverse sine: $F = \\arcsin(0.2853) = 16.6^\\circ$\n5. Verify angle sum feasibility: $D + F = 128^\\circ + 16.6^\\circ = 144.6^\\circ < 180^\\circ$\nAnswer: $16.6^\\circ$",
+      "evidence": "$\\sin C = \\frac{9 \\sin 74^\\circ}{16}$, $C = 32.7^\\circ,\\ \\text{cor. to 3 sig. fig.}$",
+      "checks": [
+        "8*sin(128)/22 = 0.2853",
+        "asin(0.2853) = 16.6"
+      ],
+      "chunkIds": [
+        "vhxkxxow-2"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s6",
+      "origin": "notes"
+    },
+    {
+      "id": "2fqflz8b",
+      "question": "In $\\triangle ABC$, $A = 47^\\circ$, $B = 69^\\circ$ and $c = 18$ cm. Solve the triangle completely: find $C$, $a$, and $b$, each correct to 3 significant figures.",
+      "referenceAnswer": "1. Use angle sum of triangle: $A + B + C = 180^\\circ$\n2. Substitute: $47^\\circ + 69^\\circ + C = 180^\\circ$, so $C = 64^\\circ$\n3. Use sine formula for $a$: $\\frac{a}{\\sin A} = \\frac{c}{\\sin C}$ → $a = \\frac{18 \\sin 47^\\circ}{\\sin 64^\\circ}$\n4. Compute $a$: $18 \\sin 47^\\circ / \\sin 64^\\circ = 14.7$ cm\n5. Use sine formula for $b$: $\\frac{b}{\\sin B} = \\frac{c}{\\sin C}$ → $b = \\frac{18 \\sin 69^\\circ}{\\sin 64^\\circ}$\n6. Compute $b$: $18 \\sin 69^\\circ / \\sin 64^\\circ = 18.7$ cm\nAnswer: $C = 64.0^\\circ$, $a = 14.7$ cm, $b = 18.7$ cm",
+      "evidence": "$A + B + C = 180^\\circ$, $123^\\circ + 22^\\circ + C = 180^\\circ$, $C = 35^\\circ$. By the sine formula, $\\frac{AC}{\\sin 22^\\circ} = \\frac{19 \\text{ cm}}{\\sin 35^\\circ}$",
+      "checks": [
+        "180 - 47 - 69 = 64",
+        "18*sin(47)/sin(64) = 14.7",
+        "18*sin(69)/sin(64) = 18.7"
+      ],
+      "chunkIds": [
+        "tldqryqe-1"
+      ],
+      "subject": "math",
+      "materialId": "tldqryqe",
+      "language": "en",
+      "level": "s6",
+      "origin": "notes"
+    },
+    {
+      "id": "xwtn0pfo",
+      "question": "In $\\triangle LMN$, $L = 53^\\circ$, $M = 31^\\circ$ and $n = 24$ cm. Solve the triangle completely: find $N$, $l$, and $m$, each correct to 3 significant figures.",
+      "referenceAnswer": "1. Use angle sum of triangle: $L + M + N = 180^\\circ$\n2. Substitute: $53^\\circ + 31^\\circ + N = 180^\\circ$, so $N = 96^\\circ$\n3. Use sine formula for $l$: $\\frac{l}{\\sin L} = \\frac{n}{\\sin N}$ → $l = \\frac{24 \\sin 53^\\circ}{\\sin 96^\\circ}$\n4. Compute $l$: $24 \\sin 53^\\circ / \\sin 96^\\circ = 19.2$ cm\n5. Use sine formula for $m$: $\\frac{m}{\\sin M} = \\frac{n}{\\sin N}$ → $m = \\frac{24 \\sin 31^\\circ}{\\sin 96^\\circ}$\n6. Compute $m$: $24 \\sin 31^\\circ / \\sin 96^\\circ = 12.4$ cm\nAnswer: $N = 96.0^\\circ$, $l = 19.2$ cm, $m = 12.4$ cm",
+      "evidence": "$A + B + C = 180^\\circ$, $41^\\circ + B + 87^\\circ = 180^\\circ$, $B = 52^\\circ$. By the sine formula, $\\frac{AB}{\\sin 87^\\circ} = \\frac{22 \\text{ cm}}{\\sin 52^\\circ}$",
+      "checks": [
+        "180 - 53 - 31 = 96",
+        "24*sin(53)/sin(96) = 19.2",
+        "24*sin(31)/sin(96) = 12.4"
+      ],
+      "chunkIds": [
+        "tldqryqe-1"
+      ],
+      "subject": "math",
+      "materialId": "tldqryqe",
+      "language": "en",
+      "level": "s6",
+      "origin": "notes"
+    }
+  ]
+}

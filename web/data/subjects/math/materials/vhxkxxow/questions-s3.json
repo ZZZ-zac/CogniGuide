@@ -1,0 +1,105 @@
+{
+  "v": 2,
+  "questions": [
+    {
+      "id": "tlv2ieh9",
+      "question": "In triangle $PQR$, $\\angle P = 38^\\circ$, side $p = QR = 9$ cm, and side $r = PQ = 7$ cm. Determine whether triangle $PQR$ can be formed. If yes, find $\\angle R$.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{7\\ \\text{cm}}{\\sin R} = \\frac{9\\ \\text{cm}}{\\sin 38^\\circ}$\n2. Solve for $\\sin R$: $\\sin R = \\frac{7 \\sin 38^\\circ}{9}$\n3. Compute: $\\sin 38^\\circ \\approx 0.6157$, so $\\sin R = \\frac{7 \\times 0.6157}{9} \\approx 0.4793$\n4. Since $0.4793 < 1$, a solution exists.\n5. $R = \\arcsin(0.4793) \\approx 28.6^\\circ$\n6. Check angle sum: $P + R = 38^\\circ + 28.6^\\circ = 66.6^\\circ < 180^\\circ$, and obtuse $R = 151.4^\\circ$ gives $P + R = 189.4^\\circ > 180^\\circ$, so only one valid solution.\nAnswer: $28.6^\\circ$",
+      "evidence": "16. By the sine formula, \n$$\n\\frac{27\\ \\text{cm}}{\\sin C} = \\frac{11\\ \\text{cm}}{\\sin 25^\\circ}\n$$\n$$\n\\sin C = \\frac{27 \\sin 25^\\circ}{11}\n$$\n$$\n= 1.04,\\ \\text{cor. to 3 sig. fig.}\n$$\n$$\n> 1\n$$\n$\\therefore$ There is no solution for $C$.\n$\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "sin(38) = 0.6157",
+        "7*0.6157/9 = 0.4793",
+        "asin(0.4793) = 28.6"
+      ],
+      "chunkIds": [
+        "vhxkxxow-1",
+        "vhxkxxow-2"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "x9ejewlw",
+      "question": "In triangle $XYZ$, $\\angle X = 110^\\circ$, side $x = YZ = 15$ cm, and side $z = XY = 8$ cm. Determine whether triangle $XYZ$ can be formed. If yes, find $\\angle Z$.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{8\\ \\text{cm}}{\\sin Z} = \\frac{15\\ \\text{cm}}{\\sin 110^\\circ}$\n2. Solve for $\\sin Z$: $\\sin Z = \\frac{8 \\sin 110^\\circ}{15}$\n3. Compute: $\\sin 110^\\circ = \\sin(70^\\circ) \\approx 0.9397$\n4. So $\\sin Z = \\frac{8 \\times 0.9397}{15} \\approx 0.5012$\n5. Since $0.5012 < 1$, a solution exists.\n6. $Z = \\arcsin(0.5012) \\approx 30.1^\\circ$ (obtuse $Z = 149.9^\\circ$ gives $X + Z > 180^\\circ$, invalid).\nAnswer: $30.1^\\circ$",
+      "evidence": "18. By the sine formula, \n$$\n\\frac{7\\ \\text{cm}}{\\sin C} = \\frac{2\\ \\text{cm}}{\\sin 135^\\circ}\n$$\n$$\n\\sin C = \\frac{7 \\sin 135^\\circ}{2}\n$$\n$$\n= 2.47,\\ \\text{cor. to 3 sig. fig.}\n$$\n$$\n> 1\n$$\n$\\therefore$ There is no solution for $C$.\n$\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "sin(110) = 0.9397",
+        "8*0.9397/15 = 0.501",
+        "asin(0.501) = 30.1"
+      ],
+      "chunkIds": [
+        "vhxkxxow-2",
+        "vhxkxxow-3"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "pihqw21i",
+      "question": "In triangle $LMN$, $\\angle L = 22^\\circ$, side $l = MN = 6$ cm, and side $n = LM = 5$ cm. Determine whether triangle $LMN$ can be formed. If yes, find $\\angle N$.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{5\\ \\text{cm}}{\\sin N} = \\frac{6\\ \\text{cm}}{\\sin 22^\\circ}$\n2. Solve for $\\sin N$: $\\sin N = \\frac{5 \\sin 22^\\circ}{6}$\n3. Compute: $\\sin 22^\\circ \\approx 0.3746$, so $\\sin N = \\frac{5 \\times 0.3746}{6} \\approx 0.3122$\n4. Since $0.3122 < 1$, a solution exists.\n5. $N = \\arcsin(0.3122) \\approx 18.2^\\circ$\n6. Obtuse $N = 161.8^\\circ$ gives $L + N = 184^\\circ > 180^\\circ$, invalid — only one solution.\nAnswer: $18.2^\\circ$",
+      "evidence": "17. By the sine formula, \n$$\n\\frac{9\\ \\text{cm}}{\\sin C} = \\frac{16\\ \\text{cm}}{\\sin 74^\\circ}\n$$\n$$\n\\sin C = \\frac{9 \\sin 74^\\circ}{16}\n$$\n$$\nC = 32.7^\\circ,\\ \\text{cor. to 3 sig. fig.}\n$$\n$$\nA + C = 74^\\circ + 32.732^\\circ = 107^\\circ,\\ \\text{cor. to 3 sig. fig.}\n$$\n$$\n< 180^\\circ\n$$\n$\\therefore$ $\\triangle ABC$ can be formed and $C = 32.7^\\circ$.",
+      "checks": [
+        "sin(22) = 0.3746",
+        "5*0.3746/6 = 0.312",
+        "asin(0.312) = 18.2"
+      ],
+      "chunkIds": [
+        "vhxkxxow-1",
+        "vhxkxxow-2"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "yopmw5kg",
+      "question": "In triangle $DEF$, $\\angle D = 125^\\circ$, side $d = EF = 18$ cm, and side $f = DE = 7$ cm. Determine whether triangle $DEF$ can be formed. If yes, find $\\angle F$.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{7\\ \\text{cm}}{\\sin F} = \\frac{18\\ \\text{cm}}{\\sin 125^\\circ}$\n2. Solve for $\\sin F$: $\\sin F = \\frac{7 \\sin 125^\\circ}{18}$\n3. Compute: $\\sin 125^\\circ = \\sin(55^\\circ) \\approx 0.8192$\n4. So $\\sin F = \\frac{7 \\times 0.8192}{18} \\approx 0.3187$\n5. Since $0.3187 < 1$, a solution exists.\n6. $F = \\arcsin(0.3187) \\approx 18.6^\\circ$ (obtuse $F = 161.4^\\circ$ gives $D + F > 180^\\circ$, invalid).\nAnswer: $18.6^\\circ$",
+      "evidence": "18. By the sine formula, \n$$\n\\frac{7\\ \\text{cm}}{\\sin C} = \\frac{2\\ \\text{cm}}{\\sin 135^\\circ}\n$$\n$$\n\\sin C = \\frac{7 \\sin 135^\\circ}{2}\n$$\n$$\n= 2.47,\\ \\text{cor. to 3 sig. fig.}\n$$\n$$\n> 1\n$$\n$\\therefore$ There is no solution for $C$.\n$\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "sin(125) = 0.8192",
+        "7*0.8192/18 = 0.319",
+        "asin(0.319) = 18.6"
+      ],
+      "chunkIds": [
+        "vhxkxxow-2",
+        "vhxkxxow-3"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "5fheop4e",
+      "question": "In triangle $ABC$, $\\angle A = 40^\\circ$, side $a = BC = 11$ cm, and side $c = AB = 7$ cm. Determine whether triangle $ABC$ can be formed. If yes, find $\\angle C$.",
+      "referenceAnswer": "1. By the sine formula: $\\frac{7\\ \\text{cm}}{\\sin C} = \\frac{11\\ \\text{cm}}{\\sin 40^\\circ}$\n2. Solve for $\\sin C$: $\\sin C = \\frac{7 \\sin 40^\\circ}{11}$\n3. Compute: $\\sin 40^\\circ \\approx 0.6428$, so $\\sin C = \\frac{7 \\times 0.6428}{11} \\approx 0.4085$\n4. Since $0.4085 < 1$, a solution exists.\n5. $C = \\arcsin(0.4085) \\approx 24.1^\\circ$\n6. Obtuse $C = 155.9^\\circ$ gives $A + C = 195.9^\\circ > 180^\\circ$, invalid — only one solution.\nAnswer: $24.1^\\circ$",
+      "evidence": "16. By the sine formula, \n$$\n\\frac{27\\ \\text{cm}}{\\sin C} = \\frac{11\\ \\text{cm}}{\\sin 25^\\circ}\n$$\n$$\n\\sin C = \\frac{27 \\sin 25^\\circ}{11}\n$$\n$$\n= 1.04,\\ \\text{cor. to 3 sig. fig.}\n$$\n$$\n> 1\n$$\n$\\therefore$ There is no solution for $C$.\n$\\therefore$ $\\triangle ABC$ cannot be formed.",
+      "checks": [
+        "sin(40) = 0.6428",
+        "7*0.6428/11 = 0.408",
+        "asin(0.408) = 24.1"
+      ],
+      "chunkIds": [
+        "vhxkxxow-1",
+        "vhxkxxow-2"
+      ],
+      "subject": "math",
+      "materialId": "vhxkxxow",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    }
+  ]
+}

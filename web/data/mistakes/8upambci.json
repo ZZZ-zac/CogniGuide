@@ -1,0 +1,32 @@
+{
+  "id": "8upambci",
+  "question": {
+    "id": "8upambci",
+    "question": "In $\\triangle XYZ$, $X = 38^\\circ$, $x = 14$ cm and $z = 25$ cm. Determine whether $\\triangle XYZ$ can be formed. If yes, find $Z$, correct to 3 significant figures.",
+    "referenceAnswer": "1. Use the sine formula: $\\frac{z}{\\sin Z} = \\frac{x}{\\sin X}$\n2. Substitute given values: $\\sin Z = \\frac{25 \\sin 38^\\circ}{14}$\n3. Compute value: $25 \\sin 38^\\circ / 14 = 1.103 > 1$\nAnswer: No triangle can be formed.",
+    "evidence": "$\\sin C = \\frac{27 \\sin 25^\\circ}{11} = 1.04,\\ \\text{cor. to 3 sig. fig.} > 1$",
+    "checks": [
+      "25*sin(38)/14 = 1.103 > 1"
+    ],
+    "chunkIds": [
+      "vhxkxxow-1"
+    ],
+    "subject": "math",
+    "materialId": "vhxkxxow",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  "lastAnswer": "1837410923",
+  "lastScore": 0,
+  "feedback": "Please review the ambiguous case of the sine rule and how to determine triangle existence using sin θ ≤ 1. Practice substituting given angles and sides into the sine formula and interpreting the result.",
+  "missedPoints": [
+    "Used no valid mathematical reasoning or method",
+    "Did not apply the sine formula",
+    "Did not compute sin Z or compare it to 1",
+    "Did not conclude whether triangle can be formed"
+  ],
+  "wrongCount": 3,
+  "firstWrongAt": "2026-11-05T18:56:48.221Z",
+  "lastWrongAt": "2026-11-05T18:59:29.124Z"
+}

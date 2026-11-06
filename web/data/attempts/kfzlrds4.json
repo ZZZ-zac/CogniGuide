@@ -1,0 +1,90 @@
+{
+  "id": "kfzlrds4",
+  "mode": "quick",
+  "source": {
+    "quizId": "ydyzsxze"
+  },
+  "createdAt": "2026-11-04T12:52:21.066Z",
+  "totalScore": 0,
+  "items": [
+    {
+      "questionId": "aa8hbcx5",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-1"
+      ],
+      "question": "Suppose $X_1 = \\{u_1, u_2, \\ldots, u_n\\}$ and $X_2 = \\{v_1, v_2, \\ldots, v_n\\}$ are subspaces of a vector space $V$. Why does it follow that $u_i + u_j \\in X_1$ for all $1 \\le i, j \\le n$?",
+      "answer": "Because a subspace is closed under scalar multiplication, so multiplying u_i by any scalar stays inside X_1.",
+      "referenceAnswer": "Because $X_1$ is a subspace of $V$, it is closed under vector addition; thus, the sum of any two vectors in $X_1$ (including basis or spanning elements $u_i, u_j$) must also lie in $X_1$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [
+        "The student incorrectly cites scalar multiplication instead of vector addition.",
+        "The question asks specifically about why u_i + u_j ∈ X_1, which relies on closure under addition, not scalar multiplication.",
+        "The reference answer correctly identifies closure under vector addition as the key property."
+      ],
+      "feedback": "You confused closure under scalar multiplication with closure under vector addition. Review the definition of a subspace: it must be closed under both operations, but only addition explains why u_i + u_j stays in X_1. Focus on the two axioms of subspace closure separately."
+    },
+    {
+      "questionId": "kb1piwhp",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-2"
+      ],
+      "question": "Given $u_i \\in X_1$ and $v_i \\in X_2$, and scalars $\\alpha_i, \\beta_i$, why is $\\alpha_i u_i + \\beta_i v_i$ an element of $X_1 + X_2$?",
+      "answer": "",
+      "referenceAnswer": "Since $\\alpha_i u_i \\in X_1$ and $\\beta_i v_i \\in X_2$, their sum belongs to the sum of subspaces $X_1 + X_2 = \\{x_1 + x_2 \\mid x_1 \\in X_1, x_2 \\in X_2\\}$ by definition.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "sn8duki4",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-0"
+      ],
+      "question": "Let $u = \\sum_{i=1}^n a_i u_i + \\sum_{i=1}^n b_i v_i$ and $v = \\sum_{i=1}^n c_i u_i + \\sum_{i=1}^n d_i v_i$. Show that $\\alpha u + \\beta v$ can be written as a linear combination of the $u_i$'s and $v_i$'s with coefficients expressed in terms of $\\alpha, \\beta, a_i, b_i, c_i, d_i$.",
+      "answer": "",
+      "referenceAnswer": "Expanding: $\\alpha u + \\beta v = \\sum_{i=1}^n (\\alpha a_i + \\beta c_i) u_i + \\sum_{i=1}^n (\\alpha b_i + \\beta d_i) v_i$, which is a linear combination of the $u_i$'s and $v_i$'s.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "85tu8plb",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-1"
+      ],
+      "question": "Why is $[X_1 \\cup X_2]$ a subspace of $V$? Briefly justify using closure properties.",
+      "answer": "",
+      "referenceAnswer": "Because any linear combination of vectors from $X_1 \\cup X_2$ can be expressed as a sum of combinations from $X_1$ and $X_2$, and the resulting vector lies in $[X_1 \\cup X_2]$, satisfying closure under addition and scalar multiplication.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    },
+    {
+      "questionId": "wqx9gbeh",
+      "subject": "math",
+      "materialId": "vde6feoe",
+      "chunkIds": [
+        "vde6feoe-2"
+      ],
+      "question": "If $X_1$ and $X_2$ are subspaces of $V$, what does the notation $X_1 + X_2$ represent, and how is an arbitrary element of $X_1 + X_2$ expressed?",
+      "answer": "",
+      "referenceAnswer": "$X_1 + X_2$ denotes the set of all sums $x_1 + x_2$ where $x_1 \\in X_1$ and $x_2 \\in X_2$. An arbitrary element is $\\alpha_i u_i + \\beta_i v_i$ for some scalars $\\alpha_i, \\beta_i$ and vectors $u_i \\in X_1$, $v_i \\in X_2$.",
+      "score": 0,
+      "correctPoints": [],
+      "missedPoints": [],
+      "feedback": "No answer was given."
+    }
+  ]
+}

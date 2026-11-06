@@ -1,0 +1,24 @@
+{
+  "id": "h5c5cqen",
+  "question": {
+    "id": "h5c5cqen",
+    "question": "In triangle ABC, if angle A = 25°, side a = 11 cm, and side c = 27 cm, is there a valid solution? Explain your reasoning using the sine formula.",
+    "referenceAnswer": "Using the sine formula, \\(\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\\), so \\(\\sin C = \\frac{27 \\sin 25^\\circ}{11} \\approx 1.04 > 1\\). Since \\(\\sin C\\) cannot be greater than 1, there is no valid solution.",
+    "evidence": "16. \\(A = 25^\\circ\\), \\(a = 11\\) cm, \\(c = 27\\) cm. \\(\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\\) \\(\\Rightarrow \\sin C \\approx 1.04 > 1\\) \\(\\therefore\\) no solution.",
+    "chunkIds": [
+      "tldqryqe-2"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-05T12:43:34.975Z",
+  "lastWrongAt": "2026-11-05T12:43:34.975Z"
+}

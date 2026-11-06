@@ -1,0 +1,76 @@
+[
+  {
+    "id": "58qcyx6o",
+    "question": "In triangle ABC, angle A = 40°, angle B = 55°, and side c = 12 cm (side opposite angle C). Explain how to find angle C and then use the sine formula to write an expression for side a. Do not calculate the numerical value.",
+    "referenceAnswer": "First, use the angle sum of a triangle: $C = 180^\\circ - 40^\\circ - 55^\\circ = 85^\\circ$. Then, by the sine formula, $\\frac{a}{\\sin A} = \\frac{c}{\\sin C}$, so $a = \\frac{12 \\sin 40^\\circ}{\\sin 85^\\circ}$ cm.",
+    "evidence": "Use the angle sum of triangle to find the remaining angle. By the sine formula, $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$.",
+    "chunkIds": [
+      "4diecns8-0",
+      "4diecns8-1"
+    ],
+    "subject": "math",
+    "materialId": "4diecns8",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "zkdhxxev",
+    "question": "Triangle PQR has angles P = 32°, Q = 74°, and side p = 8.5 cm (opposite angle P). Describe the two main steps needed to solve this triangle completely, and state which rule is used in each step.",
+    "referenceAnswer": "Step (i): Use the angle sum of a triangle to find angle R: $R = 180^\\circ - 32^\\circ - 74^\\circ = 74^\\circ$. Step (ii): Use the sine formula to find sides q and r, since two angles and one side are known (AAS case).",
+    "evidence": "If two angles and one side of a triangle are given, the triangle can be solved by: (i) Use the angle sum of triangle to find the remaining angle. (ii) Use the sine formula to find the other two sides.",
+    "chunkIds": [
+      "4diecns8-0",
+      "4diecns8-1"
+    ],
+    "subject": "math",
+    "materialId": "4diecns8",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "x0kszgom",
+    "question": "In triangle XYZ, X = 25°, Z = 110°, and y = 20 cm (side opposite angle Y). Without calculating, explain why side x must be shorter than side y.",
+    "referenceAnswer": "Since $X = 25^\\circ$ and $Y = 180^\\circ - 25^\\circ - 110^\\circ = 45^\\circ$, we have $X < Y$. In any triangle, the larger angle is opposite the longer side, so side x (opposite X) is shorter than side y (opposite Y).",
+    "evidence": "Denote the lengths of the sides opposite to $\\angle A$, $\\angle B$ and $\\angle C$ by $a$, $b$ and $c$ respectively. The sine formula relates angles and their opposite sides.",
+    "chunkIds": [
+      "4diecns8-0"
+    ],
+    "subject": "math",
+    "materialId": "4diecns8",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "sardlntd",
+    "question": "In triangle ABC, A = 22°, C = 123°, and c = 30 cm. The solution shows $B = 35^\\circ$ and uses $\\frac{a}{\\sin 22^\\circ} = \\frac{30}{\\sin 123^\\circ}$. Explain why $\\frac{a}{\\sin 22^\\circ} = \\frac{30}{\\sin 123^\\circ}$ is correct, and what each part of this equation represents.",
+    "referenceAnswer": "This equation comes from the sine formula $\\frac{a}{\\sin A} = \\frac{c}{\\sin C}$, where $a$ is the side opposite angle A (22°), and $c = 30$ cm is the side opposite angle C (123°). It equates the ratios of each side to the sine of its opposite angle.",
+    "evidence": "Sine Formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$. Denote the lengths of the sides opposite to $\\angle A$, $\\angle B$ and $\\angle C$ by $a$, $b$ and $c$ respectively.",
+    "chunkIds": [
+      "4diecns8-0",
+      "4diecns8-2"
+    ],
+    "subject": "math",
+    "materialId": "4diecns8",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "0ypaxqxz",
+    "question": "A student solves a triangle with A = 65°, C = 85°, and b = 15 cm, and finds B = 30°, then writes $\\frac{a}{\\sin 65^\\circ} = \\frac{15}{\\sin 30^\\circ}$. Explain why the denominator is $\\sin 30^\\circ$ and not $\\sin 65^\\circ$ or $\\sin 85^\\circ$.",
+    "referenceAnswer": "Because side $b = 15$ cm is opposite angle $B = 30^\\circ$, and the sine formula requires pairing each side with the sine of its *opposite* angle. So $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$ means the denominator must be $\\sin B = \\sin 30^\\circ$.",
+    "evidence": "Denote the lengths of the sides opposite to $\\angle A$, $\\angle B$ and $\\angle C$ by $a$, $b$ and $c$ respectively. Sine Formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$.",
+    "chunkIds": [
+      "4diecns8-0",
+      "4diecns8-1"
+    ],
+    "subject": "math",
+    "materialId": "4diecns8",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

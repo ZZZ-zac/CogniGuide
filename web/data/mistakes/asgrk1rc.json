@@ -1,0 +1,27 @@
+{
+  "id": "asgrk1rc",
+  "question": {
+    "id": "asgrk1rc",
+    "question": "诗中‘举头望明月，低头思故乡’通过哪两个动作展现情感变化？这种写法有何作用？",
+    "referenceAnswer": "通过‘举头’与‘低头’两个动作展现由外物触发到内心感怀的情感过程；二者形成动作对比，凝练而生动地写出思乡之情自然生发、难以抑制的心理状态。",
+    "evidence": "“举头” 与 “低头” 两个动作形成对比，写出思乡的过程。",
+    "chunkIds": [
+      "nxkw5gxb-0"
+    ],
+    "subject": "chinese",
+    "materialId": "nxkw5gxb",
+    "language": "zh",
+    "level": "s3"
+  },
+  "lastAnswer": "sxdehjgcfnmvhk",
+  "lastScore": 0,
+  "feedback": "请回顾你的学习笔记第4点：‘举头’与‘低头’两个动作形成对比，写出思乡的过程。结合诗句，尝试用自己的话解释这两个动作如何一步步带出思念故乡的情感。",
+  "missedPoints": [
+    "未写出两个动作名称（举头、低头）",
+    "未说明这两个动作展现的情感变化过程（由望月到思乡）",
+    "未指出动作对比的写法及其作用（凝练生动、表现思乡之情自然生发）"
+  ],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-05T11:48:36.740Z",
+  "lastWrongAt": "2026-11-05T11:48:36.740Z"
+}

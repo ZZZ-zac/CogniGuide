@@ -1,0 +1,24 @@
+{
+  "id": "9oik2jgk",
+  "question": {
+    "id": "9oik2jgk",
+    "question": "In triangle ABC, if angle A = 87°, side AB = 22 cm, and angle B = 52°, find the length of side BC using the sine formula. Show your steps.",
+    "referenceAnswer": "Using the sine formula, \\(\\frac{BC}{\\sin 41^\\circ} = \\frac{22}{\\sin 52^\\circ}\\). Solving gives \\(BC = \\frac{22 \\sin 41^\\circ}{\\sin 52^\\circ} \\approx 18.3\\) cm (to 3 significant figures).",
+    "evidence": "By the sine formula, \\(\\dfrac{BC}{\\sin 41^\\circ} = \\dfrac{22 \\text{ cm}}{\\sin 52^\\circ}\\) \\(\\Rightarrow BC = \\dfrac{22 \\sin 41^\\circ}{\\sin 52^\\circ} \\text{ cm}\\) \\(= \\underline{18.3} \\text{ cm, cor. to 3 sig. fig.}\\)",
+    "chunkIds": [
+      "tldqryqe-2"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-05T12:43:34.975Z",
+  "lastWrongAt": "2026-11-05T12:43:34.975Z"
+}

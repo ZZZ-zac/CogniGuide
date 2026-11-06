@@ -1,0 +1,35 @@
+{
+  "id": "b1avby69",
+  "question": {
+    "id": "b1avby69",
+    "question": "In triangle $DEF$, $\\angle D = 25^\\circ$, side $d = 7$ cm (opposite $\\angle D$), and side $f = 16$ cm (opposite $\\angle F$). Determine whether triangle $DEF$ can be formed. Show your working.",
+    "referenceAnswer": "1. Use the sine formula: $\\frac{f}{\\sin F} = \\frac{d}{\\sin D}$\n2. Rearrange to find $\\sin F$: $\\sin F = \\frac{f \\sin D}{d}$\n3. Substitute values: $\\sin F = \\frac{16 \\times \\sin 25^\\circ}{7}$\n4. Compute: $\\sin 25^\\circ \\approx 0.4226$\n5. So $\\sin F = \\frac{16 \\times 0.4226}{7} = 0.9659$\n6. Since $0.9659 < 1$, triangle $DEF$ can be formed\nAnswer: Yes",
+    "evidence": "$A = 25^\\circ$, $a = 11$ cm, $c = 27$ cm — $\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}$ — $\\sin C = 1.04 > 1$ — $\\therefore$ No",
+    "checks": [
+      "sin(25) = 0.4226",
+      "16*0.4226/7 = 0.9659",
+      "0.9659 < 1"
+    ],
+    "chunkIds": [
+      "45ajf1sk-1"
+    ],
+    "subject": "math",
+    "materialId": "45ajf1sk",
+    "language": "en",
+    "level": "s1",
+    "origin": "notes"
+  },
+  "lastAnswer": "2351",
+  "lastScore": 0,
+  "feedback": "You wrote '2351' but didn't show any working or reasoning. To solve this, recall the sine rule: write it down, substitute the given values, calculate sin F, and check if it's between 0 and 1. Try again step by step!",
+  "missedPoints": [
+    "No working shown",
+    "No use of sine formula",
+    "No calculation of sin F",
+    "No comparison to 1 to determine possibility",
+    "No conclusion justified"
+  ],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-06T10:04:08.766Z",
+  "lastWrongAt": "2026-11-06T10:04:08.766Z"
+}

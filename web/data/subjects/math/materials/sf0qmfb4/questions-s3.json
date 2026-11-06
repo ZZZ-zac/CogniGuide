@@ -1,0 +1,72 @@
+[
+  {
+    "id": "m8uespdq",
+    "question": "Triangle ABC has AB = 5 cm, AC = 4 cm, and area = 8 cm². Find the acute angle A, giving your answer correct to 3 significant figures.",
+    "referenceAnswer": "Using the formula area = $\\frac{1}{2} \\times AB \\times AC \\times \\sin A$, we substitute: $8 = \\frac{1}{2} \\times 5 \\times 4 \\times \\sin A$, so $\\sin A = \\frac{4}{5} = 0.8$. Since A is acute, $A = \\sin^{-1}(0.8) = 53.1^\\circ$ (to 3 sig. fig.).",
+    "evidence": "Area of $\\triangle ABC = \\frac{1}{2} \\times AB \\times AC \\times \\sin A$; $8 = \\frac{1}{2} \\times 5 \\times 4 \\times \\sin \\theta$; $\\sin \\theta = \\frac{4}{5}$; $\\theta = 53.130^\\circ$ or $180^\\circ - 53.130^\\circ$ (reject); $= 53.1^\\circ$, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "sf0qmfb4-2"
+    ],
+    "subject": "math",
+    "materialId": "sf0qmfb4",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "z7i9u2wi",
+    "question": "Triangle DEF is isosceles with DE = EF = 7 cm and ∠E = 100°. Calculate its area, correct to 3 significant figures.",
+    "referenceAnswer": "Using the formula area = $\\frac{1}{2} \\times DE \\times EF \\times \\sin E$: area = $\\frac{1}{2} \\times 7 \\times 7 \\times \\sin 100^\\circ \\approx 24.1\\ \\text{cm}^2$ (to 3 sig. fig.).",
+    "evidence": "$EF = DE = 7$ cm; Area of $\\triangle DEF = \\frac{1}{2} \\times DE \\times EF \\times \\sin E = \\frac{1}{2} \\times 7 \\times 7 \\times \\sin 100^\\circ$ cm² = 24.1 cm², cor. to 3 sig. fig.",
+    "chunkIds": [
+      "sf0qmfb4-0"
+    ],
+    "subject": "math",
+    "materialId": "sf0qmfb4",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "7uogw1ww",
+    "question": "The area of triangle PQR is 45 cm², PQ = 10 cm, and ∠Q = 78°. Find the length of QR, correct to 3 significant figures.",
+    "referenceAnswer": "Using area = $\\frac{1}{2} \\times PQ \\times QR \\times \\sin Q$, rearrange: $QR = \\frac{2 \\times \\text{area}}{PQ \\sin Q} = \\frac{2 \\times 45}{10 \\sin 78^\\circ} \\approx 9.20$ cm (to 3 sig. fig.).",
+    "evidence": "Area of $\\triangle PQR = \\frac{1}{2} \\times PQ \\times QR \\times \\sin Q$; $QR = \\frac{2 \\times \\text{area of } \\triangle PQR}{PQ \\sin Q}$; $x = \\frac{2 \\times 45}{10 \\sin 78^\\circ}$ cm = 9.20 cm, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "sf0qmfb4-1"
+    ],
+    "subject": "math",
+    "materialId": "sf0qmfb4",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "7msqktfp",
+    "question": "Triangle ABC has AC = 6 cm, BC = x cm, ∠C = 55°, and area = 20 cm². Find x, correct to 3 significant figures.",
+    "referenceAnswer": "Using area = $\\frac{1}{2} \\times AC \\times BC \\times \\sin C$: $20 = \\frac{1}{2} \\times 6 \\times x \\times \\sin 55^\\circ$. Solving gives $x = \\frac{2 \\times 20}{6 \\sin 55^\\circ} \\approx 8.14$ cm (to 3 sig. fig.).",
+    "evidence": "Area of $\\triangle ABC = \\frac{1}{2} \\times AC \\times BC \\times \\sin C$; $BC = \\frac{2 \\times \\text{area of } \\triangle ABC}{AC \\sin C}$; $x = \\frac{2 \\times 20}{6 \\sin 55^\\circ}$ cm = 8.14 cm, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "sf0qmfb4-1"
+    ],
+    "subject": "math",
+    "materialId": "sf0qmfb4",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "btxhz9nu",
+    "question": "Triangle ABC has AC = 21 cm, BC = 18 cm, and area = 189 cm². Find ∠C, giving a reason for your answer.",
+    "referenceAnswer": "Using area = $\\frac{1}{2} \\times AC \\times BC \\times \\sin C$: $189 = \\frac{1}{2} \\times 21 \\times 18 \\times \\sin C$, so $\\sin C = 1$. Therefore, ∠C = 90°, since sine equals 1 only at 90° in [0°, 180°].",
+    "evidence": "Area of $\\triangle ABC = \\frac{1}{2} \\times AC \\times BC \\times \\sin C$; $189 = \\frac{1}{2} \\times 21 \\times 18 \\times \\sin \\theta$; $\\sin \\theta = 1$; $\\theta = 90^\\circ$.",
+    "chunkIds": [
+      "sf0qmfb4-3"
+    ],
+    "subject": "math",
+    "materialId": "sf0qmfb4",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "id": "axtbytuo",
+  "question": {
+    "id": "axtbytuo",
+    "question": "In question 16, $A = 25^\\circ$, $a = 11$ cm, and $c = 27$ cm. Explain why no triangle $\\triangle ABC$ can be formed, using the sine rule and the range of possible values for $\\sin C$.",
+    "referenceAnswer": "Using the sine rule: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$, so $\\sin C = \\frac{c \\sin A}{a} = \\frac{27 \\sin 25^\\circ}{11} \\approx 1.04$. Since $\\sin C > 1$, which is impossible, no such triangle exists.",
+    "evidence": "sin C = 1.04 > 1 ∴ No",
+    "chunkIds": [
+      "45ajf1sk-0",
+      "45ajf1sk-1"
+    ],
+    "subject": "math",
+    "materialId": "45ajf1sk",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "fsd",
+  "lastScore": 0,
+  "feedback": "Your answer is blank — please try again! Review how to apply the sine rule to find sin C, and remember that sine values must be between −1 and 1. Look at the worked solution for Q16 on page 1.",
+  "missedPoints": [
+    "Uses sine rule correctly to set up equation",
+    "Calculates sin C ≈ 1.04",
+    "States that sin C > 1 is impossible",
+    "Concludes no triangle can be formed"
+  ],
+  "wrongCount": 3,
+  "firstWrongAt": "2026-11-05T14:53:25.194Z",
+  "lastWrongAt": "2026-11-05T15:03:38.672Z"
+}

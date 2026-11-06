@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pypa3kuf",
+    "question": "In a triangle with angles $30^\\circ$, $45^\\circ$, and $105^\\circ$, the side opposite the $30^\\circ$ angle has length 6. Use the sine formula to find the length of the side opposite the $45^\\circ$ angle.",
+    "referenceAnswer": "Let the required side be $x$. By the sine formula: $\\frac{x}{\\sin 45^\\circ} = \\frac{6}{\\sin 30^\\circ}$. Since $\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}$ and $\\sin 30^\\circ = \\frac{1}{2}$, we have $x = 6 \\cdot \\frac{\\sin 45^\\circ}{\\sin 30^\\circ} = 6 \\cdot \\frac{\\sqrt{2}/2}{1/2} = 6\\sqrt{2}$. So $x = 6\\sqrt{2}$.",
+    "evidence": "The sine formula is introduced in Chapter 9.1 as the tool for solving triangles when two angles and one side (AAS or ASA) are known.",
+    "chunkIds": [
+      "slxcskvu-0"
+    ],
+    "subject": "math",
+    "materialId": "slxcskvu",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "ix1fc0zx",
+    "question": "Explain why the sine formula cannot be directly used to find an unknown side when only the three angles of a triangle are given.",
+    "referenceAnswer": "The sine formula relates sides to their opposite angles via ratios: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$. If only angles are known, all ratios involve unknown sides — there is no known side length to anchor the proportion, so absolute side lengths cannot be determined; only shape (not size) is fixed.",
+    "evidence": "The sine formula requires at least one side–angle pair to solve for other sides; the classwork exercises (Nos. 1–6) all provide at least one side length.",
+    "chunkIds": [
+      "slxcskvu-0"
+    ],
+    "subject": "math",
+    "materialId": "slxcskvu",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "6uxvh2da",
+    "question": "A triangle has angles $30^\\circ$, $x^\\circ$, and $100^\\circ$. Write an expression for the ratio of the side opposite $x^\\circ$ to the side opposite $30^\\circ$, using the sine formula.",
+    "referenceAnswer": "By the sine formula: $\\frac{\\text{side opposite } x^\\circ}{\\sin x^\\circ} = \\frac{\\text{side opposite } 30^\\circ}{\\sin 30^\\circ}$, so the ratio is $\\frac{\\sin x^\\circ}{\\sin 30^\\circ} = \\frac{\\sin x^\\circ}{0.5} = 2\\sin x^\\circ$.",
+    "evidence": "The sine formula is stated implicitly through application in solving for $x$ in triangles with given angles and sides.",
+    "chunkIds": [
+      "slxcskvu-0"
+    ],
+    "subject": "math",
+    "materialId": "slxcskvu",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "wxrxk0px",
+    "question": "In a triangle, side $a = 10$ lies opposite angle $A = 30^\\circ$, and side $b$ lies opposite angle $B = 45^\\circ$. Without calculating, explain how you would use the sine formula to compare $a$ and $b$.",
+    "referenceAnswer": "From $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$, we get $b = a \\cdot \\frac{\\sin B}{\\sin A}$. Since $\\sin 45^\\circ > \\sin 30^\\circ$, the ratio $\\frac{\\sin B}{\\sin A} > 1$, so $b > a$. Thus, the side opposite the larger angle ($45^\\circ$) is longer than the side opposite $30^\\circ$.",
+    "evidence": "The sine formula connects side lengths to the sines of their opposite angles — and since sine increases from $0^\\circ$ to $90^\\circ$, larger acute angles correspond to larger opposite sides when the formula applies.",
+    "chunkIds": [
+      "slxcskvu-0"
+    ],
+    "subject": "math",
+    "materialId": "slxcskvu",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "hpb4lfwx",
+    "question": "A student writes: 'In any triangle, $\\frac{a}{A} = \\frac{b}{B} = \\frac{c}{C}$, where $a,b,c$ are sides and $A,B,C$ are opposite angles in degrees.' Explain why this is incorrect, and give the correct relationship.",
+    "referenceAnswer": "Angles and side lengths have different units and dimensions — you cannot divide a length by a degree measure meaningfully. The correct relationship is the sine formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$, where the sines of angles (unitless ratios) make the equation dimensionally consistent.",
+    "evidence": "The classwork uses the sine formula $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$, not angle measures directly — confirming that sine values, not angles, are used.",
+    "chunkIds": [
+      "slxcskvu-0"
+    ],
+    "subject": "math",
+    "materialId": "slxcskvu",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

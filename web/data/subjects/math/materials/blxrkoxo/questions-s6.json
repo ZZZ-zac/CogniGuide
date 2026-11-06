@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nob3vldf",
+    "question": "In $\\triangle ABC$, $A = 40^\\circ$, $a = 5$ cm, and $b = 7$ cm. Use the sine formula to determine all possible values of $B$, correct to 3 significant figures, and explain why two solutions exist.",
+    "referenceAnswer": "Using the sine formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} \\Rightarrow \\frac{5}{\\sin 40^\\circ} = \\frac{7}{\\sin B}$, so $\\sin B = \\frac{7 \\sin 40^\\circ}{5} \\approx 0.900$. Thus $B \\approx 64.1^\\circ$ or $180^\\circ - 64.1^\\circ = 116^\\circ$. Two solutions exist because $\\sin B$ is positive in both first and second quadrants, and $b > a > b \\sin A$, satisfying the ambiguous case (Case 3).",
+    "evidence": "‘$\\sin B = \\frac{7 \\sin 40^\\circ}{5}$, $B = 64.145^\\circ$ or $180^\\circ - 64.145^\\circ$, $\\therefore B = 64.1^\\circ$ or $116^\\circ$, cor. to 3 sig. fig.’ — an example of Case 3",
+    "chunkIds": [
+      "blxrkoxo-1"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  {
+    "id": "xnaxrrbv",
+    "question": "Given $\\triangle ABC$ with $A = 120^\\circ$, $b = 9$ cm, and $a = 5\\sqrt{3}$ cm, show that no triangle can be formed. Justify your conclusion using angle sum and the sine formula.",
+    "referenceAnswer": "By the sine formula: $\\frac{b}{\\sin B} = \\frac{a}{\\sin A} \\Rightarrow \\sin B = \\frac{b \\sin A}{a} = \\frac{9 \\sin 120^\\circ}{5\\sqrt{3}}$. Since $\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$, this simplifies to $\\sin B = \\frac{9 \\cdot \\frac{\\sqrt{3}}{2}}{5\\sqrt{3}} = \\frac{9}{10} = 0.9$, so $B \\approx 64.2^\\circ$. Then $A + B \\approx 120^\\circ + 64.2^\\circ = 184.2^\\circ > 180^\\circ$, violating the triangle angle sum property. Hence, no triangle exists.",
+    "evidence": "‘$\\sin B = \\frac{9 \\sin 120^\\circ}{5\\sqrt{3}}$, $B = 64.158^\\circ$, $A + B = 120^\\circ + 64.158^\\circ = 184.158^\\circ > 180^\\circ$, i.e. $\\triangle ABC$ cannot be formed.’",
+    "chunkIds": [
+      "blxrkoxo-3"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  {
+    "id": "brtdxo9n",
+    "question": "In $\\triangle ABC$, $B = 30^\\circ$ and $AB = 20$ cm. Explain why the minimum possible length of $AC$ is $10$ cm, and state the geometric configuration that achieves this minimum.",
+    "referenceAnswer": "The length $AC$ is minimized when $AC \\perp BC$, i.e., when $AC$ is the perpendicular from $A$ to line $BC$. In this right triangle, $\\sin 30^\\circ = \\frac{AC}{AB} = \\frac{AC}{20}$, so $AC = 20 \\sin 30^\\circ = 20 \\times \\frac{1}{2} = 10$ cm. This is the shortest possible distance from $A$ to line $BC$.",
+    "evidence": "‘When $AC \\perp BC$, the length of $AC$ is minimum and $\\sin 30^\\circ = \\frac{AC}{20 \\text{ cm}}$, $AC = 20 \\sin 30^\\circ \\text{ cm} = 10 \\text{ cm}$’",
+    "chunkIds": [
+      "blxrkoxo-0"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  {
+    "id": "gh6071qv",
+    "question": "For $\\triangle ABC$ with $B = 30^\\circ$ and $AB = 20$ cm, determine the range of $AC$ for which exactly two distinct triangles can be formed. Justify your answer using the ambiguous case conditions.",
+    "referenceAnswer": "Two triangles can be formed when $AC$ satisfies $b \\sin B < AC < b$, where $b = AB = 20$ cm and $B = 30^\\circ$. So $20 \\sin 30^\\circ < AC < 20$, i.e., $10 \\text{ cm} < AC < 20 \\text{ cm}$. This is the condition for the ambiguous case (Case 2), where side $AC$ (opposite $B$) is longer than the altitude but shorter than the adjacent side $AB$.",
+    "evidence": "‘When two triangles can be formed, $10 \\text{ cm} < AC < AB$, $10 \\text{ cm} < AC < 20 \\text{ cm}$’",
+    "chunkIds": [
+      "blxrkoxo-0"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  {
+    "id": "v650jl7x",
+    "question": "In $\\triangle ABC$, $A = 40^\\circ$, $b = 7$ cm, and $a = 10$ cm. Find $B$, correct to 3 significant figures, and explain why only one solution exists.",
+    "referenceAnswer": "By the sine formula: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} \\Rightarrow \\sin B = \\frac{b \\sin A}{a} = \\frac{7 \\sin 40^\\circ}{10} \\approx 0.450$, so $B \\approx 26.7^\\circ$. Only one solution exists because $a > b$, meaning side $a$ is opposite the given angle $A$ and is longer than side $b$, so $B$ must be acute (Case 4). The obtuse angle $180^\\circ - 26.7^\\circ = 153^\\circ$ would make $A + B > 180^\\circ$, which is impossible.",
+    "evidence": "‘$\\sin B = \\frac{7 \\sin 40^\\circ}{10}$, $B = 26.7^\\circ$, cor. to 3 sig. fig.’ — an example of Case 4",
+    "chunkIds": [
+      "blxrkoxo-1"
+    ],
+    "subject": "math",
+    "materialId": "blxrkoxo",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  }
+]

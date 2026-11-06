@@ -1,0 +1,28 @@
+{
+  "id": "a6jz03id",
+  "question": {
+    "id": "a6jz03id",
+    "question": "In $\\triangle DEF$, $D = 128^\\circ$, $d = 22$ cm and $f = 8$ cm. Determine whether $\\triangle DEF$ can be formed. If yes, find $F$, correct to 3 significant figures.",
+    "referenceAnswer": "1. Use the sine formula: $\\frac{f}{\\sin F} = \\frac{d}{\\sin D}$\n2. Substitute given values: $\\sin F = \\frac{8 \\sin 128^\\circ}{22}$\n3. Compute value: $8 \\sin 128^\\circ / 22 = 0.2853$\n4. Take inverse sine: $F = \\arcsin(0.2853) = 16.6^\\circ$\n5. Verify angle sum feasibility: $D + F = 128^\\circ + 16.6^\\circ = 144.6^\\circ < 180^\\circ$\nAnswer: $16.6^\\circ$",
+    "evidence": "$\\sin C = \\frac{9 \\sin 74^\\circ}{16}$, $C = 32.7^\\circ,\\ \\text{cor. to 3 sig. fig.}$",
+    "checks": [
+      "8*sin(128)/22 = 0.2853",
+      "asin(0.2853) = 16.6"
+    ],
+    "chunkIds": [
+      "vhxkxxow-2"
+    ],
+    "subject": "math",
+    "materialId": "vhxkxxow",
+    "language": "en",
+    "level": "s6",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 6,
+  "firstWrongAt": "2026-11-05T18:56:48.221Z",
+  "lastWrongAt": "2026-11-05T18:59:29.124Z"
+}

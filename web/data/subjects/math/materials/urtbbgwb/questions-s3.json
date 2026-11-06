@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hufyc7bb",
+    "question": "Triangle ABC has side lengths AB = 8 cm, BC = 7 cm, and AC = 5 cm. Use Heron’s formula to find its area, correct to 3 significant figures.",
+    "referenceAnswer": "First, compute the semi-perimeter: $ s = \\frac{1}{2}(8 + 7 + 5) = 10 $ cm. Then apply Heron’s formula: area $ = \\sqrt{10(10 - 8)(10 - 7)(10 - 5)} = \\sqrt{10 \\times 2 \\times 3 \\times 5} = \\sqrt{300} \\approx 17.3 $ cm², correct to 3 sig. fig.",
+    "evidence": "s = \\frac{1}{2}(8 + 7 + 5)\\,\\text{cm} = 10\\,\\text{cm}. By Heron’s formula, area of \\triangle ABC = \\sqrt{10(10 - 8)(10 - 7)(10 - 5)}\\,\\text{cm}^2 = 17.3\\,\\text{cm}^2, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "urtbbgwb-0"
+    ],
+    "subject": "math",
+    "materialId": "urtbbgwb",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "rlpuxvnj",
+    "question": "Triangle PQR has sides PQ = 20 cm, QR = 7 cm, and PR = 15 cm. Show that its area is exactly 42 cm² using Heron’s formula.",
+    "referenceAnswer": "Semi-perimeter: $ s = \\frac{1}{2}(20 + 7 + 15) = 21 $ cm. Area = $ \\sqrt{21(21 - 20)(21 - 7)(21 - 15)} = \\sqrt{21 \\times 1 \\times 14 \\times 6} = \\sqrt{1764} = 42 $ cm².",
+    "evidence": "s = \\frac{1}{2}(7 + 15 + 20)\\,\\text{cm} = 21\\,\\text{cm}. By Heron’s formula, area of \\triangle PQR = \\sqrt{21(21 - 7)(21 - 15)(21 - 20)}\\,\\text{cm}^2 = 42\\,\\text{cm}^2",
+    "chunkIds": [
+      "urtbbgwb-1"
+    ],
+    "subject": "math",
+    "materialId": "urtbbgwb",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "x6xqbmal",
+    "question": "In triangle ABC with AB = 9 cm, BC = 15 cm, and AC = 8 cm, the area is found to be approximately 29.9 cm². Explain how to use this area to find the height from vertex A to side BC.",
+    "referenceAnswer": "The area of a triangle equals $ \\frac{1}{2} \\times \\text{base} \\times \\text{height} $. Taking BC = 15 cm as the base, we solve $ 29.9 = \\frac{1}{2} \\times 15 \\times h $, so $ h = \\frac{2 \\times 29.9}{15} \\approx 3.99 $ cm.",
+    "evidence": "Let $ h\\,\\text{cm} $ be the height from $ A $ to $ BC $. Area of $ \\triangle ABC = \\frac{1}{2} \\times 15 \\times h\\,\\text{cm}^2 $. $ h = \\frac{2 \\times \\text{area of } \\triangle ABC}{BC} = \\frac{2 \\times 29.933}{15} = 3.99 $, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "urtbbgwb-2",
+      "urtbbgwb-3"
+    ],
+    "subject": "math",
+    "materialId": "urtbbgwb",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "ldpfatut",
+    "question": "Triangle XYZ has sides XY = 7 cm, YZ = 13 cm, and XZ = 10 cm. Calculate its area using Heron’s formula and give your answer correct to 3 significant figures.",
+    "referenceAnswer": "Semi-perimeter: $ s = \\frac{1}{2}(7 + 13 + 10) = 15 $ cm. Area = $ \\sqrt{15(15 - 7)(15 - 13)(15 - 10)} = \\sqrt{15 \\times 8 \\times 2 \\times 5} = \\sqrt{1200} \\approx 34.6 $ cm², correct to 3 sig. fig.",
+    "evidence": "s = \\frac{1}{2}(7 + 13 + 10)\\,\\text{cm} = 15\\,\\text{cm}. By Heron’s formula, area of \\triangle XYZ = \\sqrt{15(15 - 7)(15 - 13)(15 - 10)}\\,\\text{cm}^2 = 34.6\\,\\text{cm}^2, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "urtbbgwb-0"
+    ],
+    "subject": "math",
+    "materialId": "urtbbgwb",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "suyyg3au",
+    "question": "Triangle DEF is isosceles with DE = EF = 8 cm and DF = 12 cm. Explain why the semi-perimeter is 14 cm and use it to find the area (correct to 3 sig. fig.).",
+    "referenceAnswer": "Since DE = EF = 8 cm and DF = 12 cm, the perimeter is $ 8 + 8 + 12 = 28 $ cm, so semi-perimeter $ s = \\frac{28}{2} = 14 $ cm. Area = $ \\sqrt{14(14 - 8)(14 - 12)(14 - 8)} = \\sqrt{14 \\times 6 \\times 2 \\times 6} = \\sqrt{1008} \\approx 31.7 $ cm², correct to 3 sig. fig.",
+    "evidence": "EF = DE = 8\\,\\text{cm}, s = \\frac{1}{2}(8 + 12 + 8)\\,\\text{cm} = 14\\,\\text{cm}. By Heron’s formula, area of \\triangle DEF = \\sqrt{14(14 - 8)(14 - 12)(14 - 8)}\\,\\text{cm}^2 = 31.7\\,\\text{cm}^2, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "urtbbgwb-0",
+      "urtbbgwb-1"
+    ],
+    "subject": "math",
+    "materialId": "urtbbgwb",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

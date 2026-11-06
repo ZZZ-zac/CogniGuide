@@ -1,0 +1,25 @@
+{
+  "id": "pficeuro",
+  "question": {
+    "id": "pficeuro",
+    "question": "Compare the outcomes of questions 16 and 18: both give $\\sin(\\text{angle}) > 1$. What do their given angle–side pairs have in common that leads to this impossibility?",
+    "referenceAnswer": "In both cases, the side opposite the given angle is too short to reach the other side: in Q16, side $a = 11$ cm is too short to form a triangle with angle $A = 25^\\circ$ and side $c = 27$ cm; in Q18, side $b = 2$ cm is too short opposite the large obtuse angle $B = 135^\\circ$ and side $c = 7$ cm. In both, the sine rule yields $\\sin(\\text{angle}) > 1$, violating the fundamental bound of sine.",
+    "evidence": "sin C = 1.04 > 1 ∴ No; sin C = 2.47 > 1 ∴ No",
+    "chunkIds": [
+      "45ajf1sk-0",
+      "45ajf1sk-1"
+    ],
+    "subject": "math",
+    "materialId": "45ajf1sk",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 6,
+  "firstWrongAt": "2026-11-05T14:53:04.339Z",
+  "lastWrongAt": "2026-11-05T15:03:38.672Z"
+}

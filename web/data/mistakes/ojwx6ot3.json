@@ -1,0 +1,27 @@
+{
+  "id": "ojwx6ot3",
+  "question": {
+    "id": "ojwx6ot3",
+    "question": "诗中‘疑是地上霜’运用了什么修辞手法？其表达效果是什么？",
+    "referenceAnswer": "运用了比喻的修辞手法，将皎洁清冷的月光比作地上的白霜，既突出月光的明亮与寒意，又烘托出诗人孤寂清冷的心境。",
+    "evidence": "“疑是地上霜” 运用了比喻，把月光比作地上的霜。",
+    "chunkIds": [
+      "nxkw5gxb-0"
+    ],
+    "subject": "chinese",
+    "materialId": "nxkw5gxb",
+    "language": "zh",
+    "level": "s3"
+  },
+  "lastAnswer": "zsdf",
+  "lastScore": 0,
+  "feedback": "请复习笔记第3点，并结合参考答案理解比喻的作用。下次答题时，记得先明确修辞手法名称，再解释怎么比、比出了什么感觉。",
+  "missedPoints": [
+    "未指出修辞手法是‘比喻’",
+    "未说明本体（月光）和喻体（霜）",
+    "未分析表达效果：突出月光的明亮与寒意，烘托诗人孤寂清冷的心境"
+  ],
+  "wrongCount": 2,
+  "firstWrongAt": "2026-11-05T11:48:36.740Z",
+  "lastWrongAt": "2026-11-05T15:04:18.625Z"
+}

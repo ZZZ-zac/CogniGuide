@@ -1,0 +1,67 @@
+[
+  {
+    "id": "obpdccbw",
+    "question": "If $ u_1 $ and $ u_2 $ are in a subspace $ X_1 $, what can you say about $ u_1 + u_2 $? Justify using the definition of a subspace.",
+    "referenceAnswer": "It is also in $ X_1 $. Because $ X_1 $ is a subspace, it must be closed under addition, so the sum of any two elements in $ X_1 $ is also in $ X_1 $.",
+    "evidence": "Because $ X_1 $ is a subspace of $ V $, $ u_i + u_j \\in X_1 $, $ \\forall\\ 1 \\le i, j \\le n $",
+    "chunkIds": [
+      "vde6feoe-1"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s1"
+  },
+  {
+    "id": "xytaudzm",
+    "question": "If $ u $ is in a subspace $ X_1 $ and $ \\alpha $ is a number, is $ \\alpha u $ also in $ X_1 $? Why?",
+    "referenceAnswer": "Yes, $ \\alpha u $ is in $ X_1 $. A subspace must be closed under scalar multiplication, so multiplying any element in it by a number gives another element in the same subspace.",
+    "evidence": "Because $ X_1 $ is a subspace of $ V $, $ \\alpha_i u_i \\in X_1 $, $ \\forall\\ 1 \\le i \\le n $",
+    "chunkIds": [
+      "vde6feoe-1"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s1"
+  },
+  {
+    "id": "ukg9egsm",
+    "question": "Suppose $ u $ is in subspace $ X_1 $ and $ v $ is in subspace $ X_2 $. Is $ u + v $ necessarily in $ X_1 $ or $ X_2 $? If not, where is it guaranteed to be?",
+    "referenceAnswer": "No — it is not necessarily in $ X_1 $ or $ X_2 $. But it is guaranteed to be in $ X_1 + X_2 $, because $ X_1 + X_2 $ is defined as the set of all sums $ u + v $ where $ u \\in X_1 $ and $ v \\in X_2 $.",
+    "evidence": "$ \\alpha_i u_i + \\beta_i v_i \\in X_1 + X_2 $, $ \\forall\\ 1 \\le i \\le n $",
+    "chunkIds": [
+      "vde6feoe-2"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s1"
+  },
+  {
+    "id": "kewqd7zo",
+    "question": "In the expression $ \\alpha u + \\beta v $, where $ u $ and $ v $ are vectors, what do $ \\alpha $ and $ \\beta $ represent?",
+    "referenceAnswer": "They are scalars (numbers) used to multiply the vectors $ u $ and $ v $, respectively.",
+    "evidence": "The expressions use $ \\alpha $ and $ \\beta $ as coefficients in linear combinations like $ \\alpha u + \\beta v $",
+    "chunkIds": [
+      "vde6feoe-0"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s1"
+  },
+  {
+    "id": "vxrcdrma",
+    "question": "Look at this step: $ \\alpha u + \\beta v = (\\alpha a_1 + \\beta c_1) u_1 + \\cdots + (\\alpha b_n + \\beta d_n) v_n $. What property of algebra allows us to group terms like $ \\alpha a_1 u_1 + \\beta c_1 u_1 = (\\alpha a_1 + \\beta c_1) u_1 $?",
+    "referenceAnswer": "The distributive property of multiplication over addition: $ kx + mx = (k + m)x $.",
+    "evidence": "The derivation shows combining like terms: $ \\alpha a_1 u_1 + \\beta c_1 u_1 = (\\alpha a_1 + \\beta c_1) u_1 $",
+    "chunkIds": [
+      "vde6feoe-0"
+    ],
+    "subject": "math",
+    "materialId": "vde6feoe",
+    "language": "en",
+    "level": "s1"
+  }
+]

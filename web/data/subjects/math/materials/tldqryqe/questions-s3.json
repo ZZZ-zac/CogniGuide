@@ -1,0 +1,72 @@
+[
+  {
+    "id": "qndpr0l4",
+    "question": "In triangle ABC, angle A = 35°, angle C = 88°, and side AB = 31 cm. Explain how to find the length of side AC using the sine formula, and calculate it correct to 3 significant figures.",
+    "referenceAnswer": "First, find angle B using the angle sum of a triangle: $B = 180^\\circ - 35^\\circ - 88^\\circ = 57^\\circ$. Then apply the sine formula: $\\frac{AC}{\\sin B} = \\frac{AB}{\\sin C}$, so $AC = \\frac{31 \\sin 57^\\circ}{\\sin 88^\\circ} \\approx 26.0$ cm.",
+    "evidence": "A + B + C = 180° → 35° + B + 88° = 180° → B = 57°. By the sine formula, $\\frac{AC}{\\sin 57^\\circ} = \\frac{31 \\text{ cm}}{\\sin 88^\\circ}$ → $AC = \\frac{31 \\sin 57^\\circ}{\\sin 88^\\circ} = 26.0 \\text{ cm, cor. to 3 sig. fig.}$",
+    "chunkIds": [
+      "tldqryqe-0"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "me2y9aop",
+    "question": "Triangle ABC has angles A = 123°, B = 22°, and side AB = 19 cm (opposite angle C). Find angle C and explain why BC is longer than AC using the sine formula and angle sizes.",
+    "referenceAnswer": "Angle C = 180° − 123° − 22° = 35°. Since BC is opposite angle A (123°) and AC is opposite angle B (22°), and larger angles face longer sides, BC > AC. This is confirmed by the sine formula: $BC = \\frac{19 \\sin 123^\\circ}{\\sin 35^\\circ} \\approx 27.8$ cm, while $AC = \\frac{19 \\sin 22^\\circ}{\\sin 35^\\circ} \\approx 12.4$ cm.",
+    "evidence": "C = 35°. $\\frac{AC}{\\sin 22^\\circ} = \\frac{19 \\text{ cm}}{\\sin 35^\\circ}$ → AC ≈ 12.4 cm. $\\frac{BC}{\\sin 123^\\circ} = \\frac{19 \\text{ cm}}{\\sin 35^\\circ}$ → BC ≈ 27.8 cm.",
+    "chunkIds": [
+      "tldqryqe-1"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "rwqt5xxo",
+    "question": "In triangle ABC, angle A = 41°, angle C = 87°, and side AC = 22 cm (opposite angle B). Calculate the length of side BC, showing your steps using the sine formula.",
+    "referenceAnswer": "First, find angle B = 180° − 41° − 87° = 52°. Since BC is opposite angle A, use $\\frac{BC}{\\sin 41^\\circ} = \\frac{22}{\\sin 52^\\circ}$. So $BC = \\frac{22 \\sin 41^\\circ}{\\sin 52^\\circ} \\approx 18.3$ cm.",
+    "evidence": "B = 52°. $\\frac{BC}{\\sin 41^\\circ} = \\frac{22 \\text{ cm}}{\\sin 52^\\circ}$ → $BC = \\frac{22 \\sin 41^\\circ}{\\sin 52^\\circ} = 18.3 \\text{ cm, cor. to 3 sig. fig.}$",
+    "chunkIds": [
+      "tldqryqe-2"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "vcdosuku",
+    "question": "Given $\\frac{7 \\text{ cm}}{\\sin \\theta} = \\frac{9.5 \\text{ cm}}{\\sin 61^\\circ}$, solve for $\\theta$ and explain why only one acute solution is valid in this context.",
+    "referenceAnswer": "Rearrange to get $\\sin \\theta = \\frac{7 \\sin 61^\\circ}{9.5} \\approx 0.644$, so $\\theta \\approx \\sin^{-1}(0.644) \\approx 40.1^\\circ$. Since the diagram (No. 10) shows an acute angle and no indication of ambiguity (e.g., no second possible obtuse angle given side–angle–side configuration), only the acute solution is accepted.",
+    "evidence": "$\\sin \\theta = \\frac{7 \\sin 61^\\circ}{9.5}$ → $\\theta = 40.1^\\circ$, cor. to 3 sig. fig.",
+    "chunkIds": [
+      "tldqryqe-2"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "z2le0jfp",
+    "question": "In a triangle, side lengths 11 cm and 7 cm are opposite angles $\\theta$ and $37^\\circ$ respectively. Given that $\\theta$ is acute, find $\\theta$ using the sine formula and verify that the calculated value satisfies the acute condition.",
+    "referenceAnswer": "Apply the sine formula: $\\frac{11}{\\sin \\theta} = \\frac{7}{\\sin 37^\\circ}$, so $\\sin \\theta = \\frac{11 \\sin 37^\\circ}{7} \\approx 0.946$. Then $\\theta = \\sin^{-1}(0.946) \\approx 71.0^\\circ$, which is acute — satisfying the given condition.",
+    "evidence": "$\\frac{11 \\text{ cm}}{\\sin \\theta} = \\frac{7 \\text{ cm}}{\\sin 37^\\circ}$ → $\\sin \\theta = \\frac{11 \\sin 37^\\circ}{7}$ → $\\theta = 71.0^\\circ$, cor. to 3 sig. fig. $\\theta$ is acute.",
+    "chunkIds": [
+      "tldqryqe-3"
+    ],
+    "subject": "math",
+    "materialId": "tldqryqe",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

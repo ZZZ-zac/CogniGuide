@@ -1,0 +1,24 @@
+{
+  "id": "5pyptdel",
+  "question": {
+    "id": "5pyptdel",
+    "question": "In triangle ABC, if side AB = 14 cm, side BC = 20 cm, and angle C = 72°, find angle A using the cosine formula. Show your working.",
+    "referenceAnswer": "Using the cosine formula, \\(\\cos A = \\frac{20^2 + 20.566^2 - 14^2}{2 \\times 20 \\times 20.566}\\) \\(\\approx \\frac{400 + 423.5 - 196}{822.6}\\) \\(\\approx \\frac{627.5}{822.6}\\) \\(\\approx 0.763\\), so \\(A \\approx 40.3^\\circ\\).",
+    "evidence": "By the cosine formula, \\(\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}\\) \\(= \\frac{20^2 + 20.566^2 - 14^2}{2 \\times 20 \\times 20.566}\\) \\(A = 40.3^\\circ\\) \\(\\text{cor. to 3 sig. fig.}\\)",
+    "chunkIds": [
+      "62i3z4p3-0"
+    ],
+    "subject": "math",
+    "materialId": "62i3z4p3",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-05T12:43:34.975Z",
+  "lastWrongAt": "2026-11-05T12:43:34.975Z"
+}

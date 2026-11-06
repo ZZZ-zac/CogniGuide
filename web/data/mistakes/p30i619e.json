@@ -1,0 +1,28 @@
+{
+  "id": "p30i619e",
+  "question": {
+    "id": "p30i619e",
+    "question": "In triangle $XYZ$, $\\angle X = 32^\\circ$, $YZ = 10\\,\\text{cm}$, and $XY = 18\\,\\text{cm}$. Determine whether triangle $XYZ$ can be formed.",
+    "referenceAnswer": "1. Apply the sine formula: $\\frac{YZ}{\\sin X} = \\frac{XY}{\\sin Z}$\n2. Solve for $\\sin Z$: $\\sin Z = \\frac{XY \\sin X}{YZ}$\n3. Substitute: $\\sin Z = \\frac{18 \\sin 32^\\circ}{10}$\n4. Compute: $18 \\times 0.5299 / 10 = 0.9538$\n5. Since $0.9538 \\leq 1$, a triangle can be formed.\nAnswer: Yes",
+    "evidence": "$\\frac{10}{\\sin 70^\\circ} = \\frac{12}{\\sin B}$\n$\\sin\\theta \\approx 1.13$\n$> 1$\n$\\therefore$ No",
+    "checks": [
+      "18*sin(32)/10 = 0.9538",
+      "0.9538 <= 1"
+    ],
+    "chunkIds": [
+      "z8xs67wj-3"
+    ],
+    "subject": "math",
+    "materialId": "z8xs67wj",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "",
+  "lastScore": 0,
+  "feedback": "No answer was given.",
+  "missedPoints": [],
+  "wrongCount": 2,
+  "firstWrongAt": "2026-11-05T19:01:01.743Z",
+  "lastWrongAt": "2026-11-05T19:01:25.060Z"
+}

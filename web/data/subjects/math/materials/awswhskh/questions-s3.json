@@ -1,0 +1,74 @@
+[
+  {
+    "id": "q5xahiha",
+    "question": "In triangle ABC, angle B = 30°, angle C = 20°, and side a = 9 cm (where a is opposite angle A). Explain how to find angle A, then use the sine formula to write an expression for side b (opposite angle B). Do not evaluate the expression.",
+    "referenceAnswer": "Since the sum of interior angles in a triangle is 180°, angle A = 180° − 30° − 20° = 130°. By the sine formula, $\\frac{b}{\\sin B} = \\frac{a}{\\sin A}$, so $b = \\frac{9 \\sin 30^\\circ}{\\sin 130^\\circ}$ cm.",
+    "evidence": "In $\\triangle ABC$, $B = 30^\\circ$, $C = 20^\\circ$ and $a = 9$ cm. Solve the triangle. $A + B + C = 180^\\circ$ → $A = 130^\\circ$. By the sine formula, $\\frac{b}{\\sin B} = \\frac{a}{\\sin A}$ → $b = \\frac{9 \\sin 30^\\circ}{\\sin 130^\\circ}$ cm.",
+    "chunkIds": [
+      "awswhskh-0"
+    ],
+    "subject": "math",
+    "materialId": "awswhskh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "lkfb54dm",
+    "question": "In triangle ABC, angle B = 72°, angle C = 48°, and side b = 13 cm. Show the steps to find side c using the sine formula, and explain why $\\frac{c}{\\sin C} = \\frac{b}{\\sin B}$ is the correct ratio to use.",
+    "referenceAnswer": "First, find angle A: $A = 180^\\circ - 72^\\circ - 48^\\circ = 60^\\circ$. To find side c (opposite angle C), we use the sine formula with known side b and its opposite angle B, because both b and B are given — so $\\frac{c}{\\sin C} = \\frac{b}{\\sin B}$, giving $c = \\frac{13 \\sin 48^\\circ}{\\sin 72^\\circ}$ cm.",
+    "evidence": "In $\\triangle ABC$, $B = 72^\\circ$, $C = 48^\\circ$ and $b = 13$ cm. $A = 60^\\circ$. By the sine formula, $\\frac{c}{\\sin C} = \\frac{b}{\\sin B}$ → $c = \\frac{13 \\sin 48^\\circ}{\\sin 72^\\circ}$ cm.",
+    "chunkIds": [
+      "awswhskh-1"
+    ],
+    "subject": "math",
+    "materialId": "awswhskh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "de2mbp7e",
+    "question": "In triangle ABC, angle A = 50° and angle B = 25°. Explain why BC is not equal to 2 × AC, using the sine formula and approximate values.",
+    "referenceAnswer": "By the sine formula, $\\frac{BC}{\\sin A} = \\frac{AC}{\\sin B}$, so $\\frac{BC}{AC} = \\frac{\\sin 50^\\circ}{\\sin 25^\\circ} \\approx \\frac{0.766}{0.423} \\approx 1.81$, which is not equal to 2. Therefore, BC ≠ 2 × AC.",
+    "evidence": "$\\frac{BC}{AC} = \\frac{\\sin A}{\\sin B} = \\frac{\\sin 50^\\circ}{\\sin 25^\\circ} = 1.81$, cor. to 3 sig. fig. $\\because 1.81 \\ne 2$, $\\therefore$ It is not true that $BC = 2AC$.",
+    "chunkIds": [
+      "awswhskh-2"
+    ],
+    "subject": "math",
+    "materialId": "awswhskh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "bl2ueexh",
+    "question": "In triangle ABC, angle A = 50°, angle B = 25°, and BC = 10 cm. Find angle C, then use the sine formula to calculate AB (to 3 significant figures). Is it possible that AB > 13 cm? Justify your answer.",
+    "referenceAnswer": "Angle C = 180° − 50° − 25° = 105°. Using the sine formula: $\\frac{AB}{\\sin C} = \\frac{BC}{\\sin A}$ → $AB = \\frac{10 \\sin 105^\\circ}{\\sin 50^\\circ} \\approx 12.6$ cm. Since 12.6 cm < 13 cm, it is not possible that AB > 13 cm.",
+    "evidence": "$C = 105^\\circ$. $\\frac{AB}{\\sin 105^\\circ} = \\frac{10 \\text{ cm}}{\\sin 50^\\circ}$ → $AB = \\frac{10 \\sin 105^\\circ}{\\sin 50^\\circ} = 12.6$ cm, cor. to 3 sig. fig. $\\because 12.6 \\text{ cm} < 13 \\text{ cm}$, $\\therefore$ It is not possible that $AB > 13$ cm.",
+    "chunkIds": [
+      "awswhskh-2",
+      "awswhskh-3"
+    ],
+    "subject": "math",
+    "materialId": "awswhskh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "4hspdq8s",
+    "question": "In a triangle, two sides are 15 cm and 18 cm, and the angle opposite the 18 cm side is 35°. Use the sine formula to find the angle θ opposite the 15 cm side. Explain why θ must be acute and less than 35°.",
+    "referenceAnswer": "By the sine formula: $\\frac{15}{\\sin \\theta} = \\frac{18}{\\sin 35^\\circ}$ → $\\sin \\theta = \\frac{15 \\sin 35^\\circ}{18} \\approx 0.479$, so $\\theta \\approx 28.6^\\circ$. Since 15 cm < 18 cm, the angle opposite the shorter side must be smaller and acute — so θ < 35° and is acute.",
+    "evidence": "By the sine formula, $\\frac{15 \\text{ cm}}{\\sin \\theta} = \\frac{18 \\text{ cm}}{\\sin 35^\\circ}$ → $\\sin \\theta = \\frac{15 \\sin 35^\\circ}{18}$ → $\\theta = 28.6^\\circ$. $\\because PQ < QR$ → $\\theta$ must be an acute angle smaller than $35^\\circ$.",
+    "chunkIds": [
+      "awswhskh-3",
+      "awswhskh-4"
+    ],
+    "subject": "math",
+    "materialId": "awswhskh",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

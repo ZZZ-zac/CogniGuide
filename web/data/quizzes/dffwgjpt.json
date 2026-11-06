@@ -1,0 +1,78 @@
+{
+  "id": "dffwgjpt",
+  "kind": "quick",
+  "level": "s3",
+  "createdAt": "2026-11-05T12:42:49.681Z",
+  "questions": [
+    {
+      "id": "s3zoxgfu",
+      "question": "In triangle ABC, if angle A = 50° and angle B = 25°, explain whether it is true that BC = 2AC. Use the sine formula and your reasoning.",
+      "referenceAnswer": "Angle C = 180° - 50° - 25° = 105°. By the sine formula, \\(\\frac{BC}{\\sin 50^\\circ} = \\frac{AC}{\\sin 25^\\circ}\\). So \\(BC = 1.81 \\times AC\\). Since 1.81 ≠ 2, BC ≠ 2AC. Therefore, the statement is false.",
+      "evidence": "In \\(\\triangle ABC\\), \\(\\angle C = 50^\\circ + 25^\\circ = 180^\\circ\\) \\(\\therefore \\angle C = 105^\\circ\\). \\(\\frac{BC}{\\sin 50^\\circ} = \\frac{AC}{\\sin 25^\\circ}\\) \\(\\Rightarrow BC = 1.81 \\, AC\\) \\(\\therefore \\text{False}\\)",
+      "chunkIds": [
+        "o33egjhy-1"
+      ],
+      "subject": "math",
+      "materialId": "o33egjhy",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "nqfsjlxm",
+      "question": "In triangle ABC, if angle A = 45°, side a = 5 cm, and side c = 5\\sqrt{2} cm, can triangle ABC be formed? Explain using the sine formula.",
+      "referenceAnswer": "By the sine formula, \\(\\frac{5\\sqrt{2}}{\\sin C} = \\frac{5}{\\sin 45^\\circ}\\). Solving gives \\(\\sin C = 1\\), so \\(C = 90^\\circ\\). Since \\(-1 \\le \\sin C \\le 1\\), and \\(\\sin C = 1\\) is valid, triangle ABC can be formed.",
+      "evidence": "By the sine formula, \\(\\frac{(5\\sqrt{2})}{\\sin C} = \\frac{(5)}{\\sin(45^\\circ)}\\) \\(\\Rightarrow \\sin C = 1\\) \\(\\Rightarrow C = 90^\\circ\\) \\(\\therefore \\triangle ABC\\) (can / cannot) be formed.",
+      "chunkIds": [
+        "z8xs67wj-2"
+      ],
+      "subject": "math",
+      "materialId": "z8xs67wj",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "h5c5cqen",
+      "question": "In triangle ABC, if angle A = 25°, side a = 11 cm, and side c = 27 cm, is there a valid solution? Explain your reasoning using the sine formula.",
+      "referenceAnswer": "Using the sine formula, \\(\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\\), so \\(\\sin C = \\frac{27 \\sin 25^\\circ}{11} \\approx 1.04 > 1\\). Since \\(\\sin C\\) cannot be greater than 1, there is no valid solution.",
+      "evidence": "16. \\(A = 25^\\circ\\), \\(a = 11\\) cm, \\(c = 27\\) cm. \\(\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\\) \\(\\Rightarrow \\sin C \\approx 1.04 > 1\\) \\(\\therefore\\) no solution.",
+      "chunkIds": [
+        "tldqryqe-2"
+      ],
+      "subject": "math",
+      "materialId": "tldqryqe",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "9oik2jgk",
+      "question": "In triangle ABC, if angle A = 87°, side AB = 22 cm, and angle B = 52°, find the length of side BC using the sine formula. Show your steps.",
+      "referenceAnswer": "Using the sine formula, \\(\\frac{BC}{\\sin 41^\\circ} = \\frac{22}{\\sin 52^\\circ}\\). Solving gives \\(BC = \\frac{22 \\sin 41^\\circ}{\\sin 52^\\circ} \\approx 18.3\\) cm (to 3 significant figures).",
+      "evidence": "By the sine formula, \\(\\dfrac{BC}{\\sin 41^\\circ} = \\dfrac{22 \\text{ cm}}{\\sin 52^\\circ}\\) \\(\\Rightarrow BC = \\dfrac{22 \\sin 41^\\circ}{\\sin 52^\\circ} \\text{ cm}\\) \\(= \\underline{18.3} \\text{ cm, cor. to 3 sig. fig.}\\)",
+      "chunkIds": [
+        "tldqryqe-2"
+      ],
+      "subject": "math",
+      "materialId": "tldqryqe",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "5pyptdel",
+      "question": "In triangle ABC, if side AB = 14 cm, side BC = 20 cm, and angle C = 72°, find angle A using the cosine formula. Show your working.",
+      "referenceAnswer": "Using the cosine formula, \\(\\cos A = \\frac{20^2 + 20.566^2 - 14^2}{2 \\times 20 \\times 20.566}\\) \\(\\approx \\frac{400 + 423.5 - 196}{822.6}\\) \\(\\approx \\frac{627.5}{822.6}\\) \\(\\approx 0.763\\), so \\(A \\approx 40.3^\\circ\\).",
+      "evidence": "By the cosine formula, \\(\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}\\) \\(= \\frac{20^2 + 20.566^2 - 14^2}{2 \\times 20 \\times 20.566}\\) \\(A = 40.3^\\circ\\) \\(\\text{cor. to 3 sig. fig.}\\)",
+      "chunkIds": [
+        "62i3z4p3-0"
+      ],
+      "subject": "math",
+      "materialId": "62i3z4p3",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "s3zoxgfu",
+  "question": {
+    "id": "s3zoxgfu",
+    "question": "In triangle ABC, if angle A = 50° and angle B = 25°, explain whether it is true that BC = 2AC. Use the sine formula and your reasoning.",
+    "referenceAnswer": "Angle C = 180° - 50° - 25° = 105°. By the sine formula, \\(\\frac{BC}{\\sin 50^\\circ} = \\frac{AC}{\\sin 25^\\circ}\\). So \\(BC = 1.81 \\times AC\\). Since 1.81 ≠ 2, BC ≠ 2AC. Therefore, the statement is false.",
+    "evidence": "In \\(\\triangle ABC\\), \\(\\angle C = 50^\\circ + 25^\\circ = 180^\\circ\\) \\(\\therefore \\angle C = 105^\\circ\\). \\(\\frac{BC}{\\sin 50^\\circ} = \\frac{AC}{\\sin 25^\\circ}\\) \\(\\Rightarrow BC = 1.81 \\, AC\\) \\(\\therefore \\text{False}\\)",
+    "chunkIds": [
+      "o33egjhy-1"
+    ],
+    "subject": "math",
+    "materialId": "o33egjhy",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  "lastAnswer": "Yes, BC = 2AC because the side opposite the larger angle is twice as long, and 50 is twice 25.",
+  "lastScore": 0,
+  "feedback": "You should review how to use the sine rule correctly in triangles. Just because one angle is twice another doesn't mean the opposite side is twice as long. Always use the sine formula with actual angle and side values to compare lengths.",
+  "missedPoints": [
+    "The student incorrectly states that BC = 2AC",
+    "The student wrongly assumes that the side opposite a larger angle is twice as long just because 50° is twice 25°",
+    "No use of the sine formula with actual angles and side ratios",
+    "No correct reasoning or calculation to support the claim"
+  ],
+  "wrongCount": 1,
+  "firstWrongAt": "2026-11-05T12:43:34.975Z",
+  "lastWrongAt": "2026-11-05T12:43:34.975Z"
+}

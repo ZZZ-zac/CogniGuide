@@ -1,0 +1,99 @@
+{
+  "id": "dp0acaps",
+  "kind": "quick",
+  "level": "s3",
+  "createdAt": "2026-11-05T18:22:20.545Z",
+  "questions": [
+    {
+      "id": "untj3pxr",
+      "question": "In triangle $PQR$, $\\angle P = 48^\\circ$, $\\angle Q = 67^\\circ$, and side $PR = 12\\ \\text{cm}$. Find the length of side $QR$, correct to 3 significant figures.",
+      "referenceAnswer": "1. Angle sum of triangle: $P + Q + R = 180^\\circ$\n2. Substitute: $48^\\circ + 67^\\circ + R = 180^\\circ$ → $R = 65^\\circ$\n3. Sine formula: $\\frac{QR}{\\sin P} = \\frac{PR}{\\sin Q}$\n4. Substitute values: $\\frac{QR}{\\sin 48^\\circ} = \\frac{12}{\\sin 67^\\circ}$\n5. Solve: $QR = \\frac{12 \\sin 48^\\circ}{\\sin 67^\\circ}$\n6. Compute: $QR = 9.74\\ \\text{cm}$\nAnswer: 9.74 cm",
+      "evidence": "By the sine formula, \n$$\n\\frac{x \\text{ cm}}{\\sin 86^\\circ} = \\frac{6 \\text{ cm}}{\\sin 60^\\circ}\n$$\n$$\nx = \\frac{6 \\sin 86^\\circ}{\\sin 60^\\circ}\n$$",
+      "checks": [
+        "48+67 = 115",
+        "180-115 = 65",
+        "12*sin(48)/sin(67) = 9.738"
+      ],
+      "chunkIds": [
+        "ik9bw2q9-1"
+      ],
+      "subject": "math",
+      "materialId": "ik9bw2q9",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "uonpqnj9",
+      "question": "In triangle $XYZ$, $XY = 7\\ \\text{cm}$, $YZ = 5\\ \\text{cm}$, and $\\angle X = 32^\\circ$. Determine whether triangle $XYZ$ can be formed. Show your reasoning.",
+      "referenceAnswer": "1. Sine formula: $\\frac{YZ}{\\sin X} = \\frac{XY}{\\sin Z}$\n2. Rearranged: $\\sin Z = \\frac{XY \\sin X}{YZ}$\n3. Substitute: $\\sin Z = \\frac{7 \\sin 32^\\circ}{5}$\n4. Compute: $\\sin Z = 0.7423$\n5. Since $0.7423 < 1$, a solution exists for $Z$\n6. Therefore, triangle $XYZ$ can be formed.\nAnswer: Yes, it can be formed",
+      "evidence": "$\\frac{4\\ \\text{cm}}{\\sin A} = \\frac{(2\\ \\text{cm})}{\\sin(30^\\circ)}$\n$$\n\\sin A = \\frac{4\\sin30^\\circ}{2}\n$$\n$$\n= 1\n$$\n$\\therefore$ $\\triangle ABC$ can be formed.",
+      "checks": [
+        "7*sin(32)/5 = 0.7423",
+        "0.7423 < 1"
+      ],
+      "chunkIds": [
+        "b9oivaak-4"
+      ],
+      "subject": "math",
+      "materialId": "b9oivaak",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "az8itoxy",
+      "question": "The area of triangle $LMN$ is $24\\ \\text{cm}^2$. Given $LN = 9\\ \\text{cm}$ and $\\angle N = 40^\\circ$, find the length of side $MN$, correct to 3 significant figures.",
+      "referenceAnswer": "1. Area formula: $\\text{Area} = \\frac{1}{2} \\times LN \\times MN \\times \\sin N$\n2. Substitute knowns: $24 = \\frac{1}{2} \\times 9 \\times MN \\times \\sin 40^\\circ$\n3. Solve for $MN$: $MN = \\frac{2 \\times 24}{9 \\sin 40^\\circ}$\n4. Compute: $MN = \\frac{48}{9 \\sin 40^\\circ}$\n5. Evaluate: $MN = 8.28\\ \\text{cm}$\nAnswer: 8.28 cm",
+      "evidence": "Area of $\\triangle ABC = \\frac{1}{2} \\times AC \\times BC \\times \\sin C$\n$$\nBC = \\frac{2 \\times \\text{area of } \\triangle ABC}{AC \\sin C} \\\\\nx = \\frac{2 \\times 36}{8 \\sin 95^\\circ} \\text{ cm}\n$$",
+      "checks": [
+        "48/(9*sin(40)) = 8.277"
+      ],
+      "chunkIds": [
+        "sf0qmfb4-2"
+      ],
+      "subject": "math",
+      "materialId": "sf0qmfb4",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "fgjqvzkl",
+      "question": "In triangle $UVW$, $\\angle U = 110^\\circ$, $\\angle V = 25^\\circ$, and side $UW = 14\\ \\text{cm}$. Find the length of side $VW$, correct to 3 significant figures.",
+      "referenceAnswer": "1. Angle sum: $U + V + W = 180^\\circ$\n2. Substitute: $110^\\circ + 25^\\circ + W = 180^\\circ$ → $W = 45^\\circ$\n3. Sine formula: $\\frac{VW}{\\sin U} = \\frac{UW}{\\sin V}$\n4. Substitute: $\\frac{VW}{\\sin 110^\\circ} = \\frac{14}{\\sin 25^\\circ}$\n5. Solve: $VW = \\frac{14 \\sin 110^\\circ}{\\sin 25^\\circ}$\n6. Compute: $VW = 31.1\\ \\text{cm}$\nAnswer: 31.1 cm",
+      "evidence": "By the sine formula, \n$$\n\\frac{x \\text{ cm}}{\\sin 120^\\circ} = \\frac{1 \\text{ cm}}{\\sin 13^\\circ}\n$$\n$$\nx = \\frac{\\sin 120^\\circ}{\\sin 13^\\circ}\n$$",
+      "checks": [
+        "110+25 = 135",
+        "180-135 = 45",
+        "14*sin(110)/sin(25) = 31.12"
+      ],
+      "chunkIds": [
+        "ik9bw2q9-1"
+      ],
+      "subject": "math",
+      "materialId": "ik9bw2q9",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "umj59ccv",
+      "question": "In triangle $FGH$, $FG = 10\\ \\text{cm}$, $GH = 13\\ \\text{cm}$, and $\\angle G = 125^\\circ$. Determine whether triangle $FGH$ can be formed. Justify your answer.",
+      "referenceAnswer": "1. Sine formula: $\\frac{FG}{\\sin H} = \\frac{GH}{\\sin F}$\n2. To test existence, consider $\\frac{FG}{\\sin H} = \\frac{GH}{\\sin G}$ — but $\\sin G$ is known\n3. Rearrange for $\\sin F$: $\\sin F = \\frac{FG \\sin G}{GH}$\n4. Substitute: $\\sin F = \\frac{10 \\sin 125^\\circ}{13}$\n5. Compute: $\\sin F = 0.632$\n6. Since $0.632 < 1$, a solution exists for $F$; triangle can be formed.\nAnswer: Yes, it can be formed",
+      "evidence": "$\\frac{12\\ \\text{cm}}{\\sin B} = \\frac{10\\ \\text{cm}}{\\sin70^\\circ}$\n$$\n\\sin B = \\frac{12\\sin70^\\circ}{10}\n$$\n$$\n= 1.13,\\ \\text{cor. to 3 sig. fig.}\n$$\n$$\n> 1\n$$\n$\\therefore$ There is no solution for $B$.",
+      "checks": [
+        "10*sin(125)/13 = 0.6322",
+        "0.6322 < 1"
+      ],
+      "chunkIds": [
+        "b9oivaak-4"
+      ],
+      "subject": "math",
+      "materialId": "b9oivaak",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    }
+  ]
+}

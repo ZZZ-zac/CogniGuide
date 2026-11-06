@@ -1,0 +1,75 @@
+[
+  {
+    "id": "axfvfchg",
+    "question": "In $\\triangle ABC$, $A = 50^\\circ$ and $B = 25^\\circ$. Explain why $BC \\neq 2AC$.",
+    "referenceAnswer": "Since $C = 180^\\circ - 50^\\circ - 25^\\circ = 105^\\circ$, the sine formula gives $\\frac{BC}{\\sin 50^\\circ} = \\frac{AC}{\\sin 25^\\circ}$, so $BC = AC \\cdot \\frac{\\sin 50^\\circ}{\\sin 25^\\circ} \\approx 1.81\\,AC$, not $2AC$. Therefore, it is false.",
+    "evidence": "Angle C = 105°; BC = 1.81 AC; ∴ False",
+    "chunkIds": [
+      "o33egjhy-1"
+    ],
+    "subject": "math",
+    "materialId": "o33egjhy",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "ooantj81",
+    "question": "In $\\triangle ABC$, $B = 30^\\circ$, $C = 20^\\circ$, and side $a = 9$ cm (i.e., $BC = 9$ cm). Find angle $A$ and explain how to find side $b$ (i.e., $AC$).",
+    "referenceAnswer": "Angle $A = 180^\\circ - 30^\\circ - 20^\\circ = 130^\\circ$. To find $b = AC$, use the sine formula: $\\frac{b}{\\sin 30^\\circ} = \\frac{a}{\\sin A} = \\frac{9}{\\sin 130^\\circ}$, so $b = \\frac{9 \\sin 30^\\circ}{\\sin 130^\\circ} \\approx 5.87$ cm.",
+    "evidence": "A + 30° + 20° = 180° → A = 130°; b / sin 30° = 9 / sin 130°; b = 5.87 cm",
+    "chunkIds": [
+      "o33egjhy-0"
+    ],
+    "subject": "math",
+    "materialId": "o33egjhy",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "4hr0zpkf",
+    "question": "In $\\triangle ABC$, $B = 72^\\circ$, $C = 48^\\circ$, and side $b = 13$ cm (i.e., $AC = 13$ cm). Calculate angle $A$ and side $c$ (i.e., $AB$), showing your steps.",
+    "referenceAnswer": "Angle $A = 180^\\circ - 72^\\circ - 48^\\circ = 60^\\circ$. Using the sine formula: $\\frac{c}{\\sin 48^\\circ} = \\frac{b}{\\sin 72^\\circ} = \\frac{13}{\\sin 72^\\circ}$, so $c = \\frac{13 \\sin 48^\\circ}{\\sin 72^\\circ} \\approx 10.2$ cm.",
+    "evidence": "A + 72° + 48° = 180° → A = 60°; c / sin 48° = 13 / sin 72°; c = 10.2 cm",
+    "chunkIds": [
+      "o33egjhy-0",
+      "o33egjhy-1"
+    ],
+    "subject": "math",
+    "materialId": "o33egjhy",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "cyt3xfnp",
+    "question": "In a triangle with sides 26 cm and 42 cm, and the angle opposite the 42 cm side is $64^\\circ$, find the angle $\\theta$ opposite the 26 cm side. Explain why $\\theta$ must be acute.",
+    "referenceAnswer": "Using the sine formula: $\\frac{26}{\\sin \\theta} = \\frac{42}{\\sin 64^\\circ}$, so $\\sin \\theta = \\frac{26 \\sin 64^\\circ}{42} \\approx 0.557$, giving $\\theta \\approx 33.8^\\circ$. Since the side opposite $\\theta$ (26 cm) is shorter than the side opposite $64^\\circ$ (42 cm), $\\theta$ must be smaller and acute.",
+    "evidence": "sin θ = (26) sin(64°) / (42); θ = 33.8°; corr. to 3 sig. fig.",
+    "chunkIds": [
+      "o33egjhy-2",
+      "o33egjhy-3"
+    ],
+    "subject": "math",
+    "materialId": "o33egjhy",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  },
+  {
+    "id": "qzzjumu6",
+    "question": "In $\\triangle ABC$, $A = 50^\\circ$, $B = 25^\\circ$, and $BC = 10$ cm. Is it possible that $AB > 13$ cm? Justify your answer using the sine formula.",
+    "referenceAnswer": "No. Since $C = 105^\\circ$, the sine formula gives $\\frac{10}{\\sin 25^\\circ} = \\frac{AB}{\\sin 105^\\circ}$, so $AB = \\frac{10 \\sin 105^\\circ}{\\sin 25^\\circ} \\approx 12.6$ cm. Since 12.6 < 13, $AB$ cannot exceed 13 cm.",
+    "evidence": "10 / sin 25° = AB / sin 105°; AB = 12.6 cm; ∴ No",
+    "chunkIds": [
+      "o33egjhy-1",
+      "o33egjhy-2"
+    ],
+    "subject": "math",
+    "materialId": "o33egjhy",
+    "language": "en",
+    "level": "s3",
+    "origin": "notes"
+  }
+]

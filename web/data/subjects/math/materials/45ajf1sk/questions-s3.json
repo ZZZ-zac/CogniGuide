@@ -1,0 +1,109 @@
+{
+  "v": 2,
+  "questions": [
+    {
+      "id": "ntlwjnpw",
+      "question": "In triangle $PQR$, $\\angle P = 32^\\circ$, side $p = QR = 9$ cm, and side $r = PQ = 15$ cm. Determine whether triangle $PQR$ can be formed. If yes, find $\\angle R$. If no, explain why.",
+      "referenceAnswer": "1. Use the sine rule: $\\frac{r}{\\sin R} = \\frac{p}{\\sin P}$.\n2. Substitute known values: $\\frac{15}{\\sin R} = \\frac{9}{\\sin 32^\\circ}$.\n3. Solve for $\\sin R$: $\\sin R = \\frac{15 \\cdot \\sin 32^\\circ}{9}$.\n4. Compute: $\\sin R = \\frac{15 \\cdot 0.5299}{9} = 0.8832$.\n5. Since $0 < \\sin R < 1$, two possible angles exist: $R \\approx \\sin^{-1}(0.8832) \\approx 62.0^\\circ$ or $180^\\circ - 62.0^\\circ = 118.0^\\circ$.\n6. Check obtuse case: $P + R = 32^\\circ + 118.0^\\circ = 150.0^\\circ < 180^\\circ$, so both are geometrically possible; but only one satisfies triangle side–angle correspondence (larger side opposite larger angle): since $r = 15 > p = 9$, $\\angle R > \\angle P = 32^\\circ$, so both qualify — however, the question asks to *find* $\\angle R$, implying the acute solution unless context specifies otherwise; standard convention in ambiguous case problems at this level is to report the acute angle unless contradicted by given obtuse angle or side constraints. Here no contradiction, so $R = 62.0^\\circ$.\nAnswer: $62.0^\\circ$",
+      "evidence": "$A = 25^\\circ$, $a = 11$ cm, $c = 27$ cm\n$$\n\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\n$$\n$\\sin C = 1.04$\n$> 1$\n$\\therefore$ No",
+      "checks": [
+        "15*sin(32)/9 = 0.8832",
+        "0.8832 < 1",
+        "asin(0.8832) = 62.0"
+      ],
+      "chunkIds": [
+        "45ajf1sk-0",
+        "45ajf1sk-1"
+      ],
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "zkxv0wec",
+      "question": "In triangle $XYZ$, $\\angle X = 80^\\circ$, side $x = YZ = 12$ cm, and side $z = XY = 5$ cm. Determine whether triangle $XYZ$ can be formed. If yes, find $\\angle Z$. If no, explain why.",
+      "referenceAnswer": "1. Apply the sine rule: $\\frac{z}{\\sin Z} = \\frac{x}{\\sin X}$.\n2. Substitute: $\\frac{5}{\\sin Z} = \\frac{12}{\\sin 80^\\circ}$.\n3. Solve: $\\sin Z = \\frac{5 \\cdot \\sin 80^\\circ}{12}$.\n4. Compute: $\\sin Z = \\frac{5 \\cdot 0.9848}{12} = 0.4103$.\n5. Since $0 < \\sin Z < 1$, $Z = \\sin^{-1}(0.4103) \\approx 24.2^\\circ$ (acute solution).\n6. Check obtuse possibility: $180^\\circ - 24.2^\\circ = 155.8^\\circ$; then $X + Z = 80^\\circ + 155.8^\\circ = 235.8^\\circ > 180^\\circ$, so reject.\nAnswer: $24.2^\\circ$",
+      "evidence": "$A = 74^\\circ$, $a = 16$ cm, $c = 9$ cm\n$$\n\\frac{9}{\\sin C} = \\frac{16}{\\sin 74^\\circ}\n$$\n$C = 32.7^\\circ$ or $147^\\circ$ (reject)",
+      "checks": [
+        "5*sin(80)/12 = 0.4103",
+        "0.4103 < 1",
+        "asin(0.4103) = 24.2",
+        "80 + 155.8 = 235.8 > 180"
+      ],
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "y2ua8xfi",
+      "question": "In triangle $LMN$, $\\angle L = 140^\\circ$, side $l = MN = 4$ cm, and side $n = LM = 10$ cm. Determine whether triangle $LMN$ can be formed. If yes, find $\\angle N$. If no, explain why.",
+      "referenceAnswer": "1. Use sine rule: $\\frac{n}{\\sin N} = \\frac{l}{\\sin L}$.\n2. Substitute: $\\frac{10}{\\sin N} = \\frac{4}{\\sin 140^\\circ}$.\n3. Solve: $\\sin N = \\frac{10 \\cdot \\sin 140^\\circ}{4}$.\n4. Compute: $\\sin 140^\\circ = \\sin(40^\\circ) \\approx 0.6428$, so $\\sin N = \\frac{10 \\cdot 0.6428}{4} = 1.607$.\n5. Since $\\sin N > 1$, no such angle exists.\n6. Therefore, triangle $LMN$ cannot be formed.\nAnswer: No",
+      "evidence": "$B = 135^\\circ$, $c = 7$ cm, $b = 2$ cm\n$$\n\\frac{7}{\\sin C} = \\frac{2}{\\sin 135^\\circ}\n$$\n$\\sin C = 2.47$\n$> 1$\n$\\therefore$ No",
+      "checks": [
+        "sin(140) = 0.6428",
+        "10*0.6428/4 = 1.607",
+        "1.607 > 1"
+      ],
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "z6wrmqnu",
+      "question": "In triangle $DEF$, $\\angle D = 19^\\circ$, side $d = EF = 6$ cm, and side $f = DE = 14$ cm. Determine whether triangle $DEF$ can be formed. If yes, find $\\angle F$. If no, explain why.",
+      "referenceAnswer": "1. Apply sine rule: $\\frac{f}{\\sin F} = \\frac{d}{\\sin D}$.\n2. Substitute: $\\frac{14}{\\sin F} = \\frac{6}{\\sin 19^\\circ}$.\n3. Solve: $\\sin F = \\frac{14 \\cdot \\sin 19^\\circ}{6}$.\n4. Compute: $\\sin 19^\\circ \\approx 0.3256$, so $\\sin F = \\frac{14 \\cdot 0.3256}{6} = 0.760$.\n5. Since $0 < \\sin F < 1$, $F = \\sin^{-1}(0.760) \\approx 49.5^\\circ$ (acute).\n6. Check obtuse option: $180^\\circ - 49.5^\\circ = 130.5^\\circ$; then $D + F = 19^\\circ + 130.5^\\circ = 149.5^\\circ < 180^\\circ$, so both possible — but side $f = 14 > d = 6$, so $\\angle F > \\angle D = 19^\\circ$, satisfied by both; however, largest angle must be opposite longest side — here $f$ is longest given side, so $\\angle F$ must be largest angle. $130.5^\\circ > 19^\\circ$, and third angle would be $180 - 19 - 130.5 = 30.5^\\circ$, so $\\angle F = 130.5^\\circ$ is valid and larger than others. Since $\\angle D$ is acute and small, and $f > d$, the obtuse solution is admissible and yields a valid triangle with angles $19^\\circ$, $130.5^\\circ$, $30.5^\\circ$. So $\\angle F = 130.5^\\circ$.\nAnswer: $130.5^\\circ$",
+      "evidence": "$A = 74^\\circ$, $a = 16$ cm, $c = 9$ cm\n$$\n\\frac{9}{\\sin C} = \\frac{16}{\\sin 74^\\circ}\n$$\n$C = 32.7^\\circ$ or $147^\\circ$ (reject)",
+      "checks": [
+        "sin(19) = 0.3256",
+        "14*0.3256/6 = 0.760",
+        "0.760 < 1",
+        "asin(0.760) = 49.5",
+        "180 - 49.5 = 130.5",
+        "19 + 130.5 = 149.5 < 180"
+      ],
+      "chunkIds": [
+        "45ajf1sk-1"
+      ],
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    },
+    {
+      "id": "bc3opkbq",
+      "question": "In triangle $ABC$, $\\angle A = 40^\\circ$, side $a = BC = 7$ cm, and side $c = AB = 10$ cm. Determine whether triangle $ABC$ can be formed. If yes, find $\\angle C$. If no, explain why.",
+      "referenceAnswer": "1. Use sine rule: $\\frac{c}{\\sin C} = \\frac{a}{\\sin A}$.\n2. Substitute: $\\frac{10}{\\sin C} = \\frac{7}{\\sin 40^\\circ}$.\n3. Solve: $\\sin C = \\frac{10 \\cdot \\sin 40^\\circ}{7}$.\n4. Compute: $\\sin 40^\\circ \\approx 0.6428$, so $\\sin C = \\frac{10 \\cdot 0.6428}{7} = 0.9183$.\n5. Since $0 < \\sin C < 1$, $C = \\sin^{-1}(0.9183) \\approx 66.7^\\circ$ (acute).\n6. Check obtuse possibility: $180^\\circ - 66.7^\\circ = 113.3^\\circ$; then $A + C = 40^\\circ + 113.3^\\circ = 153.3^\\circ < 180^\\circ$, so both possible. But $c = 10 > a = 7$, so $\\angle C > \\angle A = 40^\\circ$: both satisfy. However, $\\angle C = 113.3^\\circ$ makes it the largest angle, and $c$ is the longest given side — consistent. So both are mathematically possible, but the problem asks to *find* $\\angle C$: at Secondary 3 level, unless specified, the acute solution is expected unless the obtuse one is forced (e.g., by another given obtuse angle). Here no such constraint, so $C = 66.7^\\circ$.\nAnswer: $66.7^\\circ$",
+      "evidence": "$A = 25^\\circ$, $a = 11$ cm, $c = 27$ cm\n$$\n\\frac{27}{\\sin C} = \\frac{11}{\\sin 25^\\circ}\n$$\n$\\sin C = 1.04$\n$> 1$\n$\\therefore$ No",
+      "checks": [
+        "sin(40) = 0.6428",
+        "10*0.6428/7 = 0.9183",
+        "0.9183 < 1",
+        "asin(0.9183) = 66.7",
+        "180 - 66.7 = 113.3",
+        "40 + 113.3 = 153.3 < 180"
+      ],
+      "chunkIds": [
+        "45ajf1sk-0",
+        "45ajf1sk-1"
+      ],
+      "subject": "math",
+      "materialId": "45ajf1sk",
+      "language": "en",
+      "level": "s3",
+      "origin": "notes"
+    }
+  ]
+}
