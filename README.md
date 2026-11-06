@@ -4,7 +4,7 @@ A local study site. Upload notes (PDF or images) into subject folders; CogniGuid
 
 It runs on your own computer only (bound to `127.0.0.1`), with no login. Model work goes to whichever source you select with `MODEL_PROFILE` in `web/.env.local`: `cloud` for Alibaba Cloud Bailian (DashScope), or `local` for Ollama on the same machine, so your notes never leave it. Switching either way needs one search-index rebuild; transcripts and questions are kept.
 
-The Chinese version of this guide is [README(CN).md](<README(CN).md>).
+The Chinese version of this guide is [README(CN).md](<README(CN).md>). A walkthrough video, in which each of us presents the code we built, is on YouTube: <https://youtu.be/5Exw-_zTLdY>.
 
 ## 1. What you need
 
@@ -13,7 +13,7 @@ The Chinese version of this guide is [README(CN).md](<README(CN).md>).
   - **cloud** — a Bailian / DashScope API key, and access to `dashscope.aliyuncs.com`.
   - **local** — Ollama on the same machine with three models pulled (~6.4 GB download). Works fully offline.
 - Disk space for `DATA_DIR`: originals are stored as uploaded, plus transcripts, questions, answers and the vector index.
-- Nothing else. The repository also ships ready-made study material so you can test an upload before using your own: `math/` (24 photos of handwritten maths pages, 4–5 MB each) and `datasets/English-Handwritten-Math-Notes-Dataset/` (100 one-page PDFs, CC-BY-4.0). §5 uses them. `poster/` and `Project_Description.md` are presentation material; the app never reads them.
+- Nothing else. The repository also ships ready-made study material so you can test an upload before using your own: `math/` (24 photos of handwritten maths pages, 4–5 MB each) and `datasets/English-Handwritten-Math-Notes-Dataset/` (100 one-page PDFs, CC-BY-4.0). §5 uses them. `web/data` is a filled-in example of the app's own data, described in §4. `poster/` (the A0 poster; `P06_Poster.pptx` is the editable version) and `Project_Description.md` are presentation material; the app never reads them.
 
 Run `npm ci` on the machine that will run the site. LanceDB and the canvas library ship native binaries per platform, so do not copy `node_modules` (or `.next`) between Windows, macOS and Linux, or between Apple-silicon and Intel Macs.
 
@@ -26,6 +26,8 @@ Run `npm ci` on the machine that will run the site. LanceDB and the canvas libra
 3. Copy it — the full value is shown only once — into `DASHSCOPE_API_KEY` in `web/.env.local`.
 
 Keys look like `sk-...`. Never commit `.env.local`; it is already git-ignored.
+
+`web/.env.example` comes with a demo key and a workspace endpoint (`https://llm-fa1ph945bwcu9cvo.cn-beijing.maas.aliyuncs.com/compatible-mode/v1`) that only show what the two lines look like. The demo key does not work. After copying the file, replace the key with your own and set `DASHSCOPE_BASE_URL` to the endpoint for your key's region, below.
 
 Requests default to the China endpoint:
 
@@ -141,10 +143,12 @@ The first start creates four subjects: Chinese, English, Math, Geography. Chines
 If the project is not on this machine yet, get it first — the download is about 130 MB because of the sample notes above:
 
 ```bash
-git clone https://github.com/8jnfd9c5vb-sketch/cogniguide.git
+git clone https://github.com/ZZZ-zac/CogniGuide.git
 ```
 
-Downloading the ZIP from the repository page works too. Neither brings any study data: `web/data` is not in the repository, so a fresh copy starts with the four default subjects and no materials.
+Downloading the ZIP from the repository page works too. Either way you get a ready-made `web/data` as an example: the four default subjects, 25 Math materials and 1 Chinese material with their transcripts and questions, a history of graded answers and mistakes, and a search index built with the cloud `text-embedding-v4`. With `DATA_DIR` left empty the app opens on this data. On `local` the home page asks for an index rebuild on first start (§2.3).
+
+To start with no materials, point `DATA_DIR` at an empty directory outside the repository; the four subjects are created there on first start. A directory outside the repository is the better place for your own notes anyway: `web/data` is tracked by git, so everything you upload or answer there shows up in `git status`.
 
 ### 4.1 macOS
 
@@ -182,7 +186,7 @@ cd ~/Documents/CogniGuide/web
 cp .env.example .env.local
 ```
 
-Open `.env.local` in a text editor. For **cloud**, fill in `DASHSCOPE_API_KEY`. For **local**, install and start Ollama as in §2.2 and set `MODEL_PROFILE=local` — the profile supplies the placeholder key, so the `DASHSCOPE_API_KEY` line does not matter. Then:
+Open `.env.local` in a text editor. For **cloud**, replace the demo `DASHSCOPE_API_KEY` and `DASHSCOPE_BASE_URL` with your own (§2.1). For **local**, install and start Ollama as in §2.2 and set `MODEL_PROFILE=local` — the profile supplies the placeholder key, so the `DASHSCOPE_API_KEY` line does not matter. Then:
 
 ```bash
 npm ci
@@ -244,7 +248,7 @@ Copy-Item .env.example .env.local
 notepad .env.local
 ```
 
-For **cloud**, fill in `DASHSCOPE_API_KEY`, and set the data directory while you are there:
+For **cloud**, replace the demo `DASHSCOPE_API_KEY` and `DASHSCOPE_BASE_URL` with your own (§2.1), and set the data directory while you are there:
 
 ```text
 DATA_DIR=D:/CogniGuide/data
@@ -311,7 +315,7 @@ cp .env.example .env.local
 nano .env.local
 ```
 
-Fill in the key (**cloud**) or set `MODEL_PROFILE=local` (**local**), then:
+Replace the demo key and endpoint with your own (**cloud**) or set `MODEL_PROFILE=local` (**local**), then:
 
 ```bash
 npm ci
@@ -354,7 +358,7 @@ After editing `.env.local` or rebuilding, run `systemctl --user restart cognigui
 
 1. Open <http://127.0.0.1:3000>. You should see Subjects and Quick Quiz, and a Level selector in the header running from S1 · 中一 to S6 · 中六.
 2. Check the model line under the header. It shows the active profile, endpoint and the three model names. With `MODEL_PROFILE=local` it must read `http://127.0.0.1:11434/v1`, `qwen2.5vl:3b`, `qwen3:4b-instruct-2507-q4_K_M`, `bge-m3`.
-3. There should be no amber banner reading **"DASHSCOPE_API_KEY is not set."** If there is, `.env.local` has no key (cloud) or the service started before you saved it. With `MODEL_PROFILE=local` the placeholder key in `web/profiles/local.env` is what clears it.
+3. There should be no amber banner reading **"DASHSCOPE_API_KEY is not set."** If there is, `.env.local` has no key (cloud) or the service started before you saved it. With `MODEL_PROFILE=local` the placeholder key in `web/profiles/local.env` is what clears it. The demo key from `.env.example` also keeps the banner away, because it is not empty, but every model call made with it fails; replace it before uploading.
 4. **Right after switching profiles**, the home page shows an amber notice that the index was built with the other embedding model. Click **Rebuild index** and wait for it to finish. Until you do, search, a topic-focused Quick Quiz and the indexing step of a new upload answer *"The search index was built with ... Rebuild the index from the home page first."* A random Quick Quiz and a Subject Quiz still work, because they pick chunks without comparing vectors.
 5. Go into a subject and upload one small file. The repository has examples: `math/Image_20261104204427_143_128.jpg` (a page of handwritten maths) or `datasets/English-Handwritten-Math-Notes-Dataset/linear-algebra-kalika102pages-3.pdf` (one page). The status moves from processing to Ready — tens of seconds on cloud, a minute or two per page on `local`.
 6. Open that material, answer a question and submit. Grading works, and search finds the notes.
@@ -393,6 +397,8 @@ rag/                    LanceDB index and index.json (embedding model and dimens
 **"Request timed out" with `local`.** The call exceeded the 180-second client timeout. Most often it is `qwen3:4b` thinking instead of answering — use `qwen3:4b-instruct-2507-q4_K_M`. On a small machine a heavy page or a long quiz can also legitimately take longer; retry, or keep chat on cloud.
 
 **"Model not exist" with `cloud`.** Keep `VISION_MODEL=qwen3-vl-plus`; `qwen-vl-max` is unavailable on the current Bailian endpoint. A key from a different region than `DASHSCOPE_BASE_URL` also produces model or auth errors.
+
+**Auth error with `cloud` although no banner is shown.** `.env.local` still holds the demo key copied from `.env.example`. Put in your own key and the endpoint that matches it (§2.1), then restart.
 
 **Upload refused as soon as you pick the file.** The reason appears on the page: *"Only PDF, PNG, JPG and WEBP files are supported."*, *"File is empty."*, *"File is larger than 25 MB."*, *"This PDF has 130 pages; the limit is 50. Split it into smaller files."*, *"This PDF could not be opened. It may be damaged or password-protected."* — renaming a photo to `.pdf` lands you here — and *"DASHSCOPE_API_KEY is not set. Add it to web/.env.local and restart the server."* Nothing is saved or queued in these cases.
 

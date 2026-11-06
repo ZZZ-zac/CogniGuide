@@ -136,9 +136,7 @@ def build():
     text(slide, 48, 122, 650, 52,
          "Upload your notes. Get questions written from them. Answer, get graded against your own material, and keep reviewing what you missed.",
          18, SOFT, spacing=1.15)
-    text(slide, 700, 90, 252, 28, "Zachary Zhang · Hugo Wong", 17, WHITE, bold=True, align=PP_ALIGN.RIGHT)
-    text(slide, 700, 118, 252, 22, "Live demo", 14, RGBColor(0xC9, 0xC9, 0xD1), align=PP_ALIGN.RIGHT)
-    text(slide, 700, 140, 252, 24, "cogniguide.probot.hk", 14, PALE, bold=True, align=PP_ALIGN.RIGHT)
+    text(slide, 700, 140, 252, 28, "Zachary Zhang · Hugo Wong", 17, WHITE, bold=True, align=PP_ALIGN.RIGHT)
 
     # Why + principles
     heading(slide, 48, 213, 472, "Why CogniGuide")
@@ -279,18 +277,23 @@ def build():
     rule = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, *at(0, 1281, 1000, 1.5))
     rgb(rule, LINE)
     rule.line.fill.background()
-    slide.shapes.add_picture("qr_github.png", *at(52, 1296, 96, 96))
-    text(slide, 166, 1308, 560, 16, "SOURCE CODE ON GITHUB", 11, MUTED, bold=True)
-    text(slide, 166, 1326, 560, 24, "github.com/8jnfd9c5vb-sketch/cogniguide", 16, INK, bold=True, font="Courier New")
-    text(slide, 166, 1354, 560, 36,
+    slide.shapes.add_picture("qr_youtube.png", *at(52, 1300, 96, 96))
+    text(slide, 166, 1300, 190, 16, "DEMO VIDEO ON YOUTUBE", 11, MUTED, bold=True)
+    text(slide, 166, 1316, 190, 20, "youtu.be/5Exw-_zTLdY", 13, INK, bold=True, font="Courier New")
+    text(slide, 166, 1338, 190, 60,
+         "Scan to watch the walkthrough: each member presents the code they built.",
+         12.5, MUTED, spacing=1.15)
+    slide.shapes.add_picture("qr_github.png", *at(379, 1300, 96, 96))
+    text(slide, 493, 1300, 295, 16, "SOURCE CODE ON GITHUB", 11, MUTED, bold=True)
+    text(slide, 493, 1316, 295, 20, "github.com/ZZZ-zac/CogniGuide", 13, INK, bold=True, font="Courier New")
+    text(slide, 493, 1338, 295, 60,
          "Runs on Windows, macOS and Ubuntu with Node.js 22, using Bailian cloud models or local Ollama models.",
          12.5, MUTED, spacing=1.15)
-    text(slide, 760, 1300, 192, 16, "AUTHORS", 11, MUTED, bold=True, align=PP_ALIGN.RIGHT)
-    text(slide, 700, 1318, 252, 52, "Zachary Zhang\nHugo Wong", 20, INK, bold=True, align=PP_ALIGN.RIGHT, spacing=1.05)
-    text(slide, 700, 1372, 252, 20, "cogniguide.probot.hk", 12.5, MUTED, align=PP_ALIGN.RIGHT)
+    text(slide, 800, 1312, 152, 16, "AUTHORS", 11, MUTED, bold=True, align=PP_ALIGN.RIGHT)
+    text(slide, 800, 1329, 152, 52, "Zachary Zhang\nHugo Wong", 18, INK, bold=True, align=PP_ALIGN.RIGHT, spacing=1.05)
 
-    prs.save("Group6_Poster.pptx")
-    print(f"Group6_Poster.pptx: {len(slide.shapes)} editable shapes, A0 {A0_W}x{A0_H} mm")
+    prs.save("P06_Poster.pptx")
+    print(f"P06_Poster.pptx: {len(slide.shapes)} editable shapes, A0 {A0_W}x{A0_H} mm")
 
 
 if __name__ == "__main__":

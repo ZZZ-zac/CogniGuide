@@ -4,7 +4,7 @@
 
 它只在你自己的电脑上运行（绑定 `127.0.0.1`），不需要登录。模型走哪个来源由 `web/.env.local` 里的 `MODEL_PROFILE` 决定：`cloud` 走阿里云百炼（DashScope），`local` 走同一台机器上的 Ollama，资料不出门。无论在两个方向上怎么切，都只需要重建一次搜索索引，转写和题目全部沿用。
 
-英文版见 [README.md](README.md)。
+英文版见 [README.md](README.md)。演示视频在 YouTube 上，每位成员讲解自己写的代码：<https://youtu.be/5Exw-_zTLdY>。
 
 ## 1. 开始之前
 
@@ -13,7 +13,7 @@
   - **cloud**：一个百炼 / DashScope API Key，并且这台机器能访问 `dashscope.aliyuncs.com`。
   - **local**：同一台机器装 Ollama 并拉好三个模型（合计下载约 6.4 GB），全程离线可用。
 - 给 `DATA_DIR` 留出磁盘空间。上传的文件原样保存，另外还有转写文本、题目、作答和向量索引。
-- 除此之外不需要别的东西。仓库里还附带了现成的学习资料，方便你先试一次上传再用自己的笔记：`math/`（24 张手写数学页的照片，每张 4–5 MB）和 `datasets/English-Handwritten-Math-Notes-Dataset/`（100 个单页 PDF，CC-BY-4.0），第 5 节就用这些文件。`poster/` 和 `Project_Description.md` 是展示用的材料，程序不会读取。
+- 除此之外不需要别的东西。仓库里还附带了现成的学习资料，方便你先试一次上传再用自己的笔记：`math/`（24 张手写数学页的照片，每张 4–5 MB）和 `datasets/English-Handwritten-Math-Notes-Dataset/`（100 个单页 PDF，CC-BY-4.0），第 5 节就用这些文件。`web/data` 是一份已经填好的程序数据示例，见第 4 节。`poster/`（A0 海报，可编辑版本是 `P06_Poster.pptx`）和 `Project_Description.md` 是展示用的材料，程序不会读取。
 
 `npm ci` 必须在将来运行本站点的电脑上执行。LanceDB 和画布库带的是各平台自己的原生二进制，**不要把一台电脑的 `node_modules`（或 `.next`）拷到另一台**，也不要在 Apple 芯片和 Intel Mac 之间互拷。
 
@@ -26,6 +26,8 @@
 3. 密钥只在创建时完整显示一次，复制后填进 `web/.env.local` 的 `DASHSCOPE_API_KEY`。
 
 密钥形如 `sk-...`。不要把 `.env.local` 提交到 git，这个文件已经被忽略。
+
+`web/.env.example` 里带了一个演示密钥和一个工作空间地址（`https://llm-fa1ph945bwcu9cvo.cn-beijing.maas.aliyuncs.com/compatible-mode/v1`），只是示意这两行怎么写，演示密钥不能用。复制之后，把密钥换成你自己的，并把 `DASHSCOPE_BASE_URL` 改成与密钥区域对应的地址（见下文）。
 
 默认请求发往中国站：
 
@@ -141,10 +143,12 @@ DATA_DIR=/home/me/cogniguide-data
 如果这台机器上还没有项目，先把它取下来。仓库是公开的，因为附带了上面那些示例资料，下载约有 130 MB：
 
 ```bash
-git clone https://github.com/8jnfd9c5vb-sketch/cogniguide.git
+git clone https://github.com/ZZZ-zac/CogniGuide.git
 ```
 
-在仓库页面下载 ZIP 也一样。两种方式都不含学习数据：`web/data` 没有提交到仓库，全新的副本只有四个默认学科，没有资料。
+在仓库页面下载 ZIP 也一样。两种方式都会带上一份现成的 `web/data` 作为示例：四个默认学科、25 份数学资料和 1 份中文资料（含转写和题目）、一批已批改的作答和错题记录，以及用云端 `text-embedding-v4` 建好的搜索索引。`DATA_DIR` 留空时，程序打开的就是这份数据。用 `local` 时，首次启动首页会提示重建索引（见 2.3 节）。
+
+想从零资料开始，就把 `DATA_DIR` 指向仓库外的一个空目录，首次启动时会在那里建好四个学科。自己的笔记本来也最好放在仓库外：`web/data` 受 git 跟踪，在那里上传或作答的所有内容都会出现在 `git status` 里。
 
 ### 4.1 macOS
 
@@ -182,7 +186,7 @@ cd ~/Documents/CogniGuide/web
 cp .env.example .env.local
 ```
 
-用文本编辑器打开 `.env.local`：用 **cloud** 就填 `DASHSCOPE_API_KEY`；用 **local** 就按 2.2 节装好并启动 Ollama，然后设 `MODEL_PROFILE=local`，密钥那一行不用管（profile 会提供占位值）。然后：
+用文本编辑器打开 `.env.local`：用 **cloud** 就把演示用的 `DASHSCOPE_API_KEY` 和 `DASHSCOPE_BASE_URL` 换成你自己的（见 2.1 节）；用 **local** 就按 2.2 节装好并启动 Ollama，然后设 `MODEL_PROFILE=local`，密钥那一行不用管（profile 会提供占位值）。然后：
 
 ```bash
 npm ci
@@ -244,7 +248,7 @@ Copy-Item .env.example .env.local
 notepad .env.local
 ```
 
-用 **cloud** 就填 `DASHSCOPE_API_KEY`，顺手把数据目录设好：
+用 **cloud** 就把演示用的 `DASHSCOPE_API_KEY` 和 `DASHSCOPE_BASE_URL` 换成你自己的（见 2.1 节），顺手把数据目录设好：
 
 ```text
 DATA_DIR=D:/CogniGuide/data
@@ -311,7 +315,7 @@ cp .env.example .env.local
 nano .env.local
 ```
 
-填密钥（**cloud**）或设 `MODEL_PROFILE=local`（**local**），然后：
+把演示密钥和地址换成你自己的（**cloud**）或设 `MODEL_PROFILE=local`（**local**），然后：
 
 ```bash
 npm ci
@@ -354,7 +358,7 @@ systemctl --user disable --now cogniguide
 
 1. 浏览器打开 <http://127.0.0.1:3000>，能看到 Subjects 和 Quick Quiz，页面顶部有 Level，从 S1 · 中一 到 S6 · 中六。
 2. 检查表头下面那一行模型信息：显示当前 profile、接口地址和三个模型名。`MODEL_PROFILE=local` 时应该是 `http://127.0.0.1:11434/v1`、`qwen2.5vl:3b`、`qwen3:4b-instruct-2507-q4_K_M`、`bge-m3`。
-3. 首页不该有琥珀色的 "DASHSCOPE_API_KEY is not set."。如果有，说明 `.env.local` 没填密钥（cloud），或者服务是在保存之前启动的。用 `MODEL_PROFILE=local` 时，让这条提示消失的是 `web/profiles/local.env` 里的占位密钥。
+3. 首页不该有琥珀色的 "DASHSCOPE_API_KEY is not set."。如果有，说明 `.env.local` 没填密钥（cloud），或者服务是在保存之前启动的。用 `MODEL_PROFILE=local` 时，让这条提示消失的是 `web/profiles/local.env` 里的占位密钥。`.env.example` 里的演示密钥不是空值，所以也不会触发这条提示，但用它发出的模型请求全部会失败，上传前要换掉。
 4. **刚切换过 profile 的话**，首页会出现一条琥珀色提示，说明索引是另一个向量模型建的。点 **Rebuild index** 并等它跑完；在此之前，搜索、带主题的随堂测验以及新上传资料的向量化都会回答 "The search index was built with ... Rebuild the index from the home page first."。随机随堂测验和 Subject Quiz 仍可正常使用，因为它们随机抽样，不比较向量。
 5. 进入一个学科，上传一个小文件。仓库里有现成的例子：`math/Image_20261104204427_143_128.jpg`（一页手写数学）或 `datasets/English-Handwritten-Math-Notes-Dataset/linear-algebra-kalika102pages-3.pdf`（单页 PDF）。状态会从处理中变成 Ready。云端通常几十秒，`local` 每页要一两分钟。
 6. 打开该资料，答一题并提交：评分能用，搜索也能搜到笔记内容。
@@ -393,6 +397,8 @@ rag/                    LanceDB 索引和 index.json（记录向量模型和维�
 **用 `local` 时报 "Request timed out"。** 单次调用超过了 180 秒客户端超时。最常见的原因是 `qwen3:4b` 在写思考，换成 `qwen3:4b-instruct-2507-q4_K_M`。小机器上页数多或题量大确实可能更久，可以重试，或者把出题留在云端。
 
 **用 `cloud` 时报模型不存在。** `VISION_MODEL` 保持 `qwen3-vl-plus`，`qwen-vl-max` 在当前百炼接口上不可用。密钥区域和 `DASHSCOPE_BASE_URL` 不一致时，也会报模型或鉴权错误。
+
+**用 `cloud` 时报鉴权错误，但首页没有提示。** `.env.local` 里还是从 `.env.example` 复制来的演示密钥。换成你自己的密钥和对应区域的地址（见 2.1 节），然后重启。
 
 **选完文件就被拒绝。** 页面上直接写明原因：*"Only PDF, PNG, JPG and WEBP files are supported."*、*"File is empty."*、*"File is larger than 25 MB."*、*"This PDF has 130 pages; the limit is 50. Split it into smaller files."*、*"This PDF could not be opened. It may be damaged or password-protected."*（把照片改名成 `.pdf` 就是这句），以及 *"DASHSCOPE_API_KEY is not set. Add it to web/.env.local and restart the server."*。这些情况下什么都不会保存，也不会排进队列。
 
